@@ -1,0 +1,11 @@
+Participant_ID	Vaccine_1	Vaccine_2	Enrollment	Serology_1	Serology_2	Serology_3	Stool_Sample_1	Stool_Sample_2	Stool_Sample_3
+1	-85	-43	0	0	21	34	7	22	36
+2	-85	-64	0	1	21	34	7	21	49
+3	-86	-44	0	0	20	33	14	20	35
+4	-89	-68	0	0	17	30	4	17	39
+5	-105	-83	0	1	35		5	35	
+6	-107	-84	0	34			34		
+7	-107	-84	0	1	48		6	49	
+8	-28	-7	0	0	33		5	36	
+9	-43	-22	0	33			34		
+10	-14	14	0	28	56		27	61	

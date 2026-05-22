@@ -1,0 +1,1284 @@
+2026-05-21 09:58:41.402453 INFO::Writing function arguments to log file
+2026-05-21 09:58:41.415646 DEBUG::Function arguments
+2026-05-21 09:58:41.427294 DEBUG::Output folder: results/MaAsLin2/pathways_cpm
+2026-05-21 09:58:41.429202 DEBUG::Min Abundance: 0.000000
+2026-05-21 09:58:41.43078 DEBUG::Min Prevalence: 0.000000
+2026-05-21 09:58:41.432431 DEBUG::Normalization: NONE
+2026-05-21 09:58:41.434068 DEBUG::Transform: LOG
+2026-05-21 09:58:41.435544 DEBUG::Analysis method: CPLM
+2026-05-21 09:58:41.437007 DEBUG::Max significance: 0.250000
+2026-05-21 09:58:41.438548 DEBUG::Random effects: subject,site
+2026-05-21 09:58:41.440174 DEBUG::Fixed effects: antibiotics,spike_inhibition,age,status,stay_years
+2026-05-21 09:58:41.441903 DEBUG::Correction method: BH
+2026-05-21 09:58:41.443568 DEBUG::Standardize: TRUE
+2026-05-21 09:58:41.445165 DEBUG::Cores: 1
+2026-05-21 09:58:41.447034 INFO::Verifying options selected are valid
+2026-05-21 09:58:41.652268 INFO::Determining format of input files
+2026-05-21 09:58:41.656227 INFO::Input format is data samples as columns and metadata samples as rows
+2026-05-21 09:58:41.661251 DEBUG::Transformed data so samples are rows
+2026-05-21 09:58:41.665738 DEBUG::A total of 22 samples were found in both the data and metadata
+2026-05-21 09:58:41.667561 DEBUG::Reordering data/metadata to use same sample ordering
+2026-05-21 09:58:41.674302 INFO::Formula for random effects: expr ~ (1 | subject) + (1 | site)
+2026-05-21 09:58:41.677605 INFO::Formula for fixed effects: expr ~  antibiotics + spike_inhibition + age + status + stay_years
+2026-05-21 09:58:41.681276 INFO::Filter data based on min abundance and min prevalence
+2026-05-21 09:58:41.684073 INFO::Total samples in data: 22
+2026-05-21 09:58:41.686658 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2026-05-21 09:58:41.696736 INFO::Total filtered features: 0
+2026-05-21 09:58:41.700072 INFO::Filtered feature names from abundance and prevalence filtering:
+2026-05-21 09:58:41.9124 INFO::Total filtered features with variance filtering: 0
+2026-05-21 09:58:41.915999 INFO::Filtered feature names from variance filtering:
+2026-05-21 09:58:41.918647 INFO::Running selected normalization method: NONE
+2026-05-21 09:58:41.921834 INFO::Applying z-score to standardize continuous metadata
+2026-05-21 09:58:41.952595 INFO::Running selected transform method: LOG
+2026-05-21 09:58:42.353451 INFO::Running selected analysis method: CPLM
+2026-05-21 09:58:43.763828 INFO::Fitting model to feature number 1, X12DICHLORETHDEG.PWY..1.2.dichloroethane.degradation
+2026-05-21 09:58:43.790354 WARNING::Fitting problem for feature 1 a warning was issued
+2026-05-21 09:58:44.901227 INFO::Fitting model to feature number 2, X1CMET2.PWY..folate.transformations.III..E..coli.
+2026-05-21 09:58:45.788329 WARNING::Fitting problem for feature 2 a warning was issued
+2026-05-21 09:58:46.64446 INFO::Fitting model to feature number 3, X3.HYDROXYPHENYLACETATE.DEGRADATION.PWY..4.hydroxyphenylacetate.degradation
+2026-05-21 09:58:46.652703 WARNING::Fitting problem for feature 3 a warning was issued
+2026-05-21 09:58:46.877679 INFO::Fitting model to feature number 4, AEROBACTINSYN.PWY..aerobactin.biosynthesis
+2026-05-21 09:58:46.886782 WARNING::Fitting problem for feature 4 a warning was issued
+2026-05-21 09:58:47.703808 INFO::Fitting model to feature number 5, ALLANTOINDEG.PWY..superpathway.of.allantoin.degradation.in.yeast
+2026-05-21 09:58:47.712654 WARNING::Fitting problem for feature 5 a warning was issued
+2026-05-21 09:58:48.004089 INFO::Fitting model to feature number 6, ANAEROFRUCAT.PWY..homolactic.fermentation
+2026-05-21 09:58:48.979812 WARNING::Fitting problem for feature 6 a warning was issued
+2026-05-21 09:58:49.83351 INFO::Fitting model to feature number 7, ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.
+2026-05-21 09:58:50.710855 WARNING::Fitting problem for feature 7 a warning was issued
+2026-05-21 09:58:51.623936 INFO::Fitting model to feature number 8, ARG.POLYAMINE.SYN..superpathway.of.arginine.and.polyamine.biosynthesis
+2026-05-21 09:58:52.293352 INFO::Fitting model to feature number 9, ARGDEG.PWY..superpathway.of.L.arginine..putrescine..and.4.aminobutanoate.degradation
+2026-05-21 09:58:52.302033 WARNING::Fitting problem for feature 9 a warning was issued
+2026-05-21 09:58:52.540903 INFO::Fitting model to feature number 10, ARGININE.SYN4.PWY..L.ornithine.biosynthesis.II
+2026-05-21 09:58:53.407099 INFO::Fitting model to feature number 11, ARGSYN.PWY..L.arginine.biosynthesis.I..via.L.ornithine.
+2026-05-21 09:58:54.341493 WARNING::Fitting problem for feature 11 a warning was issued
+2026-05-21 09:58:55.321218 INFO::Fitting model to feature number 12, ARGSYNBSUB.PWY..L.arginine.biosynthesis.II..acetyl.cycle.
+2026-05-21 09:58:56.30952 WARNING::Fitting problem for feature 12 a warning was issued
+2026-05-21 09:58:57.368471 INFO::Fitting model to feature number 13, ARO.PWY..chorismate.biosynthesis.I
+2026-05-21 09:58:58.277354 WARNING::Fitting problem for feature 13 a warning was issued
+2026-05-21 09:58:59.144602 INFO::Fitting model to feature number 14, ASPASN.PWY..superpathway.of.L.aspartate.and.L.asparagine.biosynthesis
+2026-05-21 09:59:00.068054 WARNING::Fitting problem for feature 14 a warning was issued
+2026-05-21 09:59:00.903631 INFO::Fitting model to feature number 15, AST.PWY..L.arginine.degradation.II..AST.pathway.
+2026-05-21 09:59:00.913385 WARNING::Fitting problem for feature 15 a warning was issued
+2026-05-21 09:59:01.153656 INFO::Fitting model to feature number 16, BIOTIN.BIOSYNTHESIS.PWY..biotin.biosynthesis.I
+2026-05-21 09:59:02.015284 INFO::Fitting model to feature number 17, BRANCHED.CHAIN.AA.SYN.PWY..superpathway.of.branched.chain.amino.acid.biosynthesis
+2026-05-21 09:59:03.021876 WARNING::Fitting problem for feature 17 a warning was issued
+2026-05-21 09:59:03.988836 INFO::Fitting model to feature number 18, CALVIN.PWY..Calvin.Benson.Bassham.cycle
+2026-05-21 09:59:05.534654 WARNING::Fitting problem for feature 18 a warning was issued
+2026-05-21 09:59:07.053002 INFO::Fitting model to feature number 19, CARNMET.PWY..L.carnitine.degradation.I
+2026-05-21 09:59:07.086174 WARNING::Fitting problem for feature 19 a warning was issued
+2026-05-21 09:59:07.580531 INFO::Fitting model to feature number 20, CATECHOL.ORTHO.CLEAVAGE.PWY..catechol.degradation.to..beta..ketoadipate
+2026-05-21 09:59:07.609107 WARNING::Fitting problem for feature 20 a warning was issued
+2026-05-21 09:59:08.320238 INFO::Fitting model to feature number 21, CENTFERM.PWY..pyruvate.fermentation.to.butanoate
+2026-05-21 09:59:09.028817 INFO::Fitting model to feature number 22, CHLOROPHYLL.SYN..3.8.divinyl.chlorophyllide.a.biosynthesis.I..aerobic..light.dependent.
+2026-05-21 09:59:09.040907 WARNING::Fitting problem for feature 22 a warning was issued
+2026-05-21 09:59:09.168169 WARNING::Fitting problem for feature 22 returning NA
+2026-05-21 09:59:09.172077 INFO::Fitting model to feature number 23, CITRULBIO.PWY..L.citrulline.biosynthesis
+2026-05-21 09:59:09.936651 INFO::Fitting model to feature number 24, COA.PWY.1..superpathway.of.coenzyme.A.biosynthesis.III..mammals.
+2026-05-21 09:59:10.764624 WARNING::Fitting problem for feature 24 a warning was issued
+2026-05-21 09:59:11.674136 INFO::Fitting model to feature number 25, COA.PWY..coenzyme.A.biosynthesis.I..prokaryotic.
+2026-05-21 09:59:12.581472 WARNING::Fitting problem for feature 25 a warning was issued
+2026-05-21 09:59:13.504886 INFO::Fitting model to feature number 26, COBALSYN.PWY..superpathway.of.adenosylcobalamin.salvage.from.cobinamide.I
+2026-05-21 09:59:14.289887 INFO::Fitting model to feature number 27, COLANSYN.PWY..colanic.acid.building.blocks.biosynthesis
+2026-05-21 09:59:15.108501 INFO::Fitting model to feature number 28, COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis
+2026-05-21 09:59:15.999687 WARNING::Fitting problem for feature 28 a warning was issued
+2026-05-21 09:59:16.95863 INFO::Fitting model to feature number 29, CRNFORCAT.PWY..creatinine.degradation.I
+2026-05-21 09:59:16.967739 WARNING::Fitting problem for feature 29 a warning was issued
+2026-05-21 09:59:17.131829 INFO::Fitting model to feature number 30, DAPLYSINESYN.PWY..L.lysine.biosynthesis.I
+2026-05-21 09:59:17.932056 WARNING::Fitting problem for feature 30 a warning was issued
+2026-05-21 09:59:18.728395 INFO::Fitting model to feature number 31, DARABCATK12.PWY..D.arabinose.degradation.I
+2026-05-21 09:59:18.737405 WARNING::Fitting problem for feature 31 a warning was issued
+2026-05-21 09:59:19.438725 INFO::Fitting model to feature number 32, DENITRIFICATION.PWY..nitrate.reduction.I..denitrification.
+2026-05-21 09:59:19.451414 WARNING::Fitting problem for feature 32 a warning was issued
+2026-05-21 09:59:20.238193 INFO::Fitting model to feature number 33, DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2026-05-21 09:59:20.248368 WARNING::Fitting problem for feature 33 a warning was issued
+2026-05-21 09:59:20.955721 INFO::Fitting model to feature number 34, DHGLUCONATE.PYR.CAT.PWY..glucose.degradation..oxidative.
+2026-05-21 09:59:20.968376 WARNING::Fitting problem for feature 34 a warning was issued
+2026-05-21 09:59:21.526957 INFO::Fitting model to feature number 35, DTDPRHAMSYN.PWY..dTDP..beta..L.rhamnose.biosynthesis
+2026-05-21 09:59:22.539543 WARNING::Fitting problem for feature 35 a warning was issued
+2026-05-21 09:59:23.502891 INFO::Fitting model to feature number 36, ECASYN.PWY..enterobacterial.common.antigen.biosynthesis
+2026-05-21 09:59:23.511994 WARNING::Fitting problem for feature 36 a warning was issued
+2026-05-21 09:59:23.730744 INFO::Fitting model to feature number 37, FAO.PWY..fatty.acid..beta..oxidation.I..generic.
+2026-05-21 09:59:23.797638 WARNING::Fitting problem for feature 37 a warning was issued
+2026-05-21 09:59:24.445486 INFO::Fitting model to feature number 38, FASYN.ELONG.PWY..fatty.acid.elongation....saturated
+2026-05-21 09:59:24.941374 INFO::Fitting model to feature number 39, FASYN.INITIAL.PWY..superpathway.of.fatty.acid.biosynthesis.initiation..E..coli.
+2026-05-21 09:59:24.950063 WARNING::Fitting problem for feature 39 a warning was issued
+2026-05-21 09:59:25.305052 INFO::Fitting model to feature number 40, FERMENTATION.PWY..mixed.acid.fermentation
+2026-05-21 09:59:25.826491 INFO::Fitting model to feature number 41, FOLSYN.PWY..superpathway.of.tetrahydrofolate.biosynthesis.and.salvage
+2026-05-21 09:59:26.43241 INFO::Fitting model to feature number 42, FUC.RHAMCAT.PWY..superpathway.of.fucose.and.rhamnose.degradation
+2026-05-21 09:59:41.257688 WARNING::Fitting problem for feature 42 a warning was issued
+2026-05-21 09:59:55.417124 INFO::Fitting model to feature number 43, FUCCAT.PWY..fucose.degradation
+2026-05-21 09:59:55.729362 INFO::Fitting model to feature number 44, GALACT.GLUCUROCAT.PWY..superpathway.of.hexuronide.and.hexuronate.degradation
+2026-05-21 09:59:56.175065 INFO::Fitting model to feature number 45, GALACTARDEG.PWY..D.galactarate.degradation.I
+2026-05-21 10:00:17.552199 WARNING::Fitting problem for feature 45 a warning was issued
+2026-05-21 10:00:38.3373 INFO::Fitting model to feature number 46, GALACTITOLCAT.PWY..galactitol.degradation
+2026-05-21 10:00:38.348236 WARNING::Fitting problem for feature 46 a warning was issued
+2026-05-21 10:00:38.669741 INFO::Fitting model to feature number 47, GALACTUROCAT.PWY..D.galacturonate.degradation.I
+2026-05-21 10:00:39.341925 WARNING::Fitting problem for feature 47 a warning was issued
+2026-05-21 10:00:40.019732 INFO::Fitting model to feature number 48, GLCMANNANAUT.PWY..superpathway.of.N.acetylglucosamine..N.acetylmannosamine.and.N.acetylneuraminate.degradation
+2026-05-21 10:00:55.353073 WARNING::Fitting problem for feature 48 a warning was issued
+2026-05-21 10:01:10.27384 INFO::Fitting model to feature number 49, GLUCARDEG.PWY..D.glucarate.degradation.I
+2026-05-21 10:01:17.499345 WARNING::Fitting problem for feature 49 a warning was issued
+2026-05-21 10:01:24.632452 INFO::Fitting model to feature number 50, GLUCARGALACTSUPER.PWY..superpathway.of.D.glucarate.and.D.galactarate.degradation
+2026-05-21 10:01:45.261292 WARNING::Fitting problem for feature 50 a warning was issued
+2026-05-21 10:02:06.144537 INFO::Fitting model to feature number 51, GLUCONEO.PWY..gluconeogenesis.I
+2026-05-21 10:02:06.748037 WARNING::Fitting problem for feature 51 a warning was issued
+2026-05-21 10:02:07.434398 INFO::Fitting model to feature number 52, GLUCOSE1PMETAB.PWY..glucose.and.glucose.1.phosphate.degradation
+2026-05-21 10:02:07.964867 INFO::Fitting model to feature number 53, GLUCUROCAT.PWY..superpathway.of..beta..D.glucuronosides.degradation
+2026-05-21 10:02:23.320983 WARNING::Fitting problem for feature 53 a warning was issued
+2026-05-21 10:02:37.732984 INFO::Fitting model to feature number 54, GLUDEG.I.PWY..GABA.shunt
+2026-05-21 10:02:37.743519 WARNING::Fitting problem for feature 54 a warning was issued
+2026-05-21 10:02:38.133594 INFO::Fitting model to feature number 55, GLUTORN.PWY..L.ornithine.biosynthesis.I
+2026-05-21 10:02:38.800349 WARNING::Fitting problem for feature 55 a warning was issued
+2026-05-21 10:02:39.646717 INFO::Fitting model to feature number 56, GLYCOCAT.PWY..glycogen.degradation.I
+2026-05-21 10:02:40.161462 WARNING::Fitting problem for feature 56 a warning was issued
+2026-05-21 10:02:40.651188 INFO::Fitting model to feature number 57, GLYCOGENSYNTH.PWY..glycogen.biosynthesis.I..from.ADP.D.Glucose.
+2026-05-21 10:02:47.611249 WARNING::Fitting problem for feature 57 a warning was issued
+2026-05-21 10:02:53.608155 INFO::Fitting model to feature number 58, GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation
+2026-05-21 10:02:53.621799 WARNING::Fitting problem for feature 58 a warning was issued
+2026-05-21 10:02:54.295676 INFO::Fitting model to feature number 59, GLYCOLYSIS.E.D..superpathway.of.glycolysis.and.the.Entner.Doudoroff.pathway
+2026-05-21 10:02:55.269704 WARNING::Fitting problem for feature 59 a warning was issued
+2026-05-21 10:02:56.353026 INFO::Fitting model to feature number 60, GLYCOLYSIS.TCA.GLYOX.BYPASS..superpathway.of.glycolysis..pyruvate.dehydrogenase..TCA..and.glyoxylate.bypass
+2026-05-21 10:02:56.368928 WARNING::Fitting problem for feature 60 a warning was issued
+2026-05-21 10:02:57.270506 INFO::Fitting model to feature number 61, GLYCOLYSIS..glycolysis.I..from.glucose.6.phosphate.
+2026-05-21 10:02:58.151623 WARNING::Fitting problem for feature 61 a warning was issued
+2026-05-21 10:02:59.059993 INFO::Fitting model to feature number 62, GLYOXYLATE.BYPASS..glyoxylate.cycle
+2026-05-21 10:02:59.070023 WARNING::Fitting problem for feature 62 a warning was issued
+2026-05-21 10:02:59.328968 INFO::Fitting model to feature number 63, GOLPDLCAT.PWY..superpathway.of.glycerol.degradation.to.1.3.propanediol
+2026-05-21 10:03:00.359604 INFO::Fitting model to feature number 64, HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:03:00.368773 WARNING::Fitting problem for feature 64 a warning was issued
+2026-05-21 10:03:00.728622 INFO::Fitting model to feature number 65, HEME.BIOSYNTHESIS.II.1..heme.b.biosynthesis.V..aerobic.
+2026-05-21 10:03:00.738925 WARNING::Fitting problem for feature 65 a warning was issued
+2026-05-21 10:03:01.48334 INFO::Fitting model to feature number 66, HEME.BIOSYNTHESIS.II..heme.b.biosynthesis.I..aerobic.
+2026-05-21 10:03:02.147922 INFO::Fitting model to feature number 67, HEMESYN2.PWY..heme.b.biosynthesis.II..oxygen.independent.
+2026-05-21 10:03:06.908442 WARNING::Fitting problem for feature 67 a warning was issued
+2026-05-21 10:03:11.749434 INFO::Fitting model to feature number 68, HEXITOLDEGSUPER.PWY..superpathway.of.hexitol.degradation..bacteria.
+2026-05-21 10:03:11.761117 WARNING::Fitting problem for feature 68 a warning was issued
+2026-05-21 10:03:12.386852 INFO::Fitting model to feature number 69, HISDEG.PWY..L.histidine.degradation.I
+2026-05-21 10:03:13.204641 INFO::Fitting model to feature number 70, HISTSYN.PWY..L.histidine.biosynthesis
+2026-05-21 10:03:14.244603 WARNING::Fitting problem for feature 70 a warning was issued
+2026-05-21 10:03:15.243999 INFO::Fitting model to feature number 71, HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I
+2026-05-21 10:03:15.256391 WARNING::Fitting problem for feature 71 a warning was issued
+2026-05-21 10:03:15.896827 INFO::Fitting model to feature number 72, HSERMETANA.PWY..L.methionine.biosynthesis.III
+2026-05-21 10:03:16.819929 WARNING::Fitting problem for feature 72 a warning was issued
+2026-05-21 10:03:17.90169 INFO::Fitting model to feature number 73, ILEUSYN.PWY..L.isoleucine.biosynthesis.I..from.threonine.
+2026-05-21 10:03:18.9717 WARNING::Fitting problem for feature 73 a warning was issued
+2026-05-21 10:03:19.978652 INFO::Fitting model to feature number 74, KDO.NAGLIPASYN.PWY..superpathway.of..Kdo.2.lipid.A.biosynthesis
+2026-05-21 10:03:19.987908 WARNING::Fitting problem for feature 74 a warning was issued
+2026-05-21 10:03:20.528651 INFO::Fitting model to feature number 75, KETOGLUCONMET.PWY..ketogluconate.metabolism
+2026-05-21 10:03:20.603343 WARNING::Fitting problem for feature 75 a warning was issued
+2026-05-21 10:03:20.893783 INFO::Fitting model to feature number 76, LACTOSECAT.PWY..lactose.and.galactose.degradation.I
+2026-05-21 10:03:21.82439 INFO::Fitting model to feature number 77, LIPA.CORESYN.PWY..lipid.A.core.biosynthesis..E..coli.K.12.
+2026-05-21 10:03:21.834984 WARNING::Fitting problem for feature 77 a warning was issued
+2026-05-21 10:03:22.045995 INFO::Fitting model to feature number 78, LIPASYN.PWY..phospholipases
+2026-05-21 10:03:22.122674 WARNING::Fitting problem for feature 78 a warning was issued
+2026-05-21 10:03:22.920658 INFO::Fitting model to feature number 79, LPSSYN.PWY..superpathway.of.lipopolysaccharide.biosynthesis
+2026-05-21 10:03:22.930233 WARNING::Fitting problem for feature 79 a warning was issued
+2026-05-21 10:03:23.608466 INFO::Fitting model to feature number 80, MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis
+2026-05-21 10:03:23.618063 WARNING::Fitting problem for feature 80 a warning was issued
+2026-05-21 10:03:23.790496 INFO::Fitting model to feature number 81, METH.ACETATE.PWY..methanogenesis.from.acetate
+2026-05-21 10:03:24.811831 INFO::Fitting model to feature number 82, METHANOGENESIS.PWY..methanogenesis.from.H2.and.CO2
+2026-05-21 10:03:38.013537 WARNING::Fitting problem for feature 82 a warning was issued
+2026-05-21 10:03:51.2361 INFO::Fitting model to feature number 83, METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation
+2026-05-21 10:03:51.930007 INFO::Fitting model to feature number 84, METSYN.PWY..superpathway.of.L.homoserine.and.L.methionine.biosynthesis
+2026-05-21 10:03:51.940171 WARNING::Fitting problem for feature 84 a warning was issued
+2026-05-21 10:03:52.48151 INFO::Fitting model to feature number 85, NAD.BIOSYNTHESIS.II..NAD.salvage.pathway.III..to.nicotinamide.riboside.
+2026-05-21 10:03:52.492016 WARNING::Fitting problem for feature 85 a warning was issued
+2026-05-21 10:03:53.121027 INFO::Fitting model to feature number 86, NAGLIPASYN.PWY..lipid.IVA.biosynthesis..E..coli.
+2026-05-21 10:03:53.343142 INFO::Fitting model to feature number 87, NONMEVIPP.PWY..methylerythritol.phosphate.pathway.I
+2026-05-21 10:03:54.453656 WARNING::Fitting problem for feature 87 a warning was issued
+2026-05-21 10:03:55.411887 INFO::Fitting model to feature number 88, NONOXIPENT.PWY..pentose.phosphate.pathway..non.oxidative.branch..I
+2026-05-21 10:04:09.747773 WARNING::Fitting problem for feature 88 a warning was issued
+2026-05-21 10:04:24.567289 INFO::Fitting model to feature number 89, OANTIGEN.PWY..O.antigen.building.blocks.biosynthesis..E..coli.
+2026-05-21 10:04:25.478222 WARNING::Fitting problem for feature 89 a warning was issued
+2026-05-21 10:04:26.455336 INFO::Fitting model to feature number 90, ORNARGDEG.PWY..superpathway.of.L.arginine.and.L.ornithine.degradation
+2026-05-21 10:04:26.46471 WARNING::Fitting problem for feature 90 a warning was issued
+2026-05-21 10:04:26.629368 INFO::Fitting model to feature number 91, ORNDEG.PWY..superpathway.of.ornithine.degradation
+2026-05-21 10:04:26.637668 WARNING::Fitting problem for feature 91 a warning was issued
+2026-05-21 10:04:27.458018 INFO::Fitting model to feature number 92, P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.
+2026-05-21 10:04:27.467359 WARNING::Fitting problem for feature 92 a warning was issued
+2026-05-21 10:04:28.116735 INFO::Fitting model to feature number 93, P108.PWY..pyruvate.fermentation.to.propanoate.I
+2026-05-21 10:04:28.134701 WARNING::Fitting problem for feature 93 a warning was issued
+2026-05-21 10:04:28.740184 INFO::Fitting model to feature number 94, P122.PWY..heterolactic.fermentation
+2026-05-21 10:04:28.749745 WARNING::Fitting problem for feature 94 a warning was issued
+2026-05-21 10:04:29.117141 INFO::Fitting model to feature number 95, P124.PWY..Bifidobacterium.shunt
+2026-05-21 10:04:29.129961 WARNING::Fitting problem for feature 95 a warning was issued
+2026-05-21 10:04:29.935279 INFO::Fitting model to feature number 96, P125.PWY..superpathway.of..R.R..butanediol.biosynthesis
+2026-05-21 10:04:29.946335 WARNING::Fitting problem for feature 96 a warning was issued
+2026-05-21 10:04:30.810751 INFO::Fitting model to feature number 97, P161.PWY..acetylene.degradation..anaerobic.
+2026-05-21 10:04:45.462354 WARNING::Fitting problem for feature 97 a warning was issued
+2026-05-21 10:05:01.409486 INFO::Fitting model to feature number 98, P162.PWY..L.glutamate.degradation.V..via.hydroxyglutarate.
+2026-05-21 10:05:01.420559 WARNING::Fitting problem for feature 98 a warning was issued
+2026-05-21 10:05:01.747955 INFO::Fitting model to feature number 99, P163.PWY..L.lysine.fermentation.to.acetate.and.butanoate
+2026-05-21 10:05:01.930507 WARNING::Fitting problem for feature 99 a warning was issued
+2026-05-21 10:05:02.202328 WARNING::Fitting problem for feature 99 returning NA
+2026-05-21 10:05:02.206736 INFO::Fitting model to feature number 100, P164.PWY..purine.nucleobases.degradation.I..anaerobic.
+2026-05-21 10:05:03.227411 INFO::Fitting model to feature number 101, P185.PWY..formaldehyde.assimilation.III..dihydroxyacetone.cycle.
+2026-05-21 10:05:04.053296 INFO::Fitting model to feature number 102, P221.PWY..octane.oxidation
+2026-05-21 10:05:04.06441 WARNING::Fitting problem for feature 102 a warning was issued
+2026-05-21 10:05:04.244197 INFO::Fitting model to feature number 103, P23.PWY..reductive.TCA.cycle.I
+2026-05-21 10:05:04.253766 WARNING::Fitting problem for feature 103 a warning was issued
+2026-05-21 10:05:04.956741 INFO::Fitting model to feature number 104, P241.PWY..coenzyme.B.biosynthesis
+2026-05-21 10:05:04.966555 WARNING::Fitting problem for feature 104 a warning was issued
+2026-05-21 10:05:05.66451 INFO::Fitting model to feature number 105, P261.PWY..coenzyme.M.biosynthesis.I
+2026-05-21 10:05:05.677168 WARNING::Fitting problem for feature 105 a warning was issued
+2026-05-21 10:05:06.447938 INFO::Fitting model to feature number 106, P4.PWY..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I
+2026-05-21 10:05:06.457354 WARNING::Fitting problem for feature 106 a warning was issued
+2026-05-21 10:05:06.626473 INFO::Fitting model to feature number 107, P41.PWY..pyruvate.fermentation.to.acetate.and..S..lactate.I
+2026-05-21 10:05:07.40196 WARNING::Fitting problem for feature 107 a warning was issued
+2026-05-21 10:05:09.451231 INFO::Fitting model to feature number 108, P42.PWY..incomplete.reductive.TCA.cycle
+2026-05-21 10:05:10.134416 INFO::Fitting model to feature number 109, P441.PWY..superpathway.of.N.acetylneuraminate.degradation
+2026-05-21 10:05:24.505275 WARNING::Fitting problem for feature 109 a warning was issued
+2026-05-21 10:05:39.021235 INFO::Fitting model to feature number 110, P461.PWY..hexitol.fermentation.to.lactate..formate..ethanol.and.acetate
+2026-05-21 10:05:39.726837 INFO::Fitting model to feature number 111, P562.PWY..myo.inositol.degradation.I
+2026-05-21 10:05:39.736099 WARNING::Fitting problem for feature 111 a warning was issued
+2026-05-21 10:05:40.406894 INFO::Fitting model to feature number 112, P621.PWY..nylon.6.oligomer.degradation
+2026-05-21 10:05:40.415922 WARNING::Fitting problem for feature 112 a warning was issued
+2026-05-21 10:05:40.586587 INFO::Fitting model to feature number 113, PANTO.PWY..phosphopantothenate.biosynthesis.I
+2026-05-21 10:05:41.45764 WARNING::Fitting problem for feature 113 a warning was issued
+2026-05-21 10:05:42.46671 INFO::Fitting model to feature number 114, PANTOSYN.PWY..superpathway.of.coenzyme.A.biosynthesis.I..bacteria.
+2026-05-21 10:05:43.31041 WARNING::Fitting problem for feature 114 a warning was issued
+2026-05-21 10:05:44.23319 INFO::Fitting model to feature number 115, PENTOSE.P.PWY..pentose.phosphate.pathway
+2026-05-21 10:05:45.13259 WARNING::Fitting problem for feature 115 a warning was issued
+2026-05-21 10:05:46.019351 INFO::Fitting model to feature number 116, PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.
+2026-05-21 10:05:46.870575 WARNING::Fitting problem for feature 116 a warning was issued
+2026-05-21 10:05:47.787072 INFO::Fitting model to feature number 117, PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.
+2026-05-21 10:05:48.583971 INFO::Fitting model to feature number 118, POLYAMINSYN3.PWY..superpathway.of.polyamine.biosynthesis.II
+2026-05-21 10:05:48.592789 WARNING::Fitting problem for feature 118 a warning was issued
+2026-05-21 10:05:49.204163 INFO::Fitting model to feature number 119, POLYAMSYN.PWY..superpathway.of.polyamine.biosynthesis.I
+2026-05-21 10:05:49.394885 INFO::Fitting model to feature number 120, POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.
+2026-05-21 10:05:50.135598 INFO::Fitting model to feature number 121, PPGPPMET.PWY..ppGpp.metabolism
+2026-05-21 10:05:50.144968 WARNING::Fitting problem for feature 121 a warning was issued
+2026-05-21 10:05:50.710054 INFO::Fitting model to feature number 122, PROPFERM.PWY..superpathway.of.L.alanine.fermentation..Stickland.reaction.
+2026-05-21 10:05:50.723989 WARNING::Fitting problem for feature 122 a warning was issued
+2026-05-21 10:05:51.503482 INFO::Fitting model to feature number 123, PROTOCATECHUATE.ORTHO.CLEAVAGE.PWY..protocatechuate.degradation.II..ortho.cleavage.pathway.
+2026-05-21 10:05:51.512371 WARNING::Fitting problem for feature 123 a warning was issued
+2026-05-21 10:05:52.257372 INFO::Fitting model to feature number 124, PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis
+2026-05-21 10:05:55.057908 WARNING::Fitting problem for feature 124 a warning was issued
+2026-05-21 10:05:58.029131 INFO::Fitting model to feature number 125, PWY.1042..glycolysis.IV
+2026-05-21 10:05:58.94664 WARNING::Fitting problem for feature 125 a warning was issued
+2026-05-21 10:05:59.927989 INFO::Fitting model to feature number 126, PWY.1269..CMP.3.deoxy.D.manno.octulosonate.biosynthesis
+2026-05-21 10:06:15.39287 WARNING::Fitting problem for feature 126 a warning was issued
+2026-05-21 10:06:31.058033 INFO::Fitting model to feature number 127, PWY.1501..mandelate.degradation.I
+2026-05-21 10:06:31.069171 WARNING::Fitting problem for feature 127 a warning was issued
+2026-05-21 10:06:31.288063 INFO::Fitting model to feature number 128, PWY.1861..formaldehyde.assimilation.II..assimilatory.RuMP.Cycle.
+2026-05-21 10:06:32.238792 INFO::Fitting model to feature number 129, PWY.2221..Entner.Doudoroff.pathway.III..semi.phosphorylative.
+2026-05-21 10:06:32.248782 WARNING::Fitting problem for feature 129 a warning was issued
+2026-05-21 10:06:32.830219 INFO::Fitting model to feature number 130, PWY.241..C4.photosynthetic.carbon.assimilation.cycle..NADP.ME.type
+2026-05-21 10:06:33.711868 INFO::Fitting model to feature number 131, PWY.2941..L.lysine.biosynthesis.II
+2026-05-21 10:06:34.771812 WARNING::Fitting problem for feature 131 a warning was issued
+2026-05-21 10:06:35.607034 INFO::Fitting model to feature number 132, PWY.2942..L.lysine.biosynthesis.III
+2026-05-21 10:06:36.582913 WARNING::Fitting problem for feature 132 a warning was issued
+2026-05-21 10:06:37.458674 INFO::Fitting model to feature number 133, PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I
+2026-05-21 10:06:38.329417 WARNING::Fitting problem for feature 133 a warning was issued
+2026-05-21 10:06:39.221427 INFO::Fitting model to feature number 134, PWY.3781..aerobic.respiration.I..cytochrome.c.
+2026-05-21 10:06:39.230526 WARNING::Fitting problem for feature 134 a warning was issued
+2026-05-21 10:06:39.977108 INFO::Fitting model to feature number 135, PWY.3801..sucrose.degradation.II..sucrose.synthase.
+2026-05-21 10:06:39.985997 WARNING::Fitting problem for feature 135 a warning was issued
+2026-05-21 10:06:40.743162 INFO::Fitting model to feature number 136, PWY.3841..folate.transformations.II..plants.
+2026-05-21 10:06:41.644812 WARNING::Fitting problem for feature 136 a warning was issued
+2026-05-21 10:06:42.575045 INFO::Fitting model to feature number 137, PWY.4041...gamma..glutamyl.cycle
+2026-05-21 10:06:47.302586 WARNING::Fitting problem for feature 137 a warning was issued
+2026-05-21 10:06:52.016854 INFO::Fitting model to feature number 138, PWY.4984..urea.cycle
+2026-05-21 10:06:52.783161 INFO::Fitting model to feature number 139, PWY.5004..superpathway.of.L.citrulline.metabolism
+2026-05-21 10:07:03.517263 WARNING::Fitting problem for feature 139 a warning was issued
+2026-05-21 10:07:15.935119 INFO::Fitting model to feature number 140, PWY.5005..biotin.biosynthesis.II
+2026-05-21 10:07:15.942526 WARNING::Fitting problem for feature 140 a warning was issued
+2026-05-21 10:07:16.598202 INFO::Fitting model to feature number 141, PWY.5022..4.aminobutanoate.degradation.V
+2026-05-21 10:07:26.455003 WARNING::Fitting problem for feature 141 a warning was issued
+2026-05-21 10:07:36.391819 INFO::Fitting model to feature number 142, PWY.5028..L.histidine.degradation.II
+2026-05-21 10:07:36.40473 WARNING::Fitting problem for feature 142 a warning was issued
+2026-05-21 10:07:36.732697 INFO::Fitting model to feature number 143, PWY.5030..L.histidine.degradation.III
+2026-05-21 10:07:37.691291 INFO::Fitting model to feature number 144, PWY.5055..nicotinate.degradation.III
+2026-05-21 10:07:37.701148 WARNING::Fitting problem for feature 144 a warning was issued
+2026-05-21 10:07:38.3054 INFO::Fitting model to feature number 145, PWY.5088..L.glutamate.degradation.VIII..to.propanoate.
+2026-05-21 10:07:38.315147 WARNING::Fitting problem for feature 145 a warning was issued
+2026-05-21 10:07:39.130384 INFO::Fitting model to feature number 146, PWY.5097..L.lysine.biosynthesis.VI
+2026-05-21 10:07:40.130003 WARNING::Fitting problem for feature 146 a warning was issued
+2026-05-21 10:07:41.141939 INFO::Fitting model to feature number 147, PWY.5100..pyruvate.fermentation.to.acetate.and.lactate.II
+2026-05-21 10:07:46.050442 WARNING::Fitting problem for feature 147 a warning was issued
+2026-05-21 10:07:51.093831 INFO::Fitting model to feature number 148, PWY.5103..L.isoleucine.biosynthesis.III
+2026-05-21 10:07:52.140407 WARNING::Fitting problem for feature 148 a warning was issued
+2026-05-21 10:07:53.075478 INFO::Fitting model to feature number 149, PWY.5104..L.isoleucine.biosynthesis.IV
+2026-05-21 10:07:53.084604 WARNING::Fitting problem for feature 149 a warning was issued
+2026-05-21 10:07:53.328362 INFO::Fitting model to feature number 150, PWY.5121..superpathway.of.geranylgeranyl.diphosphate.biosynthesis.II..via.MEP.
+2026-05-21 10:07:54.323858 WARNING::Fitting problem for feature 150 a warning was issued
+2026-05-21 10:07:55.139046 INFO::Fitting model to feature number 151, PWY.5130..2.oxobutanoate.degradation.I
+2026-05-21 10:07:55.935152 INFO::Fitting model to feature number 152, PWY.5136..fatty.acid..beta..oxidation.II..plant.peroxisome.
+2026-05-21 10:08:00.910228 WARNING::Fitting problem for feature 152 a warning was issued
+2026-05-21 10:08:06.145241 INFO::Fitting model to feature number 153, PWY.5138..fatty.acid..beta..oxidation.IV..unsaturated..even.number.
+2026-05-21 10:08:06.156096 WARNING::Fitting problem for feature 153 a warning was issued
+2026-05-21 10:08:06.421569 INFO::Fitting model to feature number 154, PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.
+2026-05-21 10:08:07.383696 WARNING::Fitting problem for feature 154 a warning was issued
+2026-05-21 10:08:08.725037 INFO::Fitting model to feature number 155, PWY.5156..superpathway.of.fatty.acid.biosynthesis.II..plant.
+2026-05-21 10:08:08.734539 WARNING::Fitting problem for feature 155 a warning was issued
+2026-05-21 10:08:09.510146 INFO::Fitting model to feature number 156, PWY.5180..toluene.degradation.I..aerobic...via.o.cresol.
+2026-05-21 10:08:09.518883 WARNING::Fitting problem for feature 156 a warning was issued
+2026-05-21 10:08:09.821031 INFO::Fitting model to feature number 157, PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.
+2026-05-21 10:08:10.943869 INFO::Fitting model to feature number 158, PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.
+2026-05-21 10:08:11.027469 WARNING::Fitting problem for feature 158 a warning was issued
+2026-05-21 10:08:11.968576 INFO::Fitting model to feature number 159, PWY.5198..factor.420.biosynthesis.II..mycobacteria.
+2026-05-21 10:08:25.176366 WARNING::Fitting problem for feature 159 a warning was issued
+2026-05-21 10:08:38.421388 INFO::Fitting model to feature number 160, PWY.5209..methyl.coenzyme.M.oxidation.to.CO2
+2026-05-21 10:08:43.039563 WARNING::Fitting problem for feature 160 a warning was issued
+2026-05-21 10:08:47.756711 INFO::Fitting model to feature number 161, PWY.5265..peptidoglycan.biosynthesis.II..staphylococci.
+2026-05-21 10:08:47.836531 WARNING::Fitting problem for feature 161 a warning was issued
+2026-05-21 10:08:48.186147 INFO::Fitting model to feature number 162, PWY.5345..superpathway.of.L.methionine.biosynthesis..by.sulfhydrylation.
+2026-05-21 10:08:48.195575 WARNING::Fitting problem for feature 162 a warning was issued
+2026-05-21 10:08:49.008912 INFO::Fitting model to feature number 163, PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.
+2026-05-21 10:08:49.01827 WARNING::Fitting problem for feature 163 a warning was issued
+2026-05-21 10:08:49.584943 INFO::Fitting model to feature number 164, PWY.5367..petroselinate.biosynthesis
+2026-05-21 10:08:49.596307 WARNING::Fitting problem for feature 164 a warning was issued
+2026-05-21 10:08:50.226156 INFO::Fitting model to feature number 165, PWY.5384..sucrose.degradation.IV..sucrose.phosphorylase.
+2026-05-21 10:08:50.885806 INFO::Fitting model to feature number 166, PWY.5392..reductive.TCA.cycle.II
+2026-05-21 10:08:50.895756 WARNING::Fitting problem for feature 166 a warning was issued
+2026-05-21 10:08:51.62551 INFO::Fitting model to feature number 167, PWY.5415..catechol.degradation.I..meta.cleavage.pathway.
+2026-05-21 10:08:51.63799 WARNING::Fitting problem for feature 167 a warning was issued
+2026-05-21 10:08:51.944262 WARNING::Fitting problem for feature 167 returning NA
+2026-05-21 10:08:51.948766 INFO::Fitting model to feature number 168, PWY.5417..catechol.degradation.III..ortho.cleavage.pathway.
+2026-05-21 10:08:52.141136 WARNING::Fitting problem for feature 168 a warning was issued
+2026-05-21 10:08:52.811931 INFO::Fitting model to feature number 169, PWY.5431..aromatic.compounds.degradation.via..beta..ketoadipate
+2026-05-21 10:08:52.820714 WARNING::Fitting problem for feature 169 a warning was issued
+2026-05-21 10:08:53.426693 INFO::Fitting model to feature number 170, PWY.5464..superpathway.of.cytosolic.glycolysis..plants...pyruvate.dehydrogenase.and.TCA.cycle
+2026-05-21 10:08:53.504354 WARNING::Fitting problem for feature 170 a warning was issued
+2026-05-21 10:08:53.652606 INFO::Fitting model to feature number 171, PWY.5484..glycolysis.II..from.fructose.6.phosphate.
+2026-05-21 10:08:54.419821 INFO::Fitting model to feature number 172, PWY.5494..pyruvate.fermentation.to.propanoate.II..acrylate.pathway.
+2026-05-21 10:08:54.427932 WARNING::Fitting problem for feature 172 a warning was issued
+2026-05-21 10:08:55.223169 INFO::Fitting model to feature number 173, PWY.5497..purine.nucleobases.degradation.II..anaerobic.
+2026-05-21 10:08:55.907064 INFO::Fitting model to feature number 174, PWY.5505..L.glutamate.and.L.glutamine.biosynthesis
+2026-05-21 10:08:56.645101 INFO::Fitting model to feature number 175, PWY.561..superpathway.of.glyoxylate.cycle.and.fatty.acid.degradation
+2026-05-21 10:08:56.654717 WARNING::Fitting problem for feature 175 a warning was issued
+2026-05-21 10:08:57.308176 INFO::Fitting model to feature number 176, PWY.5654..2.amino.3.carboxymuconate.semialdehyde.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:08:57.318368 WARNING::Fitting problem for feature 176 a warning was issued
+2026-05-21 10:08:57.543148 INFO::Fitting model to feature number 177, PWY.5656..mannosylglycerate.biosynthesis.I
+2026-05-21 10:08:57.618434 WARNING::Fitting problem for feature 177 a warning was issued
+2026-05-21 10:08:58.430934 INFO::Fitting model to feature number 178, PWY.5659..GDP.mannose.biosynthesis
+2026-05-21 10:09:03.423168 WARNING::Fitting problem for feature 178 a warning was issued
+2026-05-21 10:09:08.668884 INFO::Fitting model to feature number 179, PWY.5667..CDP.diacylglycerol.biosynthesis.I
+2026-05-21 10:09:09.86664 WARNING::Fitting problem for feature 179 a warning was issued
+2026-05-21 10:09:11.161283 INFO::Fitting model to feature number 180, PWY.5675..nitrate.reduction.V..assimilatory.
+2026-05-21 10:09:11.176873 WARNING::Fitting problem for feature 180 a warning was issued
+2026-05-21 10:09:11.380046 INFO::Fitting model to feature number 181, PWY.5676..acetyl.CoA.fermentation.to.butanoate.II
+2026-05-21 10:09:16.054742 WARNING::Fitting problem for feature 181 a warning was issued
+2026-05-21 10:09:20.752824 INFO::Fitting model to feature number 182, PWY.5677..succinate.fermentation.to.butanoate
+2026-05-21 10:09:20.763885 WARNING::Fitting problem for feature 182 a warning was issued
+2026-05-21 10:09:21.098588 INFO::Fitting model to feature number 183, PWY.5686..UMP.biosynthesis.I
+2026-05-21 10:09:22.200983 WARNING::Fitting problem for feature 183 a warning was issued
+2026-05-21 10:09:23.178786 INFO::Fitting model to feature number 184, PWY.5690..TCA.cycle.II..plants.and.fungi.
+2026-05-21 10:09:23.891031 INFO::Fitting model to feature number 185, PWY.5692..allantoin.degradation.to.glyoxylate.II
+2026-05-21 10:09:23.902442 WARNING::Fitting problem for feature 185 a warning was issued
+2026-05-21 10:09:24.534279 INFO::Fitting model to feature number 186, PWY.5695..inosine.5..phosphate.degradation
+2026-05-21 10:09:25.543243 WARNING::Fitting problem for feature 186 a warning was issued
+2026-05-21 10:09:26.618633 INFO::Fitting model to feature number 187, PWY.5705..allantoin.degradation.to.glyoxylate.III
+2026-05-21 10:09:26.627282 WARNING::Fitting problem for feature 187 a warning was issued
+2026-05-21 10:09:26.94235 INFO::Fitting model to feature number 188, PWY.5723..Rubisco.shunt
+2026-05-21 10:09:26.951933 WARNING::Fitting problem for feature 188 a warning was issued
+2026-05-21 10:09:27.968746 INFO::Fitting model to feature number 189, PWY.5724..superpathway.of.atrazine.degradation
+2026-05-21 10:09:27.978067 WARNING::Fitting problem for feature 189 a warning was issued
+2026-05-21 10:09:28.960181 INFO::Fitting model to feature number 190, PWY.5742..L.arginine.degradation.IX..arginine.pyruvate.transaminase.pathway.
+2026-05-21 10:09:28.969635 WARNING::Fitting problem for feature 190 a warning was issued
+2026-05-21 10:09:29.628981 INFO::Fitting model to feature number 191, PWY.5747..2.methylcitrate.cycle.II
+2026-05-21 10:09:29.638525 WARNING::Fitting problem for feature 191 a warning was issued
+2026-05-21 10:09:30.211685 INFO::Fitting model to feature number 192, PWY.5837..2.carboxy.1.4.naphthoquinol.biosynthesis
+2026-05-21 10:09:30.920372 INFO::Fitting model to feature number 193, PWY.5838..superpathway.of.menaquinol.8.biosynthesis.I
+2026-05-21 10:09:31.70661 INFO::Fitting model to feature number 194, PWY.5840..superpathway.of.menaquinol.7.biosynthesis
+2026-05-21 10:09:32.438442 INFO::Fitting model to feature number 195, PWY.5845..superpathway.of.menaquinol.9.biosynthesis
+2026-05-21 10:09:37.026917 WARNING::Fitting problem for feature 195 a warning was issued
+2026-05-21 10:09:41.749432 INFO::Fitting model to feature number 196, PWY.5850..superpathway.of.menaquinol.6.biosynthesis
+2026-05-21 10:09:41.759396 WARNING::Fitting problem for feature 196 a warning was issued
+2026-05-21 10:09:42.117856 INFO::Fitting model to feature number 197, PWY.5855..ubiquinol.7.biosynthesis..early.decarboxylation.
+2026-05-21 10:09:42.12705 WARNING::Fitting problem for feature 197 a warning was issued
+2026-05-21 10:09:42.428095 INFO::Fitting model to feature number 198, PWY.5860..superpathway.of.demethylmenaquinol.6.biosynthesis.I
+2026-05-21 10:09:42.437724 WARNING::Fitting problem for feature 198 a warning was issued
+2026-05-21 10:09:42.832597 INFO::Fitting model to feature number 199, PWY.5861..superpathway.of.demethylmenaquinol.8.biosynthesis.I
+2026-05-21 10:09:43.06266 INFO::Fitting model to feature number 200, PWY.5862..superpathway.of.demethylmenaquinol.9.biosynthesis
+2026-05-21 10:10:03.013384 WARNING::Fitting problem for feature 200 a warning was issued
+2026-05-21 10:10:22.440731 INFO::Fitting model to feature number 201, PWY.5896..superpathway.of.menaquinol.10.biosynthesis
+2026-05-21 10:10:22.453263 WARNING::Fitting problem for feature 201 a warning was issued
+2026-05-21 10:10:22.913218 INFO::Fitting model to feature number 202, PWY.5897..superpathway.of.menaquinol.11.biosynthesis
+2026-05-21 10:10:23.42403 INFO::Fitting model to feature number 203, PWY.5898..superpathway.of.menaquinol.12.biosynthesis
+2026-05-21 10:10:24.262685 INFO::Fitting model to feature number 204, PWY.5899..superpathway.of.menaquinol.13.biosynthesis
+2026-05-21 10:10:24.752701 INFO::Fitting model to feature number 205, PWY.5910..superpathway.of.geranylgeranyldiphosphate.biosynthesis.I..via.mevalonate.
+2026-05-21 10:10:24.761596 WARNING::Fitting problem for feature 205 a warning was issued
+2026-05-21 10:10:24.986376 INFO::Fitting model to feature number 206, PWY.5913..partial.TCA.cycle..obligate.autotrophs.
+2026-05-21 10:10:25.612413 INFO::Fitting model to feature number 207, PWY.5918..superpathway.of.heme.b.biosynthesis.from.glutamate
+2026-05-21 10:10:25.620829 WARNING::Fitting problem for feature 207 a warning was issued
+2026-05-21 10:10:26.44957 INFO::Fitting model to feature number 208, PWY.5920..superpathway.of.heme.b.biosynthesis.from.glycine
+2026-05-21 10:10:26.458093 WARNING::Fitting problem for feature 208 a warning was issued
+2026-05-21 10:10:26.615053 INFO::Fitting model to feature number 209, PWY.5941..glycogen.degradation.II
+2026-05-21 10:10:27.368075 WARNING::Fitting problem for feature 209 a warning was issued
+2026-05-21 10:10:28.624105 INFO::Fitting model to feature number 210, PWY.5971..palmitate.biosynthesis..type.II.fatty.acid.synthase.
+2026-05-21 10:10:33.817144 WARNING::Fitting problem for feature 210 a warning was issued
+2026-05-21 10:10:38.445665 INFO::Fitting model to feature number 211, PWY.5972..stearate.biosynthesis.I..animals.
+2026-05-21 10:10:38.45652 WARNING::Fitting problem for feature 211 a warning was issued
+2026-05-21 10:10:39.04302 INFO::Fitting model to feature number 212, PWY.5973..cis.vaccenate.biosynthesis
+2026-05-21 10:10:39.50437 INFO::Fitting model to feature number 213, PWY.5981..CDP.diacylglycerol.biosynthesis.III
+2026-05-21 10:10:39.513591 WARNING::Fitting problem for feature 213 a warning was issued
+2026-05-21 10:10:39.734379 INFO::Fitting model to feature number 214, PWY.5989..stearate.biosynthesis.II..bacteria.and.plants.
+2026-05-21 10:10:40.418685 INFO::Fitting model to feature number 215, PWY.5994..palmitate.biosynthesis..type.I.fatty.acid.synthase.
+2026-05-21 10:10:40.427159 WARNING::Fitting problem for feature 215 a warning was issued
+2026-05-21 10:10:40.698567 WARNING::Fitting problem for feature 215 returning NA
+2026-05-21 10:10:40.70353 INFO::Fitting model to feature number 216, PWY.6113..superpathway.of.mycolate.biosynthesis
+2026-05-21 10:10:40.71247 WARNING::Fitting problem for feature 216 a warning was issued
+2026-05-21 10:10:41.272042 INFO::Fitting model to feature number 217, PWY.6121..5.aminoimidazole.ribonucleotide.biosynthesis.I
+2026-05-21 10:10:42.62126 WARNING::Fitting problem for feature 217 a warning was issued
+2026-05-21 10:10:44.510244 INFO::Fitting model to feature number 218, PWY.6122..5.aminoimidazole.ribonucleotide.biosynthesis.II
+2026-05-21 10:10:45.458543 WARNING::Fitting problem for feature 218 a warning was issued
+2026-05-21 10:10:46.192231 INFO::Fitting model to feature number 219, PWY.6123..inosine.5..phosphate.biosynthesis.I
+2026-05-21 10:10:47.069853 WARNING::Fitting problem for feature 219 a warning was issued
+2026-05-21 10:10:48.109463 INFO::Fitting model to feature number 220, PWY.6124..inosine.5..phosphate.biosynthesis.II
+2026-05-21 10:10:48.828253 WARNING::Fitting problem for feature 220 a warning was issued
+2026-05-21 10:10:49.677046 INFO::Fitting model to feature number 221, PWY.6125..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.II
+2026-05-21 10:11:04.897484 WARNING::Fitting problem for feature 221 a warning was issued
+2026-05-21 10:11:20.746475 INFO::Fitting model to feature number 222, PWY.6126..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.II
+2026-05-21 10:11:21.322383 WARNING::Fitting problem for feature 222 a warning was issued
+2026-05-21 10:11:32.106681 INFO::Fitting model to feature number 223, PWY.6143..CMP.pseudaminate.biosynthesis
+2026-05-21 10:11:32.118145 WARNING::Fitting problem for feature 223 a warning was issued
+2026-05-21 10:11:32.293523 INFO::Fitting model to feature number 224, PWY.6147..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.I
+2026-05-21 10:11:32.798942 INFO::Fitting model to feature number 225, PWY.6151..S.adenosyl.L.methionine.salvage.I
+2026-05-21 10:11:33.397694 WARNING::Fitting problem for feature 225 a warning was issued
+2026-05-21 10:11:34.145661 INFO::Fitting model to feature number 226, PWY.6160..3.dehydroquinate.biosynthesis.II..archaea.
+2026-05-21 10:11:37.974422 WARNING::Fitting problem for feature 226 a warning was issued
+2026-05-21 10:11:42.010342 INFO::Fitting model to feature number 227, PWY.6163..chorismate.biosynthesis.from.3.dehydroquinate
+2026-05-21 10:11:42.685369 WARNING::Fitting problem for feature 227 a warning was issued
+2026-05-21 10:11:43.460716 INFO::Fitting model to feature number 228, PWY.6165..chorismate.biosynthesis.II..archaea.
+2026-05-21 10:11:47.753984 WARNING::Fitting problem for feature 228 a warning was issued
+2026-05-21 10:11:52.16428 INFO::Fitting model to feature number 229, PWY.6167..flavin.biosynthesis.II..archaea.
+2026-05-21 10:11:55.196422 WARNING::Fitting problem for feature 229 a warning was issued
+2026-05-21 10:11:58.424706 INFO::Fitting model to feature number 230, PWY.6168..flavin.biosynthesis.III..fungi.
+2026-05-21 10:11:58.915249 INFO::Fitting model to feature number 231, PWY.6174..mevalonate.pathway.II..haloarchaea.
+2026-05-21 10:11:58.934016 WARNING::Fitting problem for feature 231 a warning was issued
+2026-05-21 10:11:59.730595 INFO::Fitting model to feature number 232, PWY.6182..superpathway.of.salicylate.degradation
+2026-05-21 10:11:59.750408 WARNING::Fitting problem for feature 232 a warning was issued
+2026-05-21 10:12:00.258083 INFO::Fitting model to feature number 233, PWY.6185..4.methylcatechol.degradation..ortho.cleavage.
+2026-05-21 10:12:00.270119 WARNING::Fitting problem for feature 233 a warning was issued
+2026-05-21 10:12:00.736236 INFO::Fitting model to feature number 234, PWY.6210..2.aminophenol.degradation
+2026-05-21 10:12:00.747747 WARNING::Fitting problem for feature 234 a warning was issued
+2026-05-21 10:12:00.849591 WARNING::Fitting problem for feature 234 returning NA
+2026-05-21 10:12:00.85412 INFO::Fitting model to feature number 235, PWY.6215..4.chlorobenzoate.degradation
+2026-05-21 10:12:00.936176 WARNING::Fitting problem for feature 235 a warning was issued
+2026-05-21 10:12:01.444925 INFO::Fitting model to feature number 236, PWY.621..sucrose.degradation.III..sucrose.invertase.
+2026-05-21 10:12:01.886446 INFO::Fitting model to feature number 237, PWY.622..starch.biosynthesis
+2026-05-21 10:12:01.897387 WARNING::Fitting problem for feature 237 a warning was issued
+2026-05-21 10:12:02.389966 INFO::Fitting model to feature number 238, PWY.6270..isoprene.biosynthesis.I
+2026-05-21 10:12:03.250893 WARNING::Fitting problem for feature 238 a warning was issued
+2026-05-21 10:12:03.924268 INFO::Fitting model to feature number 239, PWY.6277..superpathway.of.5.aminoimidazole.ribonucleotide.biosynthesis
+2026-05-21 10:12:04.717135 WARNING::Fitting problem for feature 239 a warning was issued
+2026-05-21 10:12:05.556506 INFO::Fitting model to feature number 240, PWY.6282..palmitoleate.biosynthesis.I..from..5Z..dodec.5.enoate.
+2026-05-21 10:12:06.055683 INFO::Fitting model to feature number 241, PWY.6284..superpathway.of.unsaturated.fatty.acids.biosynthesis..E..coli.
+2026-05-21 10:12:14.805851 WARNING::Fitting problem for feature 241 a warning was issued
+2026-05-21 10:12:31.319649 INFO::Fitting model to feature number 242, PWY.6285..superpathway.of.fatty.acids.biosynthesis..E..coli.
+2026-05-21 10:12:34.90859 WARNING::Fitting problem for feature 242 a warning was issued
+2026-05-21 10:12:38.648741 INFO::Fitting model to feature number 243, PWY.6292..superpathway.of.L.cysteine.biosynthesis..mammalian.
+2026-05-21 10:12:38.660397 WARNING::Fitting problem for feature 243 a warning was issued
+2026-05-21 10:12:39.209084 INFO::Fitting model to feature number 244, PWY.6293..superpathway.of.L.cysteine.biosynthesis..fungi.
+2026-05-21 10:12:39.218307 WARNING::Fitting problem for feature 244 a warning was issued
+2026-05-21 10:12:39.836356 INFO::Fitting model to feature number 245, PWY.6305..superpathway.of.putrescine.biosynthesis
+2026-05-21 10:12:40.224669 INFO::Fitting model to feature number 246, PWY.6317..D.galactose.degradation.I..Leloir.pathway.
+2026-05-21 10:12:41.304676 INFO::Fitting model to feature number 247, PWY.6318..L.phenylalanine.degradation.IV..mammalian..via.side.chain.
+2026-05-21 10:12:41.313416 WARNING::Fitting problem for feature 247 a warning was issued
+2026-05-21 10:12:41.475199 INFO::Fitting model to feature number 248, PWY.6328..L.lysine.degradation.X
+2026-05-21 10:12:41.483226 WARNING::Fitting problem for feature 248 a warning was issued
+2026-05-21 10:12:41.830518 INFO::Fitting model to feature number 249, PWY.6349..CDP.archaeol.biosynthesis
+2026-05-21 10:12:55.844893 WARNING::Fitting problem for feature 249 a warning was issued
+2026-05-21 10:13:09.954603 INFO::Fitting model to feature number 250, PWY.6350..archaetidylinositol.biosynthesis
+2026-05-21 10:13:13.820194 INFO::Fitting model to feature number 251, PWY.6353..purine.nucleotides.degradation.II..aerobic.
+2026-05-21 10:13:14.559179 INFO::Fitting model to feature number 252, PWY.6385..peptidoglycan.biosynthesis.III..mycobacteria.
+2026-05-21 10:13:15.521506 WARNING::Fitting problem for feature 252 a warning was issued
+2026-05-21 10:13:16.409664 INFO::Fitting model to feature number 253, PWY.6386..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.II..lysine.containing.
+2026-05-21 10:13:17.406047 WARNING::Fitting problem for feature 253 a warning was issued
+2026-05-21 10:13:18.397897 INFO::Fitting model to feature number 254, PWY.6387..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.I..meso.diaminopimelate.containing.
+2026-05-21 10:13:19.360993 WARNING::Fitting problem for feature 254 a warning was issued
+2026-05-21 10:13:20.228727 INFO::Fitting model to feature number 255, PWY.6396..superpathway.of.2.3.butanediol.biosynthesis
+2026-05-21 10:13:20.237048 WARNING::Fitting problem for feature 255 a warning was issued
+2026-05-21 10:13:20.392219 INFO::Fitting model to feature number 256, PWY.6435..4.hydroxybenzoate.biosynthesis.III..plants.
+2026-05-21 10:13:20.399884 WARNING::Fitting problem for feature 256 a warning was issued
+2026-05-21 10:13:21.226468 INFO::Fitting model to feature number 257, PWY.6470..peptidoglycan.biosynthesis.V...beta..lactam.resistance.
+2026-05-21 10:13:22.025704 INFO::Fitting model to feature number 258, PWY.6471..peptidoglycan.biosynthesis.IV..Enterococcus.faecium.
+2026-05-21 10:13:22.034838 WARNING::Fitting problem for feature 258 a warning was issued
+2026-05-21 10:13:22.329431 INFO::Fitting model to feature number 259, PWY.6478..GDP.D.glycero..alpha..D.manno.heptose.biosynthesis
+2026-05-21 10:13:22.338245 WARNING::Fitting problem for feature 259 a warning was issued
+2026-05-21 10:13:23.213082 INFO::Fitting model to feature number 260, PWY.6507..4.deoxy.L.threo.hex.4.enopyranuronate.degradation
+2026-05-21 10:13:24.02052 WARNING::Fitting problem for feature 260 a warning was issued
+2026-05-21 10:13:24.893815 INFO::Fitting model to feature number 261, PWY.6518..bile.acids.epimerization
+2026-05-21 10:13:24.904829 WARNING::Fitting problem for feature 261 a warning was issued
+2026-05-21 10:13:25.605482 INFO::Fitting model to feature number 262, PWY.6519..8.amino.7.oxononanoate.biosynthesis.I
+2026-05-21 10:13:26.366978 INFO::Fitting model to feature number 263, PWY.6527..stachyose.degradation
+2026-05-21 10:13:27.142834 INFO::Fitting model to feature number 264, PWY.6531..mannitol.cycle
+2026-05-21 10:13:27.848582 INFO::Fitting model to feature number 265, PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III
+2026-05-21 10:13:28.515533 INFO::Fitting model to feature number 266, PWY.6549..L.glutamine.biosynthesis.III
+2026-05-21 10:13:29.36293 WARNING::Fitting problem for feature 266 a warning was issued
+2026-05-21 10:13:30.113615 INFO::Fitting model to feature number 267, PWY.6562..norspermidine.biosynthesis
+2026-05-21 10:13:30.126365 WARNING::Fitting problem for feature 267 a warning was issued
+2026-05-21 10:13:30.308092 INFO::Fitting model to feature number 268, PWY.6565..superpathway.of.polyamine.biosynthesis.III
+2026-05-21 10:13:30.316478 WARNING::Fitting problem for feature 268 a warning was issued
+2026-05-21 10:13:31.032368 INFO::Fitting model to feature number 269, PWY.6572..chondroitin.sulfate.degradation.I..bacterial.
+2026-05-21 10:13:31.041125 WARNING::Fitting problem for feature 269 a warning was issued
+2026-05-21 10:13:31.593012 INFO::Fitting model to feature number 270, PWY.6583..pyruvate.fermentation.to.butanol.I
+2026-05-21 10:13:32.653173 WARNING::Fitting problem for feature 270 a warning was issued
+2026-05-21 10:13:33.832713 INFO::Fitting model to feature number 271, PWY.6588..pyruvate.fermentation.to.acetone
+2026-05-21 10:13:34.586571 INFO::Fitting model to feature number 272, PWY.6590..superpathway.of.Clostridium.acetobutylicum.acidogenic.fermentation
+2026-05-21 10:13:35.047059 INFO::Fitting model to feature number 273, PWY.6595..superpathway.of.guanosine.nucleotides.degradation..plants.
+2026-05-21 10:13:35.89883 INFO::Fitting model to feature number 274, PWY.6606..guanosine.nucleotides.degradation.II
+2026-05-21 10:13:36.580415 INFO::Fitting model to feature number 275, PWY.6607..guanosine.nucleotides.degradation.I
+2026-05-21 10:13:37.203974 INFO::Fitting model to feature number 276, PWY.6608..guanosine.nucleotides.degradation.III
+2026-05-21 10:13:37.934394 INFO::Fitting model to feature number 277, PWY.6609..adenine.and.adenosine.salvage.III
+2026-05-21 10:13:39.092936 WARNING::Fitting problem for feature 277 a warning was issued
+2026-05-21 10:13:40.29524 INFO::Fitting model to feature number 278, PWY.6612..superpathway.of.tetrahydrofolate.biosynthesis
+2026-05-21 10:13:40.976424 INFO::Fitting model to feature number 279, PWY.6628..superpathway.of.L.phenylalanine.biosynthesis
+2026-05-21 10:13:41.849589 WARNING::Fitting problem for feature 279 a warning was issued
+2026-05-21 10:13:42.774951 INFO::Fitting model to feature number 280, PWY.6629..superpathway.of.L.tryptophan.biosynthesis
+2026-05-21 10:13:43.699141 WARNING::Fitting problem for feature 280 a warning was issued
+2026-05-21 10:13:44.543978 INFO::Fitting model to feature number 281, PWY.6630..superpathway.of.L.tyrosine.biosynthesis
+2026-05-21 10:13:45.332387 WARNING::Fitting problem for feature 281 a warning was issued
+2026-05-21 10:13:46.178598 INFO::Fitting model to feature number 282, PWY.6641..superpathway.of.sulfolactate.degradation
+2026-05-21 10:13:46.191156 WARNING::Fitting problem for feature 282 a warning was issued
+2026-05-21 10:13:46.371296 INFO::Fitting model to feature number 283, PWY.6662..superpathway.of.quinolone.and.alkylquinolone.biosynthesis
+2026-05-21 10:13:46.379054 WARNING::Fitting problem for feature 283 a warning was issued
+2026-05-21 10:13:47.066154 INFO::Fitting model to feature number 284, PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:13:47.0744 WARNING::Fitting problem for feature 284 a warning was issued
+2026-05-21 10:13:47.286179 INFO::Fitting model to feature number 285, PWY.6700..queuosine.biosynthesis.I..de.novo.
+2026-05-21 10:13:48.361296 WARNING::Fitting problem for feature 285 a warning was issued
+2026-05-21 10:13:49.3039 INFO::Fitting model to feature number 286, PWY.6703..preQ0.biosynthesis
+2026-05-21 10:13:50.149122 WARNING::Fitting problem for feature 286 a warning was issued
+2026-05-21 10:13:51.032125 INFO::Fitting model to feature number 287, PWY.6708..ubiquinol.8.biosynthesis..early.decarboxylation.
+2026-05-21 10:13:51.040643 WARNING::Fitting problem for feature 287 a warning was issued
+2026-05-21 10:13:51.332042 INFO::Fitting model to feature number 288, PWY.6731..starch.degradation.III
+2026-05-21 10:13:52.259571 INFO::Fitting model to feature number 289, PWY.6748..nitrate.reduction.VII..denitrification.
+2026-05-21 10:13:52.267982 WARNING::Fitting problem for feature 289 a warning was issued
+2026-05-21 10:13:52.449922 INFO::Fitting model to feature number 290, PWY.6749..CMP.legionaminate.biosynthesis.I
+2026-05-21 10:13:52.457871 WARNING::Fitting problem for feature 290 a warning was issued
+2026-05-21 10:13:53.098424 INFO::Fitting model to feature number 291, PWY.6797..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.II..Methanocaldococcus.
+2026-05-21 10:13:53.109265 WARNING::Fitting problem for feature 291 a warning was issued
+2026-05-21 10:13:53.827169 INFO::Fitting model to feature number 292, PWY.6803..phosphatidylcholine.acyl.editing
+2026-05-21 10:13:53.83599 WARNING::Fitting problem for feature 292 a warning was issued
+2026-05-21 10:13:53.984218 INFO::Fitting model to feature number 293, PWY.6807..xyloglucan.degradation.II..exoglucanase.
+2026-05-21 10:13:53.992551 WARNING::Fitting problem for feature 293 a warning was issued
+2026-05-21 10:13:54.463229 INFO::Fitting model to feature number 294, PWY.6823..molybdopterin.biosynthesis
+2026-05-21 10:14:08.072357 WARNING::Fitting problem for feature 294 a warning was issued
+2026-05-21 10:14:21.848136 INFO::Fitting model to feature number 295, PWY.6859..all.trans.farnesol.biosynthesis
+2026-05-21 10:14:22.172831 INFO::Fitting model to feature number 296, PWY.6863..pyruvate.fermentation.to.hexanol..engineered.
+2026-05-21 10:14:23.442625 WARNING::Fitting problem for feature 296 a warning was issued
+2026-05-21 10:14:24.576255 INFO::Fitting model to feature number 297, PWY.6876..isopropanol.biosynthesis..engineered.
+2026-05-21 10:14:24.585234 WARNING::Fitting problem for feature 297 a warning was issued
+2026-05-21 10:14:25.202372 INFO::Fitting model to feature number 298, PWY.6892..thiazole.component.of.thiamine.diphosphate.biosynthesis.I
+2026-05-21 10:14:26.075248 WARNING::Fitting problem for feature 298 a warning was issued
+2026-05-21 10:14:26.950479 INFO::Fitting model to feature number 299, PWY.6895..superpathway.of.thiamine.diphosphate.biosynthesis.II
+2026-05-21 10:14:27.135489 INFO::Fitting model to feature number 300, PWY.6897..thiamine.diphosphate.salvage.II
+2026-05-21 10:14:28.278431 WARNING::Fitting problem for feature 300 a warning was issued
+2026-05-21 10:14:28.851081 INFO::Fitting model to feature number 301, PWY.6901..superpathway.of.glucose.and.xylose.degradation
+2026-05-21 10:14:29.853078 WARNING::Fitting problem for feature 301 a warning was issued
+2026-05-21 10:14:30.836446 INFO::Fitting model to feature number 302, PWY.6902..chitin.degradation.II..Vibrio.
+2026-05-21 10:14:31.655017 INFO::Fitting model to feature number 303, PWY.6906..chitin.derivatives.degradation
+2026-05-21 10:14:32.436099 WARNING::Fitting problem for feature 303 a warning was issued
+2026-05-21 10:14:33.488961 INFO::Fitting model to feature number 304, PWY.6920..6.gingerol.analog.biosynthesis..engineered.
+2026-05-21 10:14:33.498861 WARNING::Fitting problem for feature 304 a warning was issued
+2026-05-21 10:14:33.831799 INFO::Fitting model to feature number 305, PWY.6922..L.N.delta..acetylornithine.biosynthesis
+2026-05-21 10:14:33.902766 WARNING::Fitting problem for feature 305 a warning was issued
+2026-05-21 10:14:34.711004 INFO::Fitting model to feature number 306, PWY.6936..seleno.amino.acid.biosynthesis..plants.
+2026-05-21 10:14:35.588897 INFO::Fitting model to feature number 307, PWY.6953..dTDP.3.acetamido..alpha..D.fucose.biosynthesis
+2026-05-21 10:14:35.598991 WARNING::Fitting problem for feature 307 a warning was issued
+2026-05-21 10:14:36.20507 INFO::Fitting model to feature number 308, PWY.6961..L.ascorbate.degradation.II..bacterial..aerobic.
+2026-05-21 10:14:36.216631 WARNING::Fitting problem for feature 308 a warning was issued
+2026-05-21 10:14:37.113482 INFO::Fitting model to feature number 309, PWY.6969..TCA.cycle.V..2.oxoglutarate.synthase.
+2026-05-21 10:14:38.482525 WARNING::Fitting problem for feature 309 a warning was issued
+2026-05-21 10:14:39.806923 INFO::Fitting model to feature number 310, PWY.6992..1.5.anhydrofructose.degradation
+2026-05-21 10:14:39.815224 WARNING::Fitting problem for feature 310 a warning was issued
+2026-05-21 10:14:39.979707 INFO::Fitting model to feature number 311, PWY.7000..kanamycin.biosynthesis
+2026-05-21 10:14:39.987665 WARNING::Fitting problem for feature 311 a warning was issued
+2026-05-21 10:14:40.969342 INFO::Fitting model to feature number 312, PWY.7003..glycerol.degradation.to.butanol
+2026-05-21 10:14:42.110491 WARNING::Fitting problem for feature 312 a warning was issued
+2026-05-21 10:14:43.330092 INFO::Fitting model to feature number 313, PWY.7013...S..propane.1.2.diol.degradation
+2026-05-21 10:14:47.809481 WARNING::Fitting problem for feature 313 a warning was issued
+2026-05-21 10:14:52.437118 INFO::Fitting model to feature number 314, PWY.702..L.methionine.biosynthesis.II
+2026-05-21 10:15:06.849335 WARNING::Fitting problem for feature 314 a warning was issued
+2026-05-21 10:15:21.857816 INFO::Fitting model to feature number 315, PWY.7031..protein.N.glycosylation..bacterial.
+2026-05-21 10:15:21.881255 WARNING::Fitting problem for feature 315 a warning was issued
+2026-05-21 10:15:22.069905 INFO::Fitting model to feature number 316, PWY.7039..phosphatidate.metabolism..as.a.signaling.molecule
+2026-05-21 10:15:22.080282 WARNING::Fitting problem for feature 316 a warning was issued
+2026-05-21 10:15:22.786177 INFO::Fitting model to feature number 317, PWY.7090..UDP.2.3.diacetamido.2.3.dideoxy..alpha..D.mannuronate.biosynthesis
+2026-05-21 10:15:22.800599 WARNING::Fitting problem for feature 317 a warning was issued
+2026-05-21 10:15:23.536043 INFO::Fitting model to feature number 318, PWY.7094..fatty.acid.salvage
+2026-05-21 10:15:23.545632 WARNING::Fitting problem for feature 318 a warning was issued
+2026-05-21 10:15:24.310115 INFO::Fitting model to feature number 319, PWY.7111..pyruvate.fermentation.to.isobutanol..engineered.
+2026-05-21 10:15:25.340895 WARNING::Fitting problem for feature 319 a warning was issued
+2026-05-21 10:15:26.544523 INFO::Fitting model to feature number 320, PWY.7115..C4.photosynthetic.carbon.assimilation.cycle..NAD.ME.type
+2026-05-21 10:15:27.32508 INFO::Fitting model to feature number 321, PWY.7117..C4.photosynthetic.carbon.assimilation.cycle..PEPCK.type
+2026-05-21 10:15:28.113183 INFO::Fitting model to feature number 322, PWY.7118..chitin.deacetylation
+2026-05-21 10:15:28.124759 WARNING::Fitting problem for feature 322 a warning was issued
+2026-05-21 10:15:28.446923 INFO::Fitting model to feature number 323, PWY.7159..3.8.divinyl.chlorophyllide.a.biosynthesis.III..aerobic..light.independent.
+2026-05-21 10:15:28.66163 WARNING::Fitting problem for feature 323 a warning was issued
+2026-05-21 10:15:29.51246 INFO::Fitting model to feature number 324, PWY.7165..L.ascorbate.biosynthesis.VIII..engineered.pathway.
+2026-05-21 10:15:29.52646 WARNING::Fitting problem for feature 324 a warning was issued
+2026-05-21 10:15:29.902571 INFO::Fitting model to feature number 325, PWY.7184..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.I
+2026-05-21 10:15:30.869981 WARNING::Fitting problem for feature 325 a warning was issued
+2026-05-21 10:15:31.741436 INFO::Fitting model to feature number 326, PWY.7185..UTP.and.CTP.dephosphorylation.I
+2026-05-21 10:15:31.751992 WARNING::Fitting problem for feature 326 a warning was issued
+2026-05-21 10:15:31.915162 INFO::Fitting model to feature number 327, PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II
+2026-05-21 10:15:31.923271 WARNING::Fitting problem for feature 327 a warning was issued
+2026-05-21 10:15:32.534338 INFO::Fitting model to feature number 328, PWY.7196..superpathway.of.pyrimidine.ribonucleosides.salvage
+2026-05-21 10:15:32.603035 WARNING::Fitting problem for feature 328 a warning was issued
+2026-05-21 10:15:32.852768 INFO::Fitting model to feature number 329, PWY.7197..pyrimidine.deoxyribonucleotide.phosphorylation
+2026-05-21 10:15:47.720384 WARNING::Fitting problem for feature 329 a warning was issued
+2026-05-21 10:16:03.098477 INFO::Fitting model to feature number 330, PWY.7198..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.IV
+2026-05-21 10:16:04.172924 INFO::Fitting model to feature number 331, PWY.7199..pyrimidine.deoxyribonucleosides.salvage
+2026-05-21 10:16:05.70755 WARNING::Fitting problem for feature 331 a warning was issued
+2026-05-21 10:16:07.157822 INFO::Fitting model to feature number 332, PWY.7200..superpathway.of.pyrimidine.deoxyribonucleoside.salvage
+2026-05-21 10:16:07.175319 WARNING::Fitting problem for feature 332 a warning was issued
+2026-05-21 10:16:08.075653 INFO::Fitting model to feature number 333, PWY.7204..pyridoxal.5..phosphate.salvage.II..plants.
+2026-05-21 10:16:08.089269 WARNING::Fitting problem for feature 333 a warning was issued
+2026-05-21 10:16:09.007808 INFO::Fitting model to feature number 334, PWY.7208..superpathway.of.pyrimidine.nucleobases.salvage
+2026-05-21 10:16:23.600091 WARNING::Fitting problem for feature 334 a warning was issued
+2026-05-21 10:16:38.151087 INFO::Fitting model to feature number 335, PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation
+2026-05-21 10:16:38.163028 WARNING::Fitting problem for feature 335 a warning was issued
+2026-05-21 10:16:38.816945 INFO::Fitting model to feature number 336, PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP
+2026-05-21 10:16:38.827131 WARNING::Fitting problem for feature 336 a warning was issued
+2026-05-21 10:16:39.043596 INFO::Fitting model to feature number 337, PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis
+2026-05-21 10:16:39.899397 INFO::Fitting model to feature number 338, PWY.7220..adenosine.deoxyribonucleotides.de.novo.biosynthesis.II
+2026-05-21 10:16:54.421804 WARNING::Fitting problem for feature 338 a warning was issued
+2026-05-21 10:17:09.080895 INFO::Fitting model to feature number 339, PWY.7221..guanosine.ribonucleotides.de.novo.biosynthesis
+2026-05-21 10:17:10.073728 WARNING::Fitting problem for feature 339 a warning was issued
+2026-05-21 10:17:11.133175 INFO::Fitting model to feature number 340, PWY.7222..guanosine.deoxyribonucleotides.de.novo.biosynthesis.II
+2026-05-21 10:17:25.701427 WARNING::Fitting problem for feature 340 a warning was issued
+2026-05-21 10:17:40.170599 INFO::Fitting model to feature number 341, PWY.7228..superpathway.of.guanosine.nucleotides.de.novo.biosynthesis.I
+2026-05-21 10:17:55.498709 WARNING::Fitting problem for feature 341 a warning was issued
+2026-05-21 10:18:11.200765 INFO::Fitting model to feature number 342, PWY.7229..superpathway.of.adenosine.nucleotides.de.novo.biosynthesis.I
+2026-05-21 10:18:12.29949 WARNING::Fitting problem for feature 342 a warning was issued
+2026-05-21 10:18:13.279686 INFO::Fitting model to feature number 343, PWY.7234..inosine.5..phosphate.biosynthesis.III
+2026-05-21 10:18:18.424189 WARNING::Fitting problem for feature 343 a warning was issued
+2026-05-21 10:18:23.705028 INFO::Fitting model to feature number 344, PWY.7237..myo...chiro..and.scyllo.inositol.degradation
+2026-05-21 10:18:38.214899 WARNING::Fitting problem for feature 344 a warning was issued
+2026-05-21 10:18:52.651632 INFO::Fitting model to feature number 345, PWY.7238..sucrose.biosynthesis.II
+2026-05-21 10:18:53.402117 INFO::Fitting model to feature number 346, PWY.7242..D.fructuronate.degradation
+2026-05-21 10:19:07.505275 WARNING::Fitting problem for feature 346 a warning was issued
+2026-05-21 10:19:21.867774 INFO::Fitting model to feature number 347, PWY.7245..superpathway.of.NAD.NADP...NADH.NADPH.interconversion..yeast.
+2026-05-21 10:19:21.8784 WARNING::Fitting problem for feature 347 a warning was issued
+2026-05-21 10:19:22.972554 INFO::Fitting model to feature number 348, PWY.724..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.II
+2026-05-21 10:19:24.104996 WARNING::Fitting problem for feature 348 a warning was issued
+2026-05-21 10:19:25.234425 INFO::Fitting model to feature number 349, PWY.7254..TCA.cycle.VII..acetate.producers.
+2026-05-21 10:19:25.248989 WARNING::Fitting problem for feature 349 a warning was issued
+2026-05-21 10:19:25.534414 INFO::Fitting model to feature number 350, PWY.7268..cytosolic.NADPH.production..yeast.
+2026-05-21 10:19:25.887224 WARNING::Fitting problem for feature 350 a warning was issued
+2026-05-21 10:19:26.703624 INFO::Fitting model to feature number 351, PWY.7269..mitochondrial.NADPH.production..yeast.
+2026-05-21 10:19:26.714896 WARNING::Fitting problem for feature 351 a warning was issued
+2026-05-21 10:19:26.897484 INFO::Fitting model to feature number 352, PWY.7279..aerobic.respiration.II..cytochrome.c...yeast.
+2026-05-21 10:19:26.909687 WARNING::Fitting problem for feature 352 a warning was issued
+2026-05-21 10:19:27.646066 INFO::Fitting model to feature number 353, PWY.7282..4.amino.2.methyl.5.diphosphomethylpyrimidine.biosynthesis.II
+2026-05-21 10:19:28.462826 WARNING::Fitting problem for feature 353 a warning was issued
+2026-05-21 10:19:29.269081 INFO::Fitting model to feature number 354, PWY.7286..7..3.amino.3.carboxypropyl..wyosine.biosynthesis
+2026-05-21 10:19:33.738996 INFO::Fitting model to feature number 355, PWY.7294..D.xylose.degradation.IV
+2026-05-21 10:19:33.74881 WARNING::Fitting problem for feature 355 a warning was issued
+2026-05-21 10:19:34.413727 INFO::Fitting model to feature number 356, PWY.7312..dTDP..beta..D.fucofuranose.biosynthesis
+2026-05-21 10:19:34.422797 WARNING::Fitting problem for feature 356 a warning was issued
+2026-05-21 10:19:34.572858 INFO::Fitting model to feature number 357, PWY.7315..dTDP.N.acetylthomosamine.biosynthesis
+2026-05-21 10:19:35.507848 INFO::Fitting model to feature number 358, PWY.7316..dTDP.N.acetylviosamine.biosynthesis
+2026-05-21 10:19:35.516635 WARNING::Fitting problem for feature 358 a warning was issued
+2026-05-21 10:19:36.119016 INFO::Fitting model to feature number 359, PWY.7317..superpathway.of.dTDP.glucose.derived.O.antigen.building.blocks.biosynthesis
+2026-05-21 10:19:36.128361 WARNING::Fitting problem for feature 359 a warning was issued
+2026-05-21 10:19:36.797839 INFO::Fitting model to feature number 360, PWY.7323..superpathway.of.GDP.mannose.derived.O.antigen.building.blocks.biosynthesis
+2026-05-21 10:19:37.589693 INFO::Fitting model to feature number 361, PWY.7328..superpathway.of.UDP.glucose.derived.O.antigen.building.blocks.biosynthesis
+2026-05-21 10:19:52.149218 WARNING::Fitting problem for feature 361 a warning was issued
+2026-05-21 10:20:06.851542 INFO::Fitting model to feature number 362, PWY.7332..superpathway.of.UDP.N.acetylglucosamine.derived.O.antigen.building.blocks.biosynthesis
+2026-05-21 10:20:06.86314 WARNING::Fitting problem for feature 362 a warning was issued
+2026-05-21 10:20:07.657466 INFO::Fitting model to feature number 363, PWY.7340..9.cis..11.trans.octadecadienoyl.CoA.degradation..isomerase.dependent..yeast.
+2026-05-21 10:20:07.667502 WARNING::Fitting problem for feature 363 a warning was issued
+2026-05-21 10:20:08.124071 INFO::Fitting model to feature number 364, PWY.7345..superpathway.of.anaerobic.sucrose.degradation
+2026-05-21 10:20:09.100035 INFO::Fitting model to feature number 365, PWY.7356..thiamine.diphosphate.salvage.IV..yeast.
+2026-05-21 10:20:09.961472 WARNING::Fitting problem for feature 365 a warning was issued
+2026-05-21 10:20:10.827598 INFO::Fitting model to feature number 366, PWY.7357..thiamine.phosphate.formation.from.pyrithiamine.and.oxythiamine..yeast.
+2026-05-21 10:20:11.739733 WARNING::Fitting problem for feature 366 a warning was issued
+2026-05-21 10:20:12.740028 INFO::Fitting model to feature number 367, PWY.7371..1.4.dihydroxy.6.naphthoate.biosynthesis.II
+2026-05-21 10:20:12.751122 WARNING::Fitting problem for feature 367 a warning was issued
+2026-05-21 10:20:13.73763 INFO::Fitting model to feature number 368, PWY.7374..1.4.dihydroxy.6.naphthoate.biosynthesis.I
+2026-05-21 10:20:13.747189 WARNING::Fitting problem for feature 368 a warning was issued
+2026-05-21 10:20:14.076247 INFO::Fitting model to feature number 369, PWY.7383..anaerobic.energy.metabolism..invertebrates..cytosol.
+2026-05-21 10:20:29.072777 WARNING::Fitting problem for feature 369 a warning was issued
+2026-05-21 10:20:43.859127 INFO::Fitting model to feature number 370, PWY.7384..anaerobic.energy.metabolism..invertebrates..mitochondrial.
+2026-05-21 10:20:43.870548 WARNING::Fitting problem for feature 370 a warning was issued
+2026-05-21 10:20:44.191144 INFO::Fitting model to feature number 371, PWY.7385..1.3.propanediol.biosynthesis..engineered.
+2026-05-21 10:20:44.200982 WARNING::Fitting problem for feature 371 a warning was issued
+2026-05-21 10:20:45.139093 INFO::Fitting model to feature number 372, PWY.7388..octanoyl..acyl.carrier.protein..biosynthesis..mitochondria..yeast.
+2026-05-21 10:20:45.151347 WARNING::Fitting problem for feature 372 a warning was issued
+2026-05-21 10:20:45.334888 INFO::Fitting model to feature number 373, PWY.7389..superpathway.of.anaerobic.energy.metabolism..invertebrates.
+2026-05-21 10:20:45.34352 WARNING::Fitting problem for feature 373 a warning was issued
+2026-05-21 10:20:45.893896 INFO::Fitting model to feature number 374, PWY.7391..isoprene.biosynthesis.II..engineered.
+2026-05-21 10:20:45.903776 WARNING::Fitting problem for feature 374 a warning was issued
+2026-05-21 10:20:46.297691 INFO::Fitting model to feature number 375, PWY.7392..taxadiene.biosynthesis..engineered.
+2026-05-21 10:20:47.300666 INFO::Fitting model to feature number 376, PWY.7396..butanol.and.isobutanol.biosynthesis..engineered.
+2026-05-21 10:20:47.316097 WARNING::Fitting problem for feature 376 a warning was issued
+2026-05-21 10:20:48.145099 INFO::Fitting model to feature number 377, PWY.7399..methylphosphonate.degradation.II
+2026-05-21 10:20:48.158193 WARNING::Fitting problem for feature 377 a warning was issued
+2026-05-21 10:20:48.334305 INFO::Fitting model to feature number 378, PWY.7400..L.arginine.biosynthesis.IV..archaebacteria.
+2026-05-21 10:20:49.361046 WARNING::Fitting problem for feature 378 a warning was issued
+2026-05-21 10:20:50.320506 INFO::Fitting model to feature number 379, PWY.7409..phospholipid.remodeling..phosphatidylethanolamine..yeast.
+2026-05-21 10:20:50.330016 WARNING::Fitting problem for feature 379 a warning was issued
+2026-05-21 10:20:51.028146 INFO::Fitting model to feature number 380, PWY.7413..dTDP.6.deoxy..alpha..D.allose.biosynthesis
+2026-05-21 10:20:51.037408 WARNING::Fitting problem for feature 380 a warning was issued
+2026-05-21 10:20:51.758718 INFO::Fitting model to feature number 381, PWY.7434..terminal.O.glycans.residues.modification..via.type.2.precursor.disaccharide.
+2026-05-21 10:20:51.768718 WARNING::Fitting problem for feature 381 a warning was issued
+2026-05-21 10:20:52.116184 INFO::Fitting model to feature number 382, PWY.7446..sulfoquinovose.degradation.I
+2026-05-21 10:20:52.134645 WARNING::Fitting problem for feature 382 a warning was issued
+2026-05-21 10:20:52.809415 WARNING::Fitting problem for feature 382 returning NA
+2026-05-21 10:20:52.815147 INFO::Fitting model to feature number 383, PWY.7456...beta...1.4..mannan.degradation
+2026-05-21 10:20:53.689295 INFO::Fitting model to feature number 384, PWY.7560..methylerythritol.phosphate.pathway.II
+2026-05-21 10:20:54.612292 WARNING::Fitting problem for feature 384 a warning was issued
+2026-05-21 10:20:55.521831 INFO::Fitting model to feature number 385, PWY.7616..methanol.oxidation.to.carbon.dioxide
+2026-05-21 10:20:55.531149 WARNING::Fitting problem for feature 385 a warning was issued
+2026-05-21 10:20:56.043938 INFO::Fitting model to feature number 386, PWY.7663..gondoate.biosynthesis..anaerobic.
+2026-05-21 10:20:56.824887 INFO::Fitting model to feature number 387, PWY.7664..oleate.biosynthesis.IV..anaerobic.
+2026-05-21 10:20:57.619769 INFO::Fitting model to feature number 388, PWY.7688..dTDP..alpha..D.ravidosamine.and.dTDP.4.acetyl..alpha..D.ravidosamine.biosynthesis
+2026-05-21 10:20:57.630098 WARNING::Fitting problem for feature 388 a warning was issued
+2026-05-21 10:20:58.217736 INFO::Fitting model to feature number 389, PWY.7723..bacterial.bioluminescence
+2026-05-21 10:20:58.303399 WARNING::Fitting problem for feature 389 a warning was issued
+2026-05-21 10:20:58.660461 INFO::Fitting model to feature number 390, PWY.7754..bile.acid.7.alpha..dehydroxylation
+2026-05-21 10:20:58.669823 WARNING::Fitting problem for feature 390 a warning was issued
+2026-05-21 10:20:59.419927 INFO::Fitting model to feature number 391, PWY.7761..NAD.salvage.pathway.II..PNC.IV.cycle.
+2026-05-21 10:21:00.210373 INFO::Fitting model to feature number 392, PWY.7783..plasmalogen.degradation
+2026-05-21 10:21:00.220635 WARNING::Fitting problem for feature 392 a warning was issued
+2026-05-21 10:21:00.322183 WARNING::Fitting problem for feature 392 returning NA
+2026-05-21 10:21:00.328083 INFO::Fitting model to feature number 393, PWY.7784..reductive.acetyl.coenzyme.A.pathway.II..autotrophic.methanogens.
+2026-05-21 10:21:02.829448 WARNING::Fitting problem for feature 393 a warning was issued
+2026-05-21 10:21:05.359585 INFO::Fitting model to feature number 394, PWY.7790..UMP.biosynthesis.II
+2026-05-21 10:21:06.406371 WARNING::Fitting problem for feature 394 a warning was issued
+2026-05-21 10:21:07.421865 INFO::Fitting model to feature number 395, PWY.7791..UMP.biosynthesis.III
+2026-05-21 10:21:08.508811 WARNING::Fitting problem for feature 395 a warning was issued
+2026-05-21 10:21:09.598727 INFO::Fitting model to feature number 396, PWY.7805...aminomethyl.phosphonate.degradation
+2026-05-21 10:21:09.608156 WARNING::Fitting problem for feature 396 a warning was issued
+2026-05-21 10:21:10.503012 INFO::Fitting model to feature number 397, PWY.7807..glyphosate.degradation.III
+2026-05-21 10:21:10.519094 WARNING::Fitting problem for feature 397 a warning was issued
+2026-05-21 10:21:10.684818 INFO::Fitting model to feature number 398, PWY.7820..teichuronic.acid.biosynthesis..B..subtilis.168.
+2026-05-21 10:21:10.694157 WARNING::Fitting problem for feature 398 a warning was issued
+2026-05-21 10:21:11.654053 INFO::Fitting model to feature number 399, PWY.7851..coenzyme.A.biosynthesis.II..eukaryotic.
+2026-05-21 10:21:12.597709 WARNING::Fitting problem for feature 399 a warning was issued
+2026-05-21 10:21:13.605794 INFO::Fitting model to feature number 400, PWY.7853..6.hydroxymethyl.dihydropterin.diphosphate.biosynthesis.V..Pyrococcus.
+2026-05-21 10:21:13.616605 WARNING::Fitting problem for feature 400 a warning was issued
+2026-05-21 10:21:14.021489 INFO::Fitting model to feature number 401, PWY.7858...5Z..dodecenoate.biosynthesis.II
+2026-05-21 10:21:14.031048 WARNING::Fitting problem for feature 401 a warning was issued
+2026-05-21 10:21:14.955014 INFO::Fitting model to feature number 402, PWY.7873..D.erythronate.degradation.II
+2026-05-21 10:21:14.968145 WARNING::Fitting problem for feature 402 a warning was issued
+2026-05-21 10:21:15.218114 INFO::Fitting model to feature number 403, PWY.7874..L.threonate.degradation
+2026-05-21 10:21:15.230794 WARNING::Fitting problem for feature 403 a warning was issued
+2026-05-21 10:21:16.149043 INFO::Fitting model to feature number 404, PWY.7883..anhydromuropeptides.recycling.II
+2026-05-21 10:21:16.160133 WARNING::Fitting problem for feature 404 a warning was issued
+2026-05-21 10:21:16.322371 INFO::Fitting model to feature number 405, PWY.7942..5.oxo.L.proline.metabolism
+2026-05-21 10:21:16.331039 WARNING::Fitting problem for feature 405 a warning was issued
+2026-05-21 10:21:17.232599 INFO::Fitting model to feature number 406, PWY.7953..UDP.N.acetylmuramoyl.pentapeptide.biosynthesis.III..meso.diaminopimelate.containing.
+2026-05-21 10:21:18.188411 WARNING::Fitting problem for feature 406 a warning was issued
+2026-05-21 10:21:19.109065 INFO::Fitting model to feature number 407, PWY.7977..L.methionine.biosynthesis.IV
+2026-05-21 10:21:20.32932 WARNING::Fitting problem for feature 407 a warning was issued
+2026-05-21 10:21:21.409963 INFO::Fitting model to feature number 408, PWY.7992..superpathway.of.menaquinol.8.biosynthesis.III
+2026-05-21 10:21:21.421148 WARNING::Fitting problem for feature 408 a warning was issued
+2026-05-21 10:21:21.623297 INFO::Fitting model to feature number 409, PWY.8004..Entner.Doudoroff.pathway.I
+2026-05-21 10:21:22.519055 INFO::Fitting model to feature number 410, PWY.801..homocysteine.and.cysteine.interconversion
+2026-05-21 10:21:22.532367 WARNING::Fitting problem for feature 410 a warning was issued
+2026-05-21 10:21:23.187245 INFO::Fitting model to feature number 411, PWY.8073..lipid.IVA.biosynthesis..P..putida.
+2026-05-21 10:21:23.900526 INFO::Fitting model to feature number 412, PWY.8086...S..lactate.fermentation.to.propanoate..acetate.and.hydrogen
+2026-05-21 10:21:23.910536 WARNING::Fitting problem for feature 412 a warning was issued
+2026-05-21 10:21:24.522105 INFO::Fitting model to feature number 413, PWY.8112..factor.420.biosynthesis.I..archaea.
+2026-05-21 10:21:28.311938 INFO::Fitting model to feature number 414, PWY.8113..3PG.factor.420.biosynthesis
+2026-05-21 10:21:32.0513 INFO::Fitting model to feature number 415, PWY.8125..mevalonate.pathway.IV..archaea.
+2026-05-21 10:21:32.064449 WARNING::Fitting problem for feature 415 a warning was issued
+2026-05-21 10:21:32.241295 INFO::Fitting model to feature number 416, PWY.8131..5..deoxyadenosine.degradation.II
+2026-05-21 10:21:32.960396 INFO::Fitting model to feature number 417, PWY.8134..bile.acid.7.beta..dehydroxylation
+2026-05-21 10:21:32.969995 WARNING::Fitting problem for feature 417 a warning was issued
+2026-05-21 10:21:33.508858 INFO::Fitting model to feature number 418, PWY.8173..anteiso.branched.chain.fatty.acid.biosynthesis
+2026-05-21 10:21:35.126884 WARNING::Fitting problem for feature 418 a warning was issued
+2026-05-21 10:21:36.754423 INFO::Fitting model to feature number 419, PWY.8174..odd.iso.branched.chain.fatty.acid.biosynthesis
+2026-05-21 10:21:38.205558 WARNING::Fitting problem for feature 419 a warning was issued
+2026-05-21 10:21:39.828459 INFO::Fitting model to feature number 420, PWY.8175..even.iso.branched.chain.fatty.acid.biosynthesis
+2026-05-21 10:21:41.29083 WARNING::Fitting problem for feature 420 a warning was issued
+2026-05-21 10:21:42.85287 INFO::Fitting model to feature number 421, PWY.8178..pentose.phosphate.pathway..non.oxidative.branch..II
+2026-05-21 10:21:43.779716 WARNING::Fitting problem for feature 421 a warning was issued
+2026-05-21 10:21:44.816441 INFO::Fitting model to feature number 422, PWY.8187..L.arginine.degradation.XIII..reductive.Stickland.reaction.
+2026-05-21 10:21:45.507598 INFO::Fitting model to feature number 423, PWY.8188..L.alanine.degradation.VI..reductive.Stickland.reaction.
+2026-05-21 10:21:45.517185 WARNING::Fitting problem for feature 423 a warning was issued
+2026-05-21 10:21:45.825235 INFO::Fitting model to feature number 424, PWY.8189..L.alanine.degradation.V..oxidative.Stickland.reaction.
+2026-05-21 10:21:45.834034 WARNING::Fitting problem for feature 424 a warning was issued
+2026-05-21 10:21:46.780345 INFO::Fitting model to feature number 425, PWY.8190..L.glutamate.degradation.XI..reductive.Stickland.reaction.
+2026-05-21 10:21:46.803453 WARNING::Fitting problem for feature 425 a warning was issued
+2026-05-21 10:21:46.969492 INFO::Fitting model to feature number 426, PWY.821..superpathway.of.sulfur.amino.acid.biosynthesis..Saccharomyces.cerevisiae.
+2026-05-21 10:21:47.610036 INFO::Fitting model to feature number 427, PWY.822..fructan.biosynthesis
+2026-05-21 10:21:47.619228 WARNING::Fitting problem for feature 427 a warning was issued
+2026-05-21 10:21:47.887495 INFO::Fitting model to feature number 428, PWY.841..superpathway.of.purine.nucleotides.de.novo.biosynthesis.I
+2026-05-21 10:21:49.009793 WARNING::Fitting problem for feature 428 a warning was issued
+2026-05-21 10:21:49.939057 INFO::Fitting model to feature number 429, PWY.922..mevalonate.pathway.I..eukaryotes.and.bacteria.
+2026-05-21 10:21:49.948564 WARNING::Fitting problem for feature 429 a warning was issued
+2026-05-21 10:21:50.221344 INFO::Fitting model to feature number 430, PWY.I9..L.cysteine.biosynthesis.VI..from.L.methionine.
+2026-05-21 10:22:05.120468 WARNING::Fitting problem for feature 430 a warning was issued
+2026-05-21 10:22:20.266869 INFO::Fitting model to feature number 431, PWY0.1061..superpathway.of.L.alanine.biosynthesis
+2026-05-21 10:22:21.043742 INFO::Fitting model to feature number 432, PWY0.1221..putrescine.degradation.II
+2026-05-21 10:22:21.054146 WARNING::Fitting problem for feature 432 a warning was issued
+2026-05-21 10:22:21.709452 INFO::Fitting model to feature number 433, PWY0.1241..ADP.L.glycero..beta..D.manno.heptose.biosynthesis
+2026-05-21 10:22:22.418219 INFO::Fitting model to feature number 434, PWY0.1261..anhydromuropeptides.recycling.I
+2026-05-21 10:22:37.007424 WARNING::Fitting problem for feature 434 a warning was issued
+2026-05-21 10:22:51.890706 INFO::Fitting model to feature number 435, PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation
+2026-05-21 10:22:51.902606 WARNING::Fitting problem for feature 435 a warning was issued
+2026-05-21 10:22:52.224466 INFO::Fitting model to feature number 436, PWY0.1296..purine.ribonucleosides.degradation
+2026-05-21 10:22:53.320704 INFO::Fitting model to feature number 437, PWY0.1297..superpathway.of.purine.deoxyribonucleosides.degradation
+2026-05-21 10:22:54.110921 INFO::Fitting model to feature number 438, PWY0.1298..superpathway.of.pyrimidine.deoxyribonucleosides.degradation
+2026-05-21 10:22:59.041236 WARNING::Fitting problem for feature 438 a warning was issued
+2026-05-21 10:23:04.192674 INFO::Fitting model to feature number 439, PWY0.1319..CDP.diacylglycerol.biosynthesis.II
+2026-05-21 10:23:05.120435 WARNING::Fitting problem for feature 439 a warning was issued
+2026-05-21 10:23:06.221593 INFO::Fitting model to feature number 440, PWY0.1337..oleate..beta..oxidation
+2026-05-21 10:23:06.232852 WARNING::Fitting problem for feature 440 a warning was issued
+2026-05-21 10:23:06.391487 INFO::Fitting model to feature number 441, PWY0.1338..polymyxin.resistance
+2026-05-21 10:23:06.400062 WARNING::Fitting problem for feature 441 a warning was issued
+2026-05-21 10:23:07.037405 INFO::Fitting model to feature number 442, PWY0.1415..superpathway.of.heme.b.biosynthesis.from.uroporphyrinogen.III
+2026-05-21 10:23:07.047555 WARNING::Fitting problem for feature 442 a warning was issued
+2026-05-21 10:23:07.708704 INFO::Fitting model to feature number 443, PWY0.1477..ethanolamine.utilization
+2026-05-21 10:23:22.079716 WARNING::Fitting problem for feature 443 a warning was issued
+2026-05-21 10:23:36.382356 INFO::Fitting model to feature number 444, PWY0.1479..tRNA.processing
+2026-05-21 10:23:36.395758 WARNING::Fitting problem for feature 444 a warning was issued
+2026-05-21 10:23:36.959517 INFO::Fitting model to feature number 445, PWY0.1533..methylphosphonate.degradation.I
+2026-05-21 10:23:37.137379 WARNING::Fitting problem for feature 445 a warning was issued
+2026-05-21 10:23:38.018842 INFO::Fitting model to feature number 446, PWY0.1586..peptidoglycan.maturation..meso.diaminopimelate.containing.
+2026-05-21 10:23:43.179257 WARNING::Fitting problem for feature 446 a warning was issued
+2026-05-21 10:23:48.462304 INFO::Fitting model to feature number 447, PWY0.162..superpathway.of.pyrimidine.ribonucleotides.de.novo.biosynthesis
+2026-05-21 10:23:49.308088 WARNING::Fitting problem for feature 447 a warning was issued
+2026-05-21 10:23:50.172916 INFO::Fitting model to feature number 448, PWY0.166..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis..E..coli.
+2026-05-21 10:23:50.183848 WARNING::Fitting problem for feature 448 a warning was issued
+2026-05-21 10:23:50.606849 INFO::Fitting model to feature number 449, PWY0.301..L.ascorbate.degradation.I..bacterial..anaerobic.
+2026-05-21 10:23:50.617365 WARNING::Fitting problem for feature 449 a warning was issued
+2026-05-21 10:23:51.373883 INFO::Fitting model to feature number 450, PWY0.41..allantoin.degradation.IV..anaerobic.
+2026-05-21 10:23:51.383375 WARNING::Fitting problem for feature 450 a warning was issued
+2026-05-21 10:23:51.876961 INFO::Fitting model to feature number 451, PWY0.42..2.methylcitrate.cycle.I
+2026-05-21 10:23:51.913238 WARNING::Fitting problem for feature 451 a warning was issued
+2026-05-21 10:23:52.143203 INFO::Fitting model to feature number 452, PWY0.461..L.lysine.degradation.I
+2026-05-21 10:23:52.152165 WARNING::Fitting problem for feature 452 a warning was issued
+2026-05-21 10:23:53.027902 INFO::Fitting model to feature number 453, PWY0.781..aspartate.superpathway
+2026-05-21 10:23:53.105518 WARNING::Fitting problem for feature 453 a warning was issued
+2026-05-21 10:23:53.422387 INFO::Fitting model to feature number 454, PWY0.845..superpathway.of.pyridoxal.5..phosphate.biosynthesis.and.salvage
+2026-05-21 10:23:54.353446 INFO::Fitting model to feature number 455, PWY0.862...5Z..dodecenoate.biosynthesis.I
+2026-05-21 10:23:55.108232 INFO::Fitting model to feature number 456, PWY1G.0..mycothiol.biosynthesis
+2026-05-21 10:23:55.121207 WARNING::Fitting problem for feature 456 a warning was issued
+2026-05-21 10:23:55.284085 INFO::Fitting model to feature number 457, PWY1ZNC.1..assimilatory.sulfate.reduction.IV
+2026-05-21 10:23:56.212853 INFO::Fitting model to feature number 458, PWY3O.4107..NAD.salvage.pathway.V..PNC.V.cycle.
+2026-05-21 10:23:56.224989 WARNING::Fitting problem for feature 458 a warning was issued
+2026-05-21 10:23:56.853783 INFO::Fitting model to feature number 459, PWY490.3..nitrate.reduction.VI..assimilatory.
+2026-05-21 10:23:56.862877 WARNING::Fitting problem for feature 459 a warning was issued
+2026-05-21 10:23:57.238394 INFO::Fitting model to feature number 460, PWY4FS.7..phosphatidylglycerol.biosynthesis.I..plastidic.
+2026-05-21 10:23:58.16045 INFO::Fitting model to feature number 461, PWY4FS.8..phosphatidylglycerol.biosynthesis.II..non.plastidic.
+2026-05-21 10:23:58.534029 INFO::Fitting model to feature number 462, PWY4LZ.257..superpathway.of.fermentation..Chlamydomonas.reinhardtii.
+2026-05-21 10:24:02.799706 WARNING::Fitting problem for feature 462 a warning was issued
+2026-05-21 10:24:07.037636 INFO::Fitting model to feature number 463, PWY66.367..ketogenesis
+2026-05-21 10:24:07.047955 WARNING::Fitting problem for feature 463 a warning was issued
+2026-05-21 10:24:07.359767 INFO::Fitting model to feature number 464, PWY66.388..ceramide.degradation.by..alpha..oxidation
+2026-05-21 10:24:07.368516 WARNING::Fitting problem for feature 464 a warning was issued
+2026-05-21 10:24:08.12745 INFO::Fitting model to feature number 465, PWY66.389..phytol.degradation
+2026-05-21 10:24:08.13686 WARNING::Fitting problem for feature 465 a warning was issued
+2026-05-21 10:24:08.35249 INFO::Fitting model to feature number 466, PWY66.391..fatty.acid..beta..oxidation.VI..mammalian.peroxisome.
+2026-05-21 10:24:08.428157 WARNING::Fitting problem for feature 466 a warning was issued
+2026-05-21 10:24:09.313766 INFO::Fitting model to feature number 467, PWY66.399..gluconeogenesis.III
+2026-05-21 10:24:10.038087 INFO::Fitting model to feature number 468, PWY66.409..superpathway.of.purine.nucleotide.salvage
+2026-05-21 10:24:10.862193 INFO::Fitting model to feature number 469, PWY66.429..fatty.acid.biosynthesis.initiation..mitochondria.
+2026-05-21 10:24:11.770952 WARNING::Fitting problem for feature 469 a warning was issued
+2026-05-21 10:24:12.701628 INFO::Fitting model to feature number 470, PWY66.430..myristate.biosynthesis..mitochondria.
+2026-05-21 10:24:12.710758 WARNING::Fitting problem for feature 470 a warning was issued
+2026-05-21 10:24:13.354808 INFO::Fitting model to feature number 471, PYRIDNUCSAL.PWY..NAD.salvage.pathway.I..PNC.VI.cycle.
+2026-05-21 10:24:13.369342 WARNING::Fitting problem for feature 471 a warning was issued
+2026-05-21 10:24:13.722946 INFO::Fitting model to feature number 472, PYRIDNUCSYN.PWY..NAD.de.novo.biosynthesis.I..from.aspartate.
+2026-05-21 10:24:14.883222 WARNING::Fitting problem for feature 472 a warning was issued
+2026-05-21 10:24:15.823155 INFO::Fitting model to feature number 473, PYRIDOXSYN.PWY..pyridoxal.5..phosphate.biosynthesis.I
+2026-05-21 10:24:16.223766 INFO::Fitting model to feature number 474, REDCITCYC..TCA.cycle.VI..Helicobacter.
+2026-05-21 10:24:16.232804 WARNING::Fitting problem for feature 474 a warning was issued
+2026-05-21 10:24:17.049605 INFO::Fitting model to feature number 475, RHAMCAT.PWY..L.rhamnose.degradation.I
+2026-05-21 10:24:17.861949 WARNING::Fitting problem for feature 475 a warning was issued
+2026-05-21 10:24:18.73968 INFO::Fitting model to feature number 476, RIBOSYN2.PWY..flavin.biosynthesis.I..bacteria.and.plants.
+2026-05-21 10:24:33.189285 WARNING::Fitting problem for feature 476 a warning was issued
+2026-05-21 10:24:47.820192 INFO::Fitting model to feature number 477, RUMP.PWY..formaldehyde.oxidation.I
+2026-05-21 10:24:47.831077 WARNING::Fitting problem for feature 477 a warning was issued
+2026-05-21 10:24:48.412218 INFO::Fitting model to feature number 478, SALVADEHYPOX.PWY..adenosine.nucleotides.degradation.II
+2026-05-21 10:24:58.924138 WARNING::Fitting problem for feature 478 a warning was issued
+2026-05-21 10:25:09.769279 INFO::Fitting model to feature number 479, SER.GLYSYN.PWY..superpathway.of.L.serine.and.glycine.biosynthesis.I
+2026-05-21 10:25:10.729587 WARNING::Fitting problem for feature 479 a warning was issued
+2026-05-21 10:25:11.677574 INFO::Fitting model to feature number 480, SO4ASSIM.PWY..assimilatory.sulfate.reduction.I
+2026-05-21 10:25:11.704967 WARNING::Fitting problem for feature 480 a warning was issued
+2026-05-21 10:25:11.892872 INFO::Fitting model to feature number 481, SULFATE.CYS.PWY..superpathway.of.sulfate.assimilation.and.cysteine.biosynthesis
+2026-05-21 10:25:11.966481 WARNING::Fitting problem for feature 481 a warning was issued
+2026-05-21 10:25:12.917764 INFO::Fitting model to feature number 482, TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA
+2026-05-21 10:25:12.927453 WARNING::Fitting problem for feature 482 a warning was issued
+2026-05-21 10:25:13.187531 INFO::Fitting model to feature number 483, TCA..TCA.cycle.I..prokaryotic.
+2026-05-21 10:25:14.110035 WARNING::Fitting problem for feature 483 a warning was issued
+2026-05-21 10:25:14.824875 INFO::Fitting model to feature number 484, THISYN.PWY..superpathway.of.thiamine.diphosphate.biosynthesis.I
+2026-05-21 10:25:15.631032 WARNING::Fitting problem for feature 484 a warning was issued
+2026-05-21 10:25:16.471853 INFO::Fitting model to feature number 485, THISYNARA.PWY..superpathway.of.thiamine.diphosphate.biosynthesis.III..eukaryotes.
+2026-05-21 10:25:30.800048 WARNING::Fitting problem for feature 485 a warning was issued
+2026-05-21 10:25:45.246343 INFO::Fitting model to feature number 486, THREOCAT.PWY..superpathway.of.L.threonine.metabolism
+2026-05-21 10:25:45.262993 WARNING::Fitting problem for feature 486 a warning was issued
+2026-05-21 10:25:45.529627 INFO::Fitting model to feature number 487, THRESYN.PWY..superpathway.of.L.threonine.biosynthesis
+2026-05-21 10:25:46.744186 WARNING::Fitting problem for feature 487 a warning was issued
+2026-05-21 10:25:47.758742 INFO::Fitting model to feature number 488, TRNA.CHARGING.PWY..tRNA.charging
+2026-05-21 10:25:48.899529 WARNING::Fitting problem for feature 488 a warning was issued
+2026-05-21 10:25:50.052588 INFO::Fitting model to feature number 489, TRPSYN.PWY..L.tryptophan.biosynthesis
+2026-05-21 10:25:51.099124 WARNING::Fitting problem for feature 489 a warning was issued
+2026-05-21 10:25:52.401869 INFO::Fitting model to feature number 490, TYRFUMCAT.PWY..L.tyrosine.degradation.I
+2026-05-21 10:25:52.412135 WARNING::Fitting problem for feature 490 a warning was issued
+2026-05-21 10:25:52.681824 INFO::Fitting model to feature number 491, UBISYN.PWY..superpathway.of.ubiquinol.8.biosynthesis..early.decarboxylation.
+2026-05-21 10:25:52.691407 WARNING::Fitting problem for feature 491 a warning was issued
+2026-05-21 10:25:53.579608 INFO::Fitting model to feature number 492, UDPNACETYLGALSYN.PWY..UDP.N.acetyl.D.glucosamine.biosynthesis.II
+2026-05-21 10:25:53.60724 WARNING::Fitting problem for feature 492 a warning was issued
+2026-05-21 10:25:53.7981 INFO::Fitting model to feature number 493, UDPNAGSYN.PWY..UDP.N.acetyl.D.glucosamine.biosynthesis.I
+2026-05-21 10:26:08.314438 WARNING::Fitting problem for feature 493 a warning was issued
+2026-05-21 10:26:23.11082 INFO::Fitting model to feature number 494, URDEGR.PWY..superpathway.of.allantoin.degradation.in.plants
+2026-05-21 10:26:23.14216 WARNING::Fitting problem for feature 494 a warning was issued
+2026-05-21 10:26:24.225307 INFO::Fitting model to feature number 495, URSIN.PWY..ureide.biosynthesis
+2026-05-21 10:26:24.240511 WARNING::Fitting problem for feature 495 a warning was issued
+2026-05-21 10:26:24.598705 INFO::Fitting model to feature number 496, VALSYN.PWY..L.valine.biosynthesis
+2026-05-21 10:26:25.780797 WARNING::Fitting problem for feature 496 a warning was issued
+2026-05-21 10:26:27.068429 INFO::Counting total values for each feature
+2026-05-21 10:26:27.1765 INFO::Writing filtered data to file results/MaAsLin2/pathways_cpm/features/filtered_data.tsv
+2026-05-21 10:26:27.202675 INFO::Writing filtered, normalized data to file results/MaAsLin2/pathways_cpm/features/filtered_data_norm.tsv
+2026-05-21 10:26:27.228075 INFO::Writing filtered, normalized, transformed data to file results/MaAsLin2/pathways_cpm/features/filtered_data_norm_transformed.tsv
+2026-05-21 10:26:27.25862 INFO::Writing residuals to file results/MaAsLin2/pathways_cpm/fits/residuals.rds
+2026-05-21 10:26:27.273044 INFO::Writing fitted values to file results/MaAsLin2/pathways_cpm/fits/fitted.rds
+2026-05-21 10:26:27.286262 INFO::Writing extracted random effects to file results/MaAsLin2/pathways_cpm/fits/ranef.rds
+2026-05-21 10:26:27.37124 INFO::Writing all results to file (ordered by increasing q-values): results/MaAsLin2/pathways_cpm/all_results.tsv
+2026-05-21 10:26:27.393162 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): results/MaAsLin2/pathways_cpm/significant_results.tsv
+2026-05-21 10:26:27.403637 INFO::Writing heatmap of significant results to file: results/MaAsLin2/pathways_cpm/heatmap.pdf
+2026-05-21 10:26:28.229382 INFO::Writing association plots (one for each significant association) to output folder: results/MaAsLin2/pathways_cpm
+2026-05-21 10:26:28.24651 INFO::Plotting associations from most to least significant, grouped by metadata
+2026-05-21 10:26:28.250096 INFO::Plotting data for metadata number 1, spike_inhibition
+2026-05-21 10:26:28.25608 INFO::Creating boxplot for categorical data, spike_inhibition vs PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis
+2026-05-21 10:26:29.271396 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5136..fatty.acid..beta..oxidation.II..plant.peroxisome.
+2026-05-21 10:26:30.026248 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III
+2026-05-21 10:26:30.699592 INFO::Creating boxplot for categorical data, spike_inhibition vs P23.PWY..reductive.TCA.cycle.I
+2026-05-21 10:26:31.388824 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5675..nitrate.reduction.V..assimilatory.
+2026-05-21 10:26:32.503044 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5723..Rubisco.shunt
+2026-05-21 10:26:33.359604 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6285..superpathway.of.fatty.acids.biosynthesis..E..coli.
+2026-05-21 10:26:34.20149 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.1337..oleate..beta..oxidation
+2026-05-21 10:26:34.82767 INFO::Creating boxplot for categorical data, spike_inhibition vs HEME.BIOSYNTHESIS.II..heme.b.biosynthesis.I..aerobic.
+2026-05-21 10:26:35.24023 INFO::Creating boxplot for categorical data, spike_inhibition vs GLUCOSE1PMETAB.PWY..glucose.and.glucose.1.phosphate.degradation
+2026-05-21 10:26:36.122212 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7858...5Z..dodecenoate.biosynthesis.II
+2026-05-21 10:26:36.53739 INFO::Creating boxplot for categorical data, spike_inhibition vs TCA..TCA.cycle.I..prokaryotic.
+2026-05-21 10:26:37.491439 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.301..L.ascorbate.degradation.I..bacterial..anaerobic.
+2026-05-21 10:26:38.46435 INFO::Creating boxplot for categorical data, spike_inhibition vs THREOCAT.PWY..superpathway.of.L.threonine.metabolism
+2026-05-21 10:26:39.089042 INFO::Creating boxplot for categorical data, spike_inhibition vs HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I
+2026-05-21 10:26:39.591471 INFO::Creating boxplot for categorical data, spike_inhibition vs P108.PWY..pyruvate.fermentation.to.propanoate.I
+2026-05-21 10:26:40.675759 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.1338..polymyxin.resistance
+2026-05-21 10:26:41.332048 INFO::Creating boxplot for categorical data, spike_inhibition vs HEMESYN2.PWY..heme.b.biosynthesis.II..oxygen.independent.
+2026-05-21 10:26:42.018392 INFO::Creating boxplot for categorical data, spike_inhibition vs REDCITCYC..TCA.cycle.VI..Helicobacter.
+2026-05-21 10:26:42.426568 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7204..pyridoxal.5..phosphate.salvage.II..plants.
+2026-05-21 10:26:43.506438 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.42..2.methylcitrate.cycle.I
+2026-05-21 10:26:44.092933 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7385..1.3.propanediol.biosynthesis..engineered.
+2026-05-21 10:26:44.674914 INFO::Creating boxplot for categorical data, spike_inhibition vs GLYOXYLATE.BYPASS..glyoxylate.cycle
+2026-05-21 10:26:45.323219 INFO::Creating boxplot for categorical data, spike_inhibition vs HEME.BIOSYNTHESIS.II.1..heme.b.biosynthesis.V..aerobic.
+2026-05-21 10:26:45.912709 INFO::Creating boxplot for categorical data, spike_inhibition vs HISDEG.PWY..L.histidine.degradation.I
+2026-05-21 10:26:46.50915 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6961..L.ascorbate.degradation.II..bacterial..aerobic.
+2026-05-21 10:26:47.163802 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7118..chitin.deacetylation
+2026-05-21 10:26:47.571974 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis
+2026-05-21 10:26:48.410497 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation
+2026-05-21 10:26:48.81149 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.1415..superpathway.of.heme.b.biosynthesis.from.uroporphyrinogen.III
+2026-05-21 10:26:49.714226 INFO::Creating boxplot for categorical data, spike_inhibition vs HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:26:50.36776 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:26:50.966851 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.166..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis..E..coli.
+2026-05-21 10:26:51.635873 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5747..2.methylcitrate.cycle.II
+2026-05-21 10:26:52.044493 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5367..petroselinate.biosynthesis
+2026-05-21 10:26:52.818455 INFO::Creating boxplot for categorical data, spike_inhibition vs ARGDEG.PWY..superpathway.of.L.arginine..putrescine..and.4.aminobutanoate.degradation
+2026-05-21 10:26:53.476891 INFO::Creating boxplot for categorical data, spike_inhibition vs HEXITOLDEGSUPER.PWY..superpathway.of.hexitol.degradation..bacteria.
+2026-05-21 10:26:54.060038 INFO::Creating boxplot for categorical data, spike_inhibition vs ORNARGDEG.PWY..superpathway.of.L.arginine.and.L.ornithine.degradation
+2026-05-21 10:26:54.9795 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.461..L.lysine.degradation.I
+2026-05-21 10:26:55.614995 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7761..NAD.salvage.pathway.II..PNC.IV.cycle.
+2026-05-21 10:26:56.24317 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5392..reductive.TCA.cycle.II
+2026-05-21 10:26:56.926707 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5920..superpathway.of.heme.b.biosynthesis.from.glycine
+2026-05-21 10:26:57.343609 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5971..palmitate.biosynthesis..type.II.fatty.acid.synthase.
+2026-05-21 10:26:58.185355 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.801..homocysteine.and.cysteine.interconversion
+2026-05-21 10:26:58.578177 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6284..superpathway.of.unsaturated.fatty.acids.biosynthesis..E..coli.
+2026-05-21 10:26:59.371547 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.821..superpathway.of.sulfur.amino.acid.biosynthesis..Saccharomyces.cerevisiae.
+2026-05-21 10:27:00.018996 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6807..xyloglucan.degradation.II..exoglucanase.
+2026-05-21 10:27:00.627802 INFO::Creating boxplot for categorical data, spike_inhibition vs AST.PWY..L.arginine.degradation.II..AST.pathway.
+2026-05-21 10:27:01.298486 INFO::Creating boxplot for categorical data, spike_inhibition vs GOLPDLCAT.PWY..superpathway.of.glycerol.degradation.to.1.3.propanediol
+2026-05-21 10:27:01.889261 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II
+2026-05-21 10:27:02.588967 INFO::Creating boxplot for categorical data, spike_inhibition vs GLYCOCAT.PWY..glycogen.degradation.I
+2026-05-21 10:27:03.242504 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5690..TCA.cycle.II..plants.and.fungi.
+2026-05-21 10:27:03.67082 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5918..superpathway.of.heme.b.biosynthesis.from.glutamate
+2026-05-21 10:27:04.50089 INFO::Creating boxplot for categorical data, spike_inhibition vs METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation
+2026-05-21 10:27:05.350883 INFO::Creating boxplot for categorical data, spike_inhibition vs P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.
+2026-05-21 10:27:06.002939 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5862..superpathway.of.demethylmenaquinol.9.biosynthesis
+2026-05-21 10:27:06.404696 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6293..superpathway.of.L.cysteine.biosynthesis..fungi.
+2026-05-21 10:27:07.330322 INFO::Creating boxplot for categorical data, spike_inhibition vs DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2026-05-21 10:27:07.946568 INFO::Creating boxplot for categorical data, spike_inhibition vs GALACTITOLCAT.PWY..galactitol.degradation
+2026-05-21 10:27:08.635703 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5138..fatty.acid..beta..oxidation.IV..unsaturated..even.number.
+2026-05-21 10:27:09.763689 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5676..acetyl.CoA.fermentation.to.butanoate.II
+2026-05-21 10:27:10.200208 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5845..superpathway.of.menaquinol.9.biosynthesis
+2026-05-21 10:27:11.011656 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6572..chondroitin.sulfate.degradation.I..bacterial.
+2026-05-21 10:27:11.774834 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7315..dTDP.N.acetylthomosamine.biosynthesis
+2026-05-21 10:27:12.409272 INFO::Creating boxplot for categorical data, spike_inhibition vs MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis
+2026-05-21 10:27:13.094875 INFO::Creating boxplot for categorical data, spike_inhibition vs METSYN.PWY..superpathway.of.L.homoserine.and.L.methionine.biosynthesis
+2026-05-21 10:27:13.751403 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.
+2026-05-21 10:27:14.674458 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.4984..urea.cycle
+2026-05-21 10:27:15.37149 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5913..partial.TCA.cycle..obligate.autotrophs.
+2026-05-21 10:27:16.002823 INFO::Creating boxplot for categorical data, spike_inhibition vs ORNDEG.PWY..superpathway.of.ornithine.degradation
+2026-05-21 10:27:16.648011 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5104..L.isoleucine.biosynthesis.IV
+2026-05-21 10:27:17.595286 INFO::Creating boxplot for categorical data, spike_inhibition vs DAPLYSINESYN.PWY..L.lysine.biosynthesis.I
+2026-05-21 10:27:18.022057 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7013...S..propane.1.2.diol.degradation
+2026-05-21 10:27:18.906024 INFO::Creating boxplot for categorical data, spike_inhibition vs TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA
+2026-05-21 10:27:19.500626 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7942..5.oxo.L.proline.metabolism
+2026-05-21 10:27:20.394332 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5837..2.carboxy.1.4.naphthoquinol.biosynthesis
+2026-05-21 10:27:21.087487 INFO::Creating boxplot for categorical data, spike_inhibition vs FAO.PWY..fatty.acid..beta..oxidation.I..generic.
+2026-05-21 10:27:21.502098 INFO::Creating boxplot for categorical data, spike_inhibition vs GALACTARDEG.PWY..D.galactarate.degradation.I
+2026-05-21 10:27:22.649665 INFO::Creating boxplot for categorical data, spike_inhibition vs GLUCARGALACTSUPER.PWY..superpathway.of.D.glucarate.and.D.galactarate.degradation
+2026-05-21 10:27:23.064638 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7269..mitochondrial.NADPH.production..yeast.
+2026-05-21 10:27:23.930532 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7254..TCA.cycle.VII..acetate.producers.
+2026-05-21 10:27:24.699473 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7805...aminomethyl.phosphonate.degradation
+2026-05-21 10:27:25.340754 INFO::Creating boxplot for categorical data, spike_inhibition vs P461.PWY..hexitol.fermentation.to.lactate..formate..ethanol.and.acetate
+2026-05-21 10:27:26.048352 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.
+2026-05-21 10:27:26.678748 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.
+2026-05-21 10:27:27.317484 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5656..mannosylglycerate.biosynthesis.I
+2026-05-21 10:27:28.019013 INFO::Creating boxplot for categorical data, spike_inhibition vs P4.PWY..superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I
+2026-05-21 10:27:28.661901 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5005..biotin.biosynthesis.II
+2026-05-21 10:27:29.357775 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5464..superpathway.of.cytosolic.glycolysis..plants...pyruvate.dehydrogenase.and.TCA.cycle
+2026-05-21 10:27:30.228103 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6143..CMP.pseudaminate.biosynthesis
+2026-05-21 10:27:30.645477 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7688..dTDP..alpha..D.ravidosamine.and.dTDP.4.acetyl..alpha..D.ravidosamine.biosynthesis
+2026-05-21 10:27:31.494274 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6328..L.lysine.degradation.X
+2026-05-21 10:27:32.131783 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY0.781..aspartate.superpathway
+2026-05-21 10:27:33.111493 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5973..cis.vaccenate.biosynthesis
+2026-05-21 10:27:33.720028 INFO::Creating boxplot for categorical data, spike_inhibition vs SO4ASSIM.PWY..assimilatory.sulfate.reduction.I
+2026-05-21 10:27:34.329623 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6749..CMP.legionaminate.biosynthesis.I
+2026-05-21 10:27:35.270625 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.8134..bile.acid.7.beta..dehydroxylation
+2026-05-21 10:27:35.872449 INFO::Creating boxplot for categorical data, spike_inhibition vs GLUCARDEG.PWY..D.glucarate.degradation.I
+2026-05-21 10:27:36.552585 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6906..chitin.derivatives.degradation
+2026-05-21 10:27:37.159025 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7616..methanol.oxidation.to.carbon.dioxide
+2026-05-21 10:27:38.124929 INFO::Creating boxplot for categorical data, spike_inhibition vs HSERMETANA.PWY..L.methionine.biosynthesis.III
+2026-05-21 10:27:38.774579 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.7883..anhydromuropeptides.recycling.II
+2026-05-21 10:27:39.388202 INFO::Creating boxplot for categorical data, spike_inhibition vs PYRIDNUCSAL.PWY..NAD.salvage.pathway.I..PNC.VI.cycle.
+2026-05-21 10:27:40.076473 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.561..superpathway.of.glyoxylate.cycle.and.fatty.acid.degradation
+2026-05-21 10:27:40.708733 INFO::Creating boxplot for categorical data, spike_inhibition vs P122.PWY..heterolactic.fermentation
+2026-05-21 10:27:41.420732 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY66.430..myristate.biosynthesis..mitochondria.
+2026-05-21 10:27:42.046733 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5861..superpathway.of.demethylmenaquinol.8.biosynthesis.I
+2026-05-21 10:27:42.470958 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5897..superpathway.of.menaquinol.11.biosynthesis
+2026-05-21 10:27:43.379876 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5898..superpathway.of.menaquinol.12.biosynthesis
+2026-05-21 10:27:44.003668 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5899..superpathway.of.menaquinol.13.biosynthesis
+2026-05-21 10:27:46.018469 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6953..dTDP.3.acetamido..alpha..D.fucose.biosynthesis
+2026-05-21 10:27:46.631617 INFO::Creating boxplot for categorical data, spike_inhibition vs PROPFERM.PWY..superpathway.of.L.alanine.fermentation..Stickland.reaction.
+2026-05-21 10:27:47.282123 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5838..superpathway.of.menaquinol.8.biosynthesis.I
+2026-05-21 10:27:47.979162 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6876..isopropanol.biosynthesis..engineered.
+2026-05-21 10:27:48.427375 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.8188..L.alanine.degradation.VI..reductive.Stickland.reaction.
+2026-05-21 10:27:49.410478 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.8189..L.alanine.degradation.V..oxidative.Stickland.reaction.
+2026-05-21 10:27:50.40494 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.5840..superpathway.of.menaquinol.7.biosynthesis
+2026-05-21 10:27:51.025807 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6607..guanosine.nucleotides.degradation.I
+2026-05-21 10:27:51.457749 INFO::Creating boxplot for categorical data, spike_inhibition vs PWY.6803..phosphatidylcholine.acyl.editing
+2026-05-21 10:27:52.217289 INFO::Creating boxplot for categorical data, spike_inhibition vs POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.
+2026-05-21 10:27:52.86849 INFO::Creating boxplot for categorical data, spike_inhibition vs POLYAMSYN.PWY..superpathway.of.polyamine.biosynthesis.I
+2026-05-21 10:27:59.829613 INFO::Plotting data for metadata number 2, stay_years
+2026-05-21 10:28:00.523427 INFO::Creating scatter plot for continuous data, stay_years vs PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III
+2026-05-21 10:28:01.339082 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:01.342589 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5690..TCA.cycle.II..plants.and.fungi.
+2026-05-21 10:28:02.071555 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:02.075101 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5913..partial.TCA.cycle..obligate.autotrophs.
+2026-05-21 10:28:02.484256 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:02.487548 INFO::Creating scatter plot for continuous data, stay_years vs PWY.6807..xyloglucan.degradation.II..exoglucanase.
+2026-05-21 10:28:03.562651 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:03.566915 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP
+2026-05-21 10:28:04.004511 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:04.007752 INFO::Creating scatter plot for continuous data, stay_years vs DAPLYSINESYN.PWY..L.lysine.biosynthesis.I
+2026-05-21 10:28:04.771146 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:04.774496 INFO::Creating scatter plot for continuous data, stay_years vs PYRIDNUCSAL.PWY..NAD.salvage.pathway.I..PNC.VI.cycle.
+2026-05-21 10:28:05.668761 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:05.672109 INFO::Creating scatter plot for continuous data, stay_years vs PWY.1861..formaldehyde.assimilation.II..assimilatory.RuMP.Cycle.
+2026-05-21 10:28:06.235249 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:06.238351 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5136..fatty.acid..beta..oxidation.II..plant.peroxisome.
+2026-05-21 10:28:06.883262 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:06.886667 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7211..superpathway.of.pyrimidine.deoxyribonucleotides.de.novo.biosynthesis
+2026-05-21 10:28:07.941712 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:07.945161 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7185..UTP.and.CTP.dephosphorylation.I
+2026-05-21 10:28:08.530081 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:08.533197 INFO::Creating scatter plot for continuous data, stay_years vs PWY3O.4107..NAD.salvage.pathway.V..PNC.V.cycle.
+2026-05-21 10:28:09.215637 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:09.218516 INFO::Creating scatter plot for continuous data, stay_years vs PWY.241..C4.photosynthetic.carbon.assimilation.cycle..NADP.ME.type
+2026-05-21 10:28:10.248034 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:10.251117 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7117..C4.photosynthetic.carbon.assimilation.cycle..PEPCK.type
+2026-05-21 10:28:10.8357 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:10.838889 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5677..succinate.fermentation.to.butanoate
+2026-05-21 10:28:11.703232 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:11.706069 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7874..L.threonate.degradation
+2026-05-21 10:28:12.092588 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:12.095211 INFO::Creating scatter plot for continuous data, stay_years vs PWY.6953..dTDP.3.acetamido..alpha..D.fucose.biosynthesis
+2026-05-21 10:28:13.150734 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:13.153656 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7883..anhydromuropeptides.recycling.II
+2026-05-21 10:28:13.550581 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:13.55357 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5747..2.methylcitrate.cycle.II
+2026-05-21 10:28:14.365381 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:14.368237 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7688..dTDP..alpha..D.ravidosamine.and.dTDP.4.acetyl..alpha..D.ravidosamine.biosynthesis
+2026-05-21 10:28:15.242436 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:15.245354 INFO::Creating scatter plot for continuous data, stay_years vs PWY.6749..CMP.legionaminate.biosynthesis.I
+2026-05-21 10:28:15.809716 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:15.812478 INFO::Creating scatter plot for continuous data, stay_years vs CRNFORCAT.PWY..creatinine.degradation.I
+2026-05-21 10:28:16.462223 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:16.465623 INFO::Creating scatter plot for continuous data, stay_years vs GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation
+2026-05-21 10:28:16.854732 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:16.857658 INFO::Creating scatter plot for continuous data, stay_years vs P23.PWY..reductive.TCA.cycle.I
+2026-05-21 10:28:17.63832 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:17.64133 INFO::Creating scatter plot for continuous data, stay_years vs POLYISOPRENSYN.PWY..polyisoprenoid.biosynthesis..E..coli.
+2026-05-21 10:28:18.253731 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:18.256891 INFO::Creating scatter plot for continuous data, stay_years vs PWY0.1221..putrescine.degradation.II
+2026-05-21 10:28:18.826226 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:18.829003 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5971..palmitate.biosynthesis..type.II.fatty.acid.synthase.
+2026-05-21 10:28:19.441534 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:19.444615 INFO::Creating scatter plot for continuous data, stay_years vs HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I
+2026-05-21 10:28:19.828701 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:19.831549 INFO::Creating scatter plot for continuous data, stay_years vs PWY.5004..superpathway.of.L.citrulline.metabolism
+2026-05-21 10:28:20.88172 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:20.884768 INFO::Creating scatter plot for continuous data, stay_years vs P124.PWY..Bifidobacterium.shunt
+2026-05-21 10:28:21.519868 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:21.522498 INFO::Creating scatter plot for continuous data, stay_years vs PWY.6859..all.trans.farnesol.biosynthesis
+2026-05-21 10:28:22.111037 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:22.114172 INFO::Creating scatter plot for continuous data, stay_years vs PWY.801..homocysteine.and.cysteine.interconversion
+2026-05-21 10:28:22.789459 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:22.79222 INFO::Creating scatter plot for continuous data, stay_years vs PWY0.1479..tRNA.processing
+2026-05-21 10:28:23.534226 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:23.536825 INFO::Creating scatter plot for continuous data, stay_years vs PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation
+2026-05-21 10:28:24.272675 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:24.275748 INFO::Creating scatter plot for continuous data, stay_years vs PWY0.41..allantoin.degradation.IV..anaerobic.
+2026-05-21 10:28:24.687743 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:30.963683 INFO::Plotting data for metadata number 3, age
+2026-05-21 10:28:30.968923 INFO::Creating scatter plot for continuous data, age vs PWY.8173..anteiso.branched.chain.fatty.acid.biosynthesis
+2026-05-21 10:28:31.544626 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:31.548175 INFO::Creating scatter plot for continuous data, age vs PWY.8174..odd.iso.branched.chain.fatty.acid.biosynthesis
+2026-05-21 10:28:31.939972 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:31.943396 INFO::Creating scatter plot for continuous data, age vs PWY.8175..even.iso.branched.chain.fatty.acid.biosynthesis
+2026-05-21 10:28:32.813594 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:32.817353 INFO::Creating scatter plot for continuous data, age vs PWY.6807..xyloglucan.degradation.II..exoglucanase.
+2026-05-21 10:28:33.208347 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:33.211964 INFO::Creating scatter plot for continuous data, age vs PWY.5136..fatty.acid..beta..oxidation.II..plant.peroxisome.
+2026-05-21 10:28:34.037126 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:34.040834 INFO::Creating scatter plot for continuous data, age vs P124.PWY..Bifidobacterium.shunt
+2026-05-21 10:28:34.845073 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:34.848529 INFO::Creating scatter plot for continuous data, age vs PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP
+2026-05-21 10:28:35.243274 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:35.24679 INFO::Creating scatter plot for continuous data, age vs PWY.6583..pyruvate.fermentation.to.butanol.I
+2026-05-21 10:28:36.065939 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:36.06957 INFO::Creating scatter plot for continuous data, age vs PYRIDNUCSAL.PWY..NAD.salvage.pathway.I..PNC.VI.cycle.
+2026-05-21 10:28:36.90098 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:36.904645 INFO::Creating scatter plot for continuous data, age vs P23.PWY..reductive.TCA.cycle.I
+2026-05-21 10:28:37.554585 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:37.55817 INFO::Creating scatter plot for continuous data, age vs PWY.7031..protein.N.glycosylation..bacterial.
+2026-05-21 10:28:37.94939 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:37.952281 INFO::Creating scatter plot for continuous data, age vs PWY.7185..UTP.and.CTP.dephosphorylation.I
+2026-05-21 10:28:38.73807 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:38.741343 INFO::Creating scatter plot for continuous data, age vs PWY.241..C4.photosynthetic.carbon.assimilation.cycle..NADP.ME.type
+2026-05-21 10:28:39.338868 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:39.341673 INFO::Creating scatter plot for continuous data, age vs PWY.6863..pyruvate.fermentation.to.hexanol..engineered.
+2026-05-21 10:28:39.72236 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:39.725554 INFO::Creating scatter plot for continuous data, age vs PWY.5913..partial.TCA.cycle..obligate.autotrophs.
+2026-05-21 10:28:40.537239 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:40.540329 INFO::Creating scatter plot for continuous data, age vs PWY.7003..glycerol.degradation.to.butanol
+2026-05-21 10:28:41.11272 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:41.115447 INFO::Creating scatter plot for continuous data, age vs PWY3O.4107..NAD.salvage.pathway.V..PNC.V.cycle.
+2026-05-21 10:28:41.566943 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:41.570592 INFO::Creating scatter plot for continuous data, age vs PWY.7117..C4.photosynthetic.carbon.assimilation.cycle..PEPCK.type
+2026-05-21 10:28:42.327749 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:42.330204 INFO::Creating scatter plot for continuous data, age vs PWY.7196..superpathway.of.pyrimidine.ribonucleosides.salvage
+2026-05-21 10:28:42.963739 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:42.96661 INFO::Creating scatter plot for continuous data, age vs PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III
+2026-05-21 10:28:44.030809 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:44.033752 INFO::Creating scatter plot for continuous data, age vs DAPLYSINESYN.PWY..L.lysine.biosynthesis.I
+2026-05-21 10:28:44.612758 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:44.615561 INFO::Creating scatter plot for continuous data, age vs PWY.7209..superpathway.of.pyrimidine.ribonucleosides.degradation
+2026-05-21 10:28:45.276344 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:45.279253 INFO::Creating scatter plot for continuous data, age vs CRNFORCAT.PWY..creatinine.degradation.I
+2026-05-21 10:28:45.858931 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:45.861703 INFO::Creating scatter plot for continuous data, age vs PWY.6953..dTDP.3.acetamido..alpha..D.fucose.biosynthesis
+2026-05-21 10:28:46.50684 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:46.510101 INFO::Creating scatter plot for continuous data, age vs GLYCOL.GLYOXDEG.PWY..superpathway.of.glycol.metabolism.and.degradation
+2026-05-21 10:28:47.112705 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2026-05-21 10:28:54.088929 INFO::Plotting data for metadata number 4, status
+2026-05-21 10:28:54.284613 INFO::Creating boxplot for categorical data, status vs TCA..TCA.cycle.I..prokaryotic.
+2026-05-21 10:28:55.149663 INFO::Creating boxplot for categorical data, status vs METHGLYUT.PWY..superpathway.of.methylglyoxal.degradation
+2026-05-21 10:28:55.857872 INFO::Creating boxplot for categorical data, status vs PWY.5675..nitrate.reduction.V..assimilatory.
+2026-05-21 10:28:56.489351 INFO::Creating boxplot for categorical data, status vs PWY.5913..partial.TCA.cycle..obligate.autotrophs.
+2026-05-21 10:28:57.211013 INFO::Creating boxplot for categorical data, status vs REDCITCYC..TCA.cycle.VI..Helicobacter.
+2026-05-21 10:28:58.107506 INFO::Creating boxplot for categorical data, status vs PWY.4984..urea.cycle
+2026-05-21 10:28:58.790325 INFO::Creating boxplot for categorical data, status vs PWY.5189..tetrapyrrole.biosynthesis.II..from.glycine.
+2026-05-21 10:28:59.209644 INFO::Creating boxplot for categorical data, status vs PWY.6807..xyloglucan.degradation.II..exoglucanase.
+2026-05-21 10:29:00.060517 INFO::Creating boxplot for categorical data, status vs PWY.7254..TCA.cycle.VII..acetate.producers.
+2026-05-21 10:29:00.492302 INFO::Creating boxplot for categorical data, status vs PWY.7761..NAD.salvage.pathway.II..PNC.IV.cycle.
+2026-05-21 10:29:01.306648 INFO::Creating boxplot for categorical data, status vs PWY.7858...5Z..dodecenoate.biosynthesis.II
+2026-05-21 10:29:01.865268 INFO::Creating boxplot for categorical data, status vs PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III
+2026-05-21 10:29:02.289048 INFO::Creating boxplot for categorical data, status vs HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I
+2026-05-21 10:29:02.802993 INFO::Creating boxplot for categorical data, status vs P23.PWY..reductive.TCA.cycle.I
+2026-05-21 10:29:03.245579 INFO::Creating boxplot for categorical data, status vs PWY.7992..superpathway.of.menaquinol.8.biosynthesis.III
+2026-05-21 10:29:03.727442 INFO::Creating boxplot for categorical data, status vs PWY.5973..cis.vaccenate.biosynthesis
+2026-05-21 10:29:04.512608 INFO::Creating boxplot for categorical data, status vs PWY.6293..superpathway.of.L.cysteine.biosynthesis..fungi.
+2026-05-21 10:29:05.328988 INFO::Creating boxplot for categorical data, status vs PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis
+2026-05-21 10:29:05.826287 INFO::Creating boxplot for categorical data, status vs PWY.5918..superpathway.of.heme.b.biosynthesis.from.glutamate
+2026-05-21 10:29:06.7883 INFO::Creating boxplot for categorical data, status vs PWY.5747..2.methylcitrate.cycle.II
+2026-05-21 10:29:07.710582 INFO::Creating boxplot for categorical data, status vs PYRIDNUCSAL.PWY..NAD.salvage.pathway.I..PNC.VI.cycle.
+2026-05-21 10:29:08.354522 INFO::Creating boxplot for categorical data, status vs PWY.241..C4.photosynthetic.carbon.assimilation.cycle..NADP.ME.type
+2026-05-21 10:29:08.790106 INFO::Creating boxplot for categorical data, status vs PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP
+2026-05-21 10:29:09.659124 INFO::Creating boxplot for categorical data, status vs CITRULBIO.PWY..L.citrulline.biosynthesis
+2026-05-21 10:29:10.25285 INFO::Creating boxplot for categorical data, status vs GLYOXYLATE.BYPASS..glyoxylate.cycle
+2026-05-21 10:29:10.754292 INFO::Creating boxplot for categorical data, status vs PWY.801..homocysteine.and.cysteine.interconversion
+2026-05-21 10:29:11.542895 INFO::Creating boxplot for categorical data, status vs PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation
+2026-05-21 10:29:12.499251 INFO::Creating boxplot for categorical data, status vs PWY.5920..superpathway.of.heme.b.biosynthesis.from.glycine
+2026-05-21 10:29:13.130204 INFO::Creating boxplot for categorical data, status vs TCA.GLYOX.BYPASS..superpathway.of.glyoxylate.bypass.and.TCA
+2026-05-21 10:29:13.573511 INFO::Creating boxplot for categorical data, status vs PWY.5723..Rubisco.shunt
+2026-05-21 10:29:14.659458 INFO::Creating boxplot for categorical data, status vs PWY.6961..L.ascorbate.degradation.II..bacterial..aerobic.
+2026-05-21 10:29:15.297789 INFO::Creating boxplot for categorical data, status vs PWY.821..superpathway.of.sulfur.amino.acid.biosynthesis..Saccharomyces.cerevisiae.
+2026-05-21 10:29:15.797452 INFO::Creating boxplot for categorical data, status vs ORNDEG.PWY..superpathway.of.ornithine.degradation
+2026-05-21 10:29:17.230156 INFO::Creating boxplot for categorical data, status vs PWY.7118..chitin.deacetylation
+2026-05-21 10:29:17.940956 INFO::Creating boxplot for categorical data, status vs PWY.7286..7..3.amino.3.carboxypropyl..wyosine.biosynthesis
+2026-05-21 10:29:18.565564 INFO::Creating boxplot for categorical data, status vs METHANOGENESIS.PWY..methanogenesis.from.H2.and.CO2
+2026-05-21 10:29:19.223982 INFO::Creating boxplot for categorical data, status vs PWY0.42..2.methylcitrate.cycle.I
+2026-05-21 10:29:19.903147 INFO::Creating boxplot for categorical data, status vs PWY.7117..C4.photosynthetic.carbon.assimilation.cycle..PEPCK.type
+2026-05-21 10:29:20.78858 INFO::Creating boxplot for categorical data, status vs PWY.5209..methyl.coenzyme.M.oxidation.to.CO2
+2026-05-21 10:29:21.489547 INFO::Creating boxplot for categorical data, status vs PWY.6749..CMP.legionaminate.biosynthesis.I
+2026-05-21 10:29:21.919322 INFO::Creating boxplot for categorical data, status vs PWY3O.4107..NAD.salvage.pathway.V..PNC.V.cycle.
+2026-05-21 10:29:22.809624 INFO::Creating boxplot for categorical data, status vs P124.PWY..Bifidobacterium.shunt
+2026-05-21 10:29:23.444186 INFO::Creating boxplot for categorical data, status vs PWY.5104..L.isoleucine.biosynthesis.IV
+2026-05-21 10:29:23.939438 INFO::Creating boxplot for categorical data, status vs PWY.5198..factor.420.biosynthesis.II..mycobacteria.
+2026-05-21 10:29:24.749868 INFO::Creating boxplot for categorical data, status vs PWY.5392..reductive.TCA.cycle.II
+2026-05-21 10:29:25.220051 INFO::Creating boxplot for categorical data, status vs PWY.8112..factor.420.biosynthesis.I..archaea.
+2026-05-21 10:29:26.319709 INFO::Creating boxplot for categorical data, status vs PWY.8113..3PG.factor.420.biosynthesis
+2026-05-21 10:29:26.938169 INFO::Creating boxplot for categorical data, status vs PWY0.301..L.ascorbate.degradation.I..bacterial..anaerobic.
+2026-05-21 10:29:27.636224 INFO::Creating boxplot for categorical data, status vs SO4ASSIM.PWY..assimilatory.sulfate.reduction.I
+2026-05-21 10:29:28.295018 INFO::Creating boxplot for categorical data, status vs FAO.PWY..fatty.acid..beta..oxidation.I..generic.
+2026-05-21 10:29:28.982212 INFO::Creating boxplot for categorical data, status vs MET.SAM.PWY..superpathway.of.S.adenosyl.L.methionine.biosynthesis
+2026-05-21 10:29:29.415751 INFO::Creating boxplot for categorical data, status vs PWY.5347..superpathway.of.L.methionine.biosynthesis..transsulfuration.
+2026-05-21 10:29:30.268878 INFO::Creating boxplot for categorical data, status vs PWY.5677..succinate.fermentation.to.butanoate
+2026-05-21 10:29:30.863041 INFO::Creating boxplot for categorical data, status vs PWY.6349..CDP.archaeol.biosynthesis
+2026-05-21 10:29:31.556429 INFO::Creating boxplot for categorical data, status vs PWY.7185..UTP.and.CTP.dephosphorylation.I
+2026-05-21 10:29:32.169931 INFO::Creating boxplot for categorical data, status vs AST.PWY..L.arginine.degradation.II..AST.pathway.
+2026-05-21 10:29:32.869274 INFO::Creating boxplot for categorical data, status vs PWY.6350..archaetidylinositol.biosynthesis
+2026-05-21 10:29:33.74145 INFO::Creating boxplot for categorical data, status vs METSYN.PWY..superpathway.of.L.homoserine.and.L.methionine.biosynthesis
+2026-05-21 10:29:34.476694 INFO::Creating boxplot for categorical data, status vs PWY.7269..mitochondrial.NADPH.production..yeast.
+2026-05-21 10:29:35.120975 INFO::Creating boxplot for categorical data, status vs P105.PWY..TCA.cycle.IV..2.oxoglutarate.decarboxylase.
+2026-05-21 10:29:35.762748 INFO::Creating boxplot for categorical data, status vs HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:29:36.454209 INFO::Creating boxplot for categorical data, status vs PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:29:37.073829 INFO::Creating boxplot for categorical data, status vs PWY.7371..1.4.dihydroxy.6.naphthoate.biosynthesis.II
+2026-05-21 10:29:37.808084 INFO::Creating boxplot for categorical data, status vs PROPFERM.PWY..superpathway.of.L.alanine.fermentation..Stickland.reaction.
+2026-05-21 10:29:38.421524 INFO::Creating boxplot for categorical data, status vs PWY.561..superpathway.of.glyoxylate.cycle.and.fatty.acid.degradation
+2026-05-21 10:29:39.050071 INFO::Creating boxplot for categorical data, status vs PWY.8188..L.alanine.degradation.VI..reductive.Stickland.reaction.
+2026-05-21 10:29:39.743995 INFO::Creating boxplot for categorical data, status vs PWY.8189..L.alanine.degradation.V..oxidative.Stickland.reaction.
+2026-05-21 10:29:40.171161 INFO::Creating boxplot for categorical data, status vs DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2026-05-21 10:29:48.243681 INFO::Plotting data for metadata number 5, antibiotics
+2026-05-21 10:29:48.249294 INFO::Creating boxplot for categorical data, antibiotics vs PWY.6545..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.III
+2026-05-21 10:29:48.899976 INFO::Creating boxplot for categorical data, antibiotics vs PWY.6807..xyloglucan.degradation.II..exoglucanase.
+2026-05-21 10:29:49.566082 INFO::Creating boxplot for categorical data, antibiotics vs PWY.7858...5Z..dodecenoate.biosynthesis.II
+2026-05-21 10:29:50.243361 INFO::Creating boxplot for categorical data, antibiotics vs HOMOSER.METSYN.PWY..L.methionine.biosynthesis.I
+2026-05-21 10:29:50.862301 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5675..nitrate.reduction.V..assimilatory.
+2026-05-21 10:29:51.562252 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5747..2.methylcitrate.cycle.II
+2026-05-21 10:29:52.181705 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5913..partial.TCA.cycle..obligate.autotrophs.
+2026-05-21 10:29:52.881507 INFO::Creating boxplot for categorical data, antibiotics vs PWY.7210..pyrimidine.deoxyribonucleotides.biosynthesis.from.CTP
+2026-05-21 10:29:53.520327 INFO::Creating boxplot for categorical data, antibiotics vs P23.PWY..reductive.TCA.cycle.I
+2026-05-21 10:29:54.229926 INFO::Creating boxplot for categorical data, antibiotics vs PWY.4984..urea.cycle
+2026-05-21 10:29:54.852633 INFO::Creating boxplot for categorical data, antibiotics vs TCA..TCA.cycle.I..prokaryotic.
+2026-05-21 10:29:55.476282 INFO::Creating boxplot for categorical data, antibiotics vs PRPP.PWY..superpathway.of.histidine..purine..and.pyrimidine.biosynthesis
+2026-05-21 10:29:56.413713 INFO::Creating boxplot for categorical data, antibiotics vs PWY.6749..CMP.legionaminate.biosynthesis.I
+2026-05-21 10:29:56.840095 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5188..tetrapyrrole.biosynthesis.I..from.glutamate.
+2026-05-21 10:29:57.79383 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5004..superpathway.of.L.citrulline.metabolism
+2026-05-21 10:29:58.41371 INFO::Creating boxplot for categorical data, antibiotics vs DAPLYSINESYN.PWY..L.lysine.biosynthesis.I
+2026-05-21 10:29:59.390952 INFO::Creating boxplot for categorical data, antibiotics vs PWY.7269..mitochondrial.NADPH.production..yeast.
+2026-05-21 10:30:00.032272 INFO::Creating boxplot for categorical data, antibiotics vs PWY.7185..UTP.and.CTP.dephosphorylation.I
+2026-05-21 10:30:00.79625 INFO::Creating boxplot for categorical data, antibiotics vs PWY.801..homocysteine.and.cysteine.interconversion
+2026-05-21 10:30:01.442804 INFO::Creating boxplot for categorical data, antibiotics vs AST.PWY..L.arginine.degradation.II..AST.pathway.
+2026-05-21 10:30:02.394655 INFO::Creating boxplot for categorical data, antibiotics vs PWY.6293..superpathway.of.L.cysteine.biosynthesis..fungi.
+2026-05-21 10:30:03.100534 INFO::Creating boxplot for categorical data, antibiotics vs PWY.7254..TCA.cycle.VII..acetate.producers.
+2026-05-21 10:30:03.757215 INFO::Creating boxplot for categorical data, antibiotics vs PWY0.1277..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation
+2026-05-21 10:30:04.513191 INFO::Creating boxplot for categorical data, antibiotics vs PWY0.42..2.methylcitrate.cycle.I
+2026-05-21 10:30:04.955443 INFO::Creating boxplot for categorical data, antibiotics vs REDCITCYC..TCA.cycle.VI..Helicobacter.
+2026-05-21 10:30:05.872376 INFO::Creating boxplot for categorical data, antibiotics vs DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2026-05-21 10:30:06.503199 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5690..TCA.cycle.II..plants.and.fungi.
+2026-05-21 10:30:07.206053 INFO::Creating boxplot for categorical data, antibiotics vs PWY.7187..pyrimidine.deoxyribonucleotides.de.novo.biosynthesis.II
+2026-05-21 10:30:07.876103 INFO::Creating boxplot for categorical data, antibiotics vs PWY66.389..phytol.degradation
+2026-05-21 10:30:08.637538 INFO::Creating boxplot for categorical data, antibiotics vs PWY.5677..succinate.fermentation.to.butanoate
+2026-05-21 10:30:09.29685 INFO::Creating boxplot for categorical data, antibiotics vs HCAMHPDEG.PWY..3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation.to.2.hydroxypentadienoate
+2026-05-21 10:30:10.219417 INFO::Creating boxplot for categorical data, antibiotics vs PWY.6690..cinnamate.and.3.hydroxycinnamate.degradation.to.2.hydroxypentadienoate

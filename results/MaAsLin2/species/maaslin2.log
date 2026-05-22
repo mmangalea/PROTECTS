@@ -1,0 +1,507 @@
+2026-05-22 10:00:43.303974 INFO::Writing function arguments to log file
+2026-05-22 10:00:43.320613 DEBUG::Function arguments
+2026-05-22 10:00:43.334074 DEBUG::Output folder: results/MaAsLin2/species
+2026-05-22 10:00:43.33596 DEBUG::Min Abundance: 0.000000
+2026-05-22 10:00:43.337631 DEBUG::Min Prevalence: 0.000000
+2026-05-22 10:00:43.339248 DEBUG::Normalization: TSS
+2026-05-22 10:00:43.341165 DEBUG::Transform: LOG
+2026-05-22 10:00:43.342862 DEBUG::Analysis method: LM
+2026-05-22 10:00:43.344494 DEBUG::Max significance: 0.250000
+2026-05-22 10:00:43.346105 DEBUG::Random effects: subject,site
+2026-05-22 10:00:43.347689 DEBUG::Fixed effects: antibiotics,spike_inhibition,age,status,stay_years
+2026-05-22 10:00:43.349303 DEBUG::Correction method: BH
+2026-05-22 10:00:43.350894 DEBUG::Standardize: TRUE
+2026-05-22 10:00:43.353174 DEBUG::Cores: 1
+2026-05-22 10:00:43.354911 INFO::Verifying options selected are valid
+2026-05-22 10:00:43.373101 INFO::Determining format of input files
+2026-05-22 10:00:43.377417 INFO::Input format is data samples as columns and metadata samples as rows
+2026-05-22 10:00:43.383982 DEBUG::Transformed data so samples are rows
+2026-05-22 10:00:43.387917 DEBUG::A total of 22 samples were found in both the data and metadata
+2026-05-22 10:00:43.38994 DEBUG::Reordering data/metadata to use same sample ordering
+2026-05-22 10:00:43.399887 INFO::Formula for random effects: expr ~ (1 | subject) + (1 | site)
+2026-05-22 10:00:43.40344 INFO::Formula for fixed effects: expr ~  antibiotics + spike_inhibition + age + status + stay_years
+2026-05-22 10:00:43.407922 INFO::Filter data based on min abundance and min prevalence
+2026-05-22 10:00:43.41099 INFO::Total samples in data: 22
+2026-05-22 10:00:43.413626 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2026-05-22 10:00:43.428698 INFO::Total filtered features: 0
+2026-05-22 10:00:43.508582 INFO::Filtered feature names from abundance and prevalence filtering:
+2026-05-22 10:00:43.528434 INFO::Total filtered features with variance filtering: 0
+2026-05-22 10:00:43.532184 INFO::Filtered feature names from variance filtering:
+2026-05-22 10:00:43.534863 INFO::Running selected normalization method: TSS
+2026-05-22 10:00:43.550204 INFO::Applying z-score to standardize continuous metadata
+2026-05-22 10:00:43.566323 INFO::Running selected transform method: LOG
+2026-05-22 10:00:43.586737 INFO::Running selected analysis method: LM
+2026-05-22 10:00:43.597537 INFO::Fitting model to feature number 1, Cloacibacillus_evryensis
+2026-05-22 10:00:44.533717 INFO::Fitting model to feature number 2, Oscillospiraceae_bacterium
+2026-05-22 10:00:44.636752 INFO::Fitting model to feature number 3, Eggerthella_lenta
+2026-05-22 10:00:45.131088 INFO::Fitting model to feature number 4, Odoribacter_laneus
+2026-05-22 10:00:45.302245 INFO::Fitting model to feature number 5, Bacteroides_fragilis
+2026-05-22 10:00:45.478817 INFO::Fitting model to feature number 6, Ruminococcus_torques
+2026-05-22 10:00:45.51665 WARNING::Fitting problem for feature 6 a warning was issued
+2026-05-22 10:00:46.15306 INFO::Fitting model to feature number 7, Methanobrevibacter_smithii
+2026-05-22 10:00:46.307242 INFO::Fitting model to feature number 8, Parabacteroides_distasonis
+2026-05-22 10:00:46.827278 INFO::Fitting model to feature number 9, GGB9480_SGB14873
+2026-05-22 10:00:47.011474 INFO::Fitting model to feature number 10, GGB40351_SGB14301
+2026-05-22 10:00:47.713657 INFO::Fitting model to feature number 11, GGB9464_SGB14857
+2026-05-22 10:00:47.974021 INFO::Fitting model to feature number 12, GGB9086_SGB14014
+2026-05-22 10:00:48.107911 INFO::Fitting model to feature number 13, GGB4566_SGB6305
+2026-05-22 10:00:49.312838 INFO::Fitting model to feature number 14, Desulfovibrio_fairfieldensis
+2026-05-22 10:00:49.816669 INFO::Fitting model to feature number 15, Ruthenibacterium_lactatiformans
+2026-05-22 10:00:50.33013 INFO::Fitting model to feature number 16, Bacteroides_uniformis
+2026-05-22 10:00:50.509503 INFO::Fitting model to feature number 17, Clostridium_innocuum
+2026-05-22 10:00:50.606775 INFO::Fitting model to feature number 18, Bifidobacterium_pseudocatenulatum
+2026-05-22 10:00:51.101243 INFO::Fitting model to feature number 19, Barnesiella_intestinihominis
+2026-05-22 10:00:51.308073 INFO::Fitting model to feature number 20, GGB3497_SGB4672
+2026-05-22 10:00:52.010014 INFO::Fitting model to feature number 21, Anaerostipes_caccae
+2026-05-22 10:00:52.11146 INFO::Fitting model to feature number 22, GGB3005_SGB3996
+2026-05-22 10:00:52.31876 INFO::Fitting model to feature number 23, Neglectibacter_timonensis
+2026-05-22 10:00:53.098252 INFO::Fitting model to feature number 24, GGB45432_SGB63101
+2026-05-22 10:00:53.277828 INFO::Fitting model to feature number 25, Clostridium_scindens
+2026-05-22 10:00:54.028232 INFO::Fitting model to feature number 26, Alistipes_indistinctus
+2026-05-22 10:00:54.279043 INFO::Fitting model to feature number 27, GGB9531_SGB14932
+2026-05-22 10:00:54.719203 INFO::Fitting model to feature number 28, Blautia_hydrogenotrophica
+2026-05-22 10:00:55.435689 INFO::Fitting model to feature number 29, Alistipes_shahii
+2026-05-22 10:00:55.600654 INFO::Fitting model to feature number 30, Anaerotruncus_massiliensis
+2026-05-22 10:00:55.697424 INFO::Fitting model to feature number 31, Butyricimonas_paravirosa
+2026-05-22 10:00:56.184992 INFO::Fitting model to feature number 32, Candidatus_Methanomassiliicoccus_intestinalis
+2026-05-22 10:00:56.819932 INFO::Fitting model to feature number 33, Romboutsia_timonensis
+2026-05-22 10:00:56.989152 INFO::Fitting model to feature number 34, Longicatena_caecimuris
+2026-05-22 10:00:57.822557 INFO::Fitting model to feature number 35, Hungatella_hathewayi
+2026-05-22 10:00:58.083643 INFO::Fitting model to feature number 36, Mediterraneibacter_SGB48424
+2026-05-22 10:00:58.124032 WARNING::Fitting problem for feature 36 a warning was issued
+2026-05-22 10:00:58.748015 INFO::Fitting model to feature number 37, Christensenella_hongkongensis
+2026-05-22 10:00:58.783626 WARNING::Fitting problem for feature 37 a warning was issued
+2026-05-22 10:00:58.902348 INFO::Fitting model to feature number 38, Dysosmobacter_welbionis
+2026-05-22 10:00:59.408457 INFO::Fitting model to feature number 39, GGB9102_SGB54310
+2026-05-22 10:00:59.927151 INFO::Fitting model to feature number 40, Evtepia_gabavorous
+2026-05-22 10:01:00.108765 INFO::Fitting model to feature number 41, Emergencia_timonensis
+2026-05-22 10:01:00.208184 INFO::Fitting model to feature number 42, GGB9524_SGB14923
+2026-05-22 10:01:00.620417 INFO::Fitting model to feature number 43, Eubacterium_siraeum
+2026-05-22 10:01:01.266743 INFO::Fitting model to feature number 44, GGB3602_SGB4865
+2026-05-22 10:01:01.410569 INFO::Fitting model to feature number 45, Lachnotalea_sp_AF33_28
+2026-05-22 10:01:01.913061 INFO::Fitting model to feature number 46, Eubacterium_callanderi
+2026-05-22 10:01:02.13197 INFO::Fitting model to feature number 47, Gordonibacter_pamelaeae
+2026-05-22 10:01:02.927407 INFO::Fitting model to feature number 48, Anaerotruncus_colihominis
+2026-05-22 10:01:03.120015 INFO::Fitting model to feature number 49, Flavonifractor_plautii
+2026-05-22 10:01:03.813245 INFO::Fitting model to feature number 50, Anaerovorax_odorimutans
+2026-05-22 10:01:03.912511 INFO::Fitting model to feature number 51, GGB3109_SGB4121
+2026-05-22 10:01:04.007127 INFO::Fitting model to feature number 52, Enterocloster_clostridioformis
+2026-05-22 10:01:04.211883 INFO::Fitting model to feature number 53, GGB9474_SGB14868
+2026-05-22 10:01:04.91886 INFO::Fitting model to feature number 54, Eisenbergiella_massiliensis
+2026-05-22 10:01:05.452097 INFO::Fitting model to feature number 55, Enterocloster_aldenensis
+2026-05-22 10:01:05.673762 INFO::Fitting model to feature number 56, Clostridium_leptum
+2026-05-22 10:01:05.80814 INFO::Fitting model to feature number 57, Rikenellaceae_bacterium
+2026-05-22 10:01:06.503772 INFO::Fitting model to feature number 58, Phascolarctobacterium_sp_ET69
+2026-05-22 10:01:06.80765 INFO::Fitting model to feature number 59, Clostridium_jeddahense
+2026-05-22 10:01:07.609049 INFO::Fitting model to feature number 60, Faecalicatena_contorta
+2026-05-22 10:01:07.735934 INFO::Fitting model to feature number 61, Marvinbryantia_SGB4691
+2026-05-22 10:01:07.82539 INFO::Fitting model to feature number 62, Gordonibacter_massiliensis
+2026-05-22 10:01:08.013984 INFO::Fitting model to feature number 63, Raoultibacter_massiliensis
+2026-05-22 10:01:08.743938 INFO::Fitting model to feature number 64, Bifidobacterium_dentium
+2026-05-22 10:01:09.954144 INFO::Fitting model to feature number 65, Intestinimonas_massiliensis
+2026-05-22 10:01:10.091592 INFO::Fitting model to feature number 66, Candidatus_Borkfalkia_ceftriaxoniphila
+2026-05-22 10:01:10.311326 INFO::Fitting model to feature number 67, GGB2980_SGB3962
+2026-05-22 10:01:11.142759 INFO::Fitting model to feature number 68, Intestinimonas_butyriciproducens
+2026-05-22 10:01:11.869238 INFO::Fitting model to feature number 69, Lawsonibacter_faecis
+2026-05-22 10:01:12.654494 INFO::Fitting model to feature number 70, Streptococcus_vestibularis
+2026-05-22 10:01:13.141051 INFO::Fitting model to feature number 71, GGB9537_SGB14940
+2026-05-22 10:01:13.406763 INFO::Fitting model to feature number 72, Ruminococcus_gauvreauii
+2026-05-22 10:01:14.110157 INFO::Fitting model to feature number 73, Blautia_producta
+2026-05-22 10:01:14.637825 INFO::Fitting model to feature number 74, Escherichia_coli
+2026-05-22 10:01:14.898513 INFO::Fitting model to feature number 75, Clostridiales_bacterium
+2026-05-22 10:01:15.622466 INFO::Fitting model to feature number 76, GGB9110_SGB14043
+2026-05-22 10:01:15.908073 INFO::Fitting model to feature number 77, Bariatricus_massiliensis
+2026-05-22 10:01:16.633869 INFO::Fitting model to feature number 78, Bianquea_renquensis
+2026-05-22 10:01:16.883874 INFO::Fitting model to feature number 79, Limosilactobacillus_oris
+2026-05-22 10:01:17.338687 INFO::Fitting model to feature number 80, Actinomyces_oris
+2026-05-22 10:01:18.120409 INFO::Fitting model to feature number 81, Sellimonas_intestinalis
+2026-05-22 10:01:18.215865 INFO::Fitting model to feature number 82, Clostridium_symbiosum
+2026-05-22 10:01:18.390909 INFO::Fitting model to feature number 83, Coprobacillus_cateniformis
+2026-05-22 10:01:18.80893 INFO::Fitting model to feature number 84, GGB3818_SGB5183
+2026-05-22 10:01:19.540278 INFO::Fitting model to feature number 85, Extibacter_muris
+2026-05-22 10:01:19.757791 INFO::Fitting model to feature number 86, Turicibacter_bilis
+2026-05-22 10:01:20.209615 INFO::Fitting model to feature number 87, Wansuia_hejianensis
+2026-05-22 10:01:20.725163 INFO::Fitting model to feature number 88, Turicibacter_sanguinis
+2026-05-22 10:01:20.935116 INFO::Fitting model to feature number 89, Lawsonibacter_asaccharolyticus
+2026-05-22 10:01:21.453193 INFO::Fitting model to feature number 90, Terrisporobacter_mayombei
+2026-05-22 10:01:22.212899 INFO::Fitting model to feature number 91, Roseburia_intestinalis
+2026-05-22 10:01:22.323352 INFO::Fitting model to feature number 92, Streptococcus_thermophilus
+2026-05-22 10:01:22.522768 INFO::Fitting model to feature number 93, GGB9092_SGB14021
+2026-05-22 10:01:23.300068 INFO::Fitting model to feature number 94, Eisenbergiella_tayi
+2026-05-22 10:01:23.727204 INFO::Fitting model to feature number 95, GGB58233_SGB79883
+2026-05-22 10:01:23.976841 INFO::Fitting model to feature number 96, GGB74818_SGB47415
+2026-05-22 10:01:24.806327 INFO::Fitting model to feature number 97, Anaerofustis_stercorihominis
+2026-05-22 10:01:25.309717 INFO::Fitting model to feature number 98, Bifidobacterium_animalis
+2026-05-22 10:01:25.816391 INFO::Fitting model to feature number 99, GGB9534_SGB14937
+2026-05-22 10:01:26.309273 INFO::Fitting model to feature number 100, Luoshenia_tenuis
+2026-05-22 10:01:26.527272 INFO::Fitting model to feature number 101, Enterococcus_avium
+2026-05-22 10:01:27.407903 INFO::Fitting model to feature number 102, GGB9115_SGB14048
+2026-05-22 10:01:27.725781 INFO::Fitting model to feature number 103, Lactococcus_lactis
+2026-05-22 10:01:28.315723 INFO::Fitting model to feature number 104, Enterocloster_asparagiformis
+2026-05-22 10:01:29.226685 INFO::Fitting model to feature number 105, Enterocloster_citroniae
+2026-05-22 10:01:29.360265 INFO::Fitting model to feature number 106, Oscillibacter_valericigenes
+2026-05-22 10:01:30.413945 INFO::Fitting model to feature number 107, GGB3653_SGB4964
+2026-05-22 10:01:30.607845 INFO::Fitting model to feature number 108, Streptococcus_constellatus
+2026-05-22 10:01:31.305303 INFO::Fitting model to feature number 109, GGB33586_SGB53517
+2026-05-22 10:01:31.814597 INFO::Fitting model to feature number 110, GGB28319_SGB40892
+2026-05-22 10:01:32.709774 INFO::Fitting model to feature number 111, Monoglobus_pectinilyticus
+2026-05-22 10:01:32.814455 INFO::Fitting model to feature number 112, GGB9545_SGB14952
+2026-05-22 10:01:32.926009 INFO::Fitting model to feature number 113, Clostridia_bacterium_UC5_1_1D1
+2026-05-22 10:01:33.472894 INFO::Fitting model to feature number 114, Clostridium_hylemonae
+2026-05-22 10:01:33.612324 INFO::Fitting model to feature number 115, Actinobaculum_sp_oral_taxon_183
+2026-05-22 10:01:33.724737 WARNING::Fitting problem for feature 115 a warning was issued
+2026-05-22 10:01:34.332213 INFO::Fitting model to feature number 116, Lacticaseibacillus_rhamnosus
+2026-05-22 10:01:35.164041 INFO::Fitting model to feature number 117, Diplocloster_modestus
+2026-05-22 10:01:35.414111 INFO::Fitting model to feature number 118, Lactonifactor_longoviformis
+2026-05-22 10:01:36.244599 INFO::Fitting model to feature number 119, Fumia_xinanensis
+2026-05-22 10:01:36.51165 INFO::Fitting model to feature number 120, Anaerofilum_hominis
+2026-05-22 10:01:37.422458 INFO::Fitting model to feature number 121, GGB58071_SGB79702
+2026-05-22 10:01:37.675138 INFO::Fitting model to feature number 122, Longibaculum_muris
+2026-05-22 10:01:38.47194 INFO::Fitting model to feature number 123, Limosilactobacillus_fermentum
+2026-05-22 10:01:38.70897 INFO::Fitting model to feature number 124, Zongyangia_hominis
+2026-05-22 10:01:39.214733 INFO::Fitting model to feature number 125, GGB45613_SGB63326
+2026-05-22 10:01:40.082537 INFO::Fitting model to feature number 126, Clostridium_methylpentosum
+2026-05-22 10:01:40.311754 INFO::Fitting model to feature number 127, Enterocloster_bolteae
+2026-05-22 10:01:41.219382 INFO::Fitting model to feature number 128, GGB9491_SGB14888
+2026-05-22 10:01:41.396626 INFO::Fitting model to feature number 129, Diplocloster_agilis
+2026-05-22 10:01:42.288445 INFO::Fitting model to feature number 130, GGB58158_SGB79798
+2026-05-22 10:01:42.412894 INFO::Fitting model to feature number 131, Clostridiaceae_bacterium
+2026-05-22 10:01:42.567601 WARNING::Fitting problem for feature 131 a warning was issued
+2026-05-22 10:01:43.410134 INFO::Fitting model to feature number 132, Clostridium_sp_Marseille_P3244
+2026-05-22 10:01:43.625077 INFO::Fitting model to feature number 133, Cuneatibacter_sp_NSJ_177
+2026-05-22 10:01:44.503708 INFO::Fitting model to feature number 134, Eubacteriales_bacterium
+2026-05-22 10:01:44.605743 INFO::Fitting model to feature number 135, Clostridium_perfringens
+2026-05-22 10:01:44.71555 INFO::Fitting model to feature number 136, Muricomes_intestini
+2026-05-22 10:01:45.273978 INFO::Fitting model to feature number 137, Clostridium_paraputrificum
+2026-05-22 10:01:45.537024 INFO::Fitting model to feature number 138, Clostridium_saudiense
+2026-05-22 10:01:46.291322 INFO::Fitting model to feature number 139, Christensenella_sp_Marseille_P3954
+2026-05-22 10:01:46.437672 INFO::Fitting model to feature number 140, Turicibacter_SGB106351
+2026-05-22 10:01:47.03934 INFO::Fitting model to feature number 141, Holdemania_filiformis
+2026-05-22 10:01:47.200812 INFO::Fitting model to feature number 142, Clostridium_SGB6176
+2026-05-22 10:01:47.71879 INFO::Fitting model to feature number 143, Lactobacillus_gasseri
+2026-05-22 10:01:48.282647 INFO::Fitting model to feature number 144, Clostridium_sp_AF36_4
+2026-05-22 10:01:48.732262 INFO::Fitting model to feature number 145, Clostridia_bacterium
+2026-05-22 10:01:49.226931 INFO::Fitting model to feature number 146, Actinomyces_israelii
+2026-05-22 10:01:49.780473 INFO::Fitting model to feature number 147, Clostridium_tertium
+2026-05-22 10:01:50.2802 INFO::Fitting model to feature number 148, Actinomyces_gerencseriae
+2026-05-22 10:01:50.90687 INFO::Fitting model to feature number 149, GGB55957_SGB77276
+2026-05-22 10:01:51.026214 WARNING::Fitting problem for feature 149 a warning was issued
+2026-05-22 10:01:51.454223 INFO::Fitting model to feature number 150, Erysipelatoclostridium_ramosum
+2026-05-22 10:01:51.685368 INFO::Fitting model to feature number 151, Prevotella_buccae
+2026-05-22 10:01:52.114492 INFO::Fitting model to feature number 152, GGB4277_SGB5832
+2026-05-22 10:01:52.808996 INFO::Fitting model to feature number 153, GGB26772_SGB38957
+2026-05-22 10:01:53.323292 INFO::Fitting model to feature number 154, Ruminococcus_gnavus
+2026-05-22 10:01:53.824836 INFO::Fitting model to feature number 155, Cuneatibacter_caecimuris
+2026-05-22 10:01:54.315474 INFO::Fitting model to feature number 156, GGB2848_SGB3813
+2026-05-22 10:01:54.838023 INFO::Fitting model to feature number 157, Blautia_sp_An46
+2026-05-22 10:01:55.319667 INFO::Fitting model to feature number 158, Blautia_hansenii
+2026-05-22 10:01:55.574455 INFO::Fitting model to feature number 159, Provencibacterium_massiliense
+2026-05-22 10:01:56.310659 INFO::Fitting model to feature number 160, Clostridiaceae_bacterium_Marseille_Q4149
+2026-05-22 10:01:56.347017 WARNING::Fitting problem for feature 160 a warning was issued
+2026-05-22 10:01:56.444632 INFO::Fitting model to feature number 161, Ruminococcus_bromii
+2026-05-22 10:01:57.163838 INFO::Fitting model to feature number 162, Blautia_massiliensis
+2026-05-22 10:01:57.362083 INFO::Fitting model to feature number 163, GGB9708_SGB15234
+2026-05-22 10:01:58.112475 INFO::Fitting model to feature number 164, Blautia_wexlerae
+2026-05-22 10:01:58.197101 WARNING::Fitting problem for feature 164 a warning was issued
+2026-05-22 10:01:58.642014 INFO::Fitting model to feature number 165, Eubacterium_rectale
+2026-05-22 10:01:58.84444 INFO::Fitting model to feature number 166, Fusicatenibacter_saccharivorans
+2026-05-22 10:01:59.610882 INFO::Fitting model to feature number 167, GGB9345_SGB14311
+2026-05-22 10:02:00.172241 INFO::Fitting model to feature number 168, Bacteroides_xylanisolvens
+2026-05-22 10:02:00.632215 INFO::Fitting model to feature number 169, Lachnospira_eligens
+2026-05-22 10:02:01.202874 INFO::Fitting model to feature number 170, GGB9715_SGB15260
+2026-05-22 10:02:01.699253 INFO::Fitting model to feature number 171, Peptococcus_niger
+2026-05-22 10:02:02.213799 INFO::Fitting model to feature number 172, Phocaeicola_vulgatus
+2026-05-22 10:02:02.697863 INFO::Fitting model to feature number 173, Blautia_obeum
+2026-05-22 10:02:03.129847 INFO::Fitting model to feature number 174, Alistipes_finegoldii
+2026-05-22 10:02:03.631614 INFO::Fitting model to feature number 175, GGB9758_SGB15368
+2026-05-22 10:02:04.11734 INFO::Fitting model to feature number 176, Faecalibacterium_prausnitzii
+2026-05-22 10:02:04.238472 INFO::Fitting model to feature number 177, GGB3278_SGB4328
+2026-05-22 10:02:04.50896 INFO::Fitting model to feature number 178, Alistipes_putredinis
+2026-05-22 10:02:05.60853 INFO::Fitting model to feature number 179, Ruminococcus_bicirculans
+2026-05-22 10:02:05.709705 INFO::Fitting model to feature number 180, Ruminococcus_lactaris
+2026-05-22 10:02:05.88201 INFO::Fitting model to feature number 181, Collinsella_aerofaciens
+2026-05-22 10:02:06.005439 INFO::Fitting model to feature number 182, Anaerobutyricum_hallii
+2026-05-22 10:02:06.708055 INFO::Fitting model to feature number 183, GGB9350_SGB14317
+2026-05-22 10:02:06.891981 INFO::Fitting model to feature number 184, Pyramidobacter_piscolens
+2026-05-22 10:02:07.644862 INFO::Fitting model to feature number 185, Anaerostipes_hadrus
+2026-05-22 10:02:07.884757 INFO::Fitting model to feature number 186, Oscillibacter_sp_MSJ_31
+2026-05-22 10:02:08.011448 INFO::Fitting model to feature number 187, Ruminococcus_sp_AF13_28
+2026-05-22 10:02:08.362747 WARNING::Fitting problem for feature 187 a warning was issued
+2026-05-22 10:02:09.019422 INFO::Fitting model to feature number 188, Blautia_faecis
+2026-05-22 10:02:09.249454 INFO::Fitting model to feature number 189, GGB9176_SGB14114
+2026-05-22 10:02:09.341784 INFO::Fitting model to feature number 190, Parabacteroides_merdae
+2026-05-22 10:02:10.124523 INFO::Fitting model to feature number 191, Coprococcus_comes
+2026-05-22 10:02:10.308851 INFO::Fitting model to feature number 192, Alistipes_ihumii
+2026-05-22 10:02:10.730822 INFO::Fitting model to feature number 193, GGB9365_SGB14341
+2026-05-22 10:02:11.013589 INFO::Fitting model to feature number 194, Akkermansia_muciniphila
+2026-05-22 10:02:11.718378 INFO::Fitting model to feature number 195, Alistipes_onderdonkii
+2026-05-22 10:02:11.884594 INFO::Fitting model to feature number 196, Bifidobacterium_longum
+2026-05-22 10:02:12.658769 INFO::Fitting model to feature number 197, Faecalibacillus_intestinalis
+2026-05-22 10:02:12.80149 INFO::Fitting model to feature number 198, GGB9770_SGB15389
+2026-05-22 10:02:13.434418 INFO::Fitting model to feature number 199, Roseburia_faecis
+2026-05-22 10:02:13.534238 INFO::Fitting model to feature number 200, Eubacteriaceae_bacterium
+2026-05-22 10:02:13.626448 INFO::Fitting model to feature number 201, GGB3740_SGB5077
+2026-05-22 10:02:14.053012 INFO::Fitting model to feature number 202, Lachnospiraceae_bacterium
+2026-05-22 10:02:14.264429 INFO::Fitting model to feature number 203, GGB32387_SGB47381
+2026-05-22 10:02:14.733023 INFO::Fitting model to feature number 204, Phascolarctobacterium_faecium
+2026-05-22 10:02:15.504594 INFO::Fitting model to feature number 205, Frisingicoccus_SGB4674
+2026-05-22 10:02:15.600233 INFO::Fitting model to feature number 206, GGB9453_SGB14844
+2026-05-22 10:02:15.693052 INFO::Fitting model to feature number 207, Fusicatenibacter_sp_CLA_AA_H277
+2026-05-22 10:02:16.426006 INFO::Fitting model to feature number 208, GGB9699_SGB15216
+2026-05-22 10:02:16.908329 INFO::Fitting model to feature number 209, GGB32900_SGB53446
+2026-05-22 10:02:17.509495 INFO::Fitting model to feature number 210, Dialister_invisus
+2026-05-22 10:02:17.681656 INFO::Fitting model to feature number 211, Parasutterella_SGB9260
+2026-05-22 10:02:17.79247 INFO::Fitting model to feature number 212, Bacteroides_salyersiae
+2026-05-22 10:02:18.623526 INFO::Fitting model to feature number 213, Brotolimicola_acetigignens
+2026-05-22 10:02:18.733675 INFO::Fitting model to feature number 214, GGB38744_SGB14842
+2026-05-22 10:02:19.325291 INFO::Fitting model to feature number 215, Gordonibacter_urolithinfaciens
+2026-05-22 10:02:19.481543 INFO::Fitting model to feature number 216, GGB4239_SGB5731
+2026-05-22 10:02:20.234075 INFO::Fitting model to feature number 217, Senegalimassilia_anaerobia
+2026-05-22 10:02:20.803994 INFO::Fitting model to feature number 218, Oliverpabstia_intestinalis
+2026-05-22 10:02:20.923992 INFO::Fitting model to feature number 219, Coprobacter_secundus
+2026-05-22 10:02:21.716514 INFO::Fitting model to feature number 220, Gemmiger_formicilis
+2026-05-22 10:02:21.82939 INFO::Fitting model to feature number 221, Porphyromonas_SGB1983
+2026-05-22 10:02:22.570477 INFO::Fitting model to feature number 222, Bacteroides_stercoris
+2026-05-22 10:02:22.811799 INFO::Fitting model to feature number 223, Candidatus_Cibionibacter_quicibialis
+2026-05-22 10:02:23.009075 INFO::Fitting model to feature number 224, Dorea_longicatena
+2026-05-22 10:02:23.712407 INFO::Fitting model to feature number 225, Bifidobacterium_adolescentis
+2026-05-22 10:02:24.227401 INFO::Fitting model to feature number 226, Roseburia_hominis
+2026-05-22 10:02:24.415338 INFO::Fitting model to feature number 227, Enterocloster_hominis
+2026-05-22 10:02:24.826101 INFO::Fitting model to feature number 228, Porphyromonas_SGB1977
+2026-05-22 10:02:25.600139 INFO::Fitting model to feature number 229, Slackia_isoflavoniconvertens
+2026-05-22 10:02:25.784735 INFO::Fitting model to feature number 230, Lachnospira_pectinoschiza
+2026-05-22 10:02:26.31109 INFO::Fitting model to feature number 231, Parabacteroides_goldsteinii
+2026-05-22 10:02:26.819977 INFO::Fitting model to feature number 232, Blautia_SGB4815
+2026-05-22 10:02:27.305484 INFO::Fitting model to feature number 233, GGB9707_SGB15229
+2026-05-22 10:02:27.572793 INFO::Fitting model to feature number 234, Blautia_glucerasea
+2026-05-22 10:02:28.22895 INFO::Fitting model to feature number 235, Roseburia_inulinivorans
+2026-05-22 10:02:28.389064 INFO::Fitting model to feature number 236, GGB3000_SGB3991
+2026-05-22 10:02:28.838812 INFO::Fitting model to feature number 237, Adlercreutzia_equolifaciens
+2026-05-22 10:02:29.014757 WARNING::Fitting problem for feature 237 a warning was issued
+2026-05-22 10:02:29.728406 INFO::Fitting model to feature number 238, GGB9502_SGB14899
+2026-05-22 10:02:29.906695 INFO::Fitting model to feature number 239, Wujia_chipingensis
+2026-05-22 10:02:29.942232 WARNING::Fitting problem for feature 239 a warning was issued
+2026-05-22 10:02:30.8278 INFO::Fitting model to feature number 240, GGB9694_SGB15204
+2026-05-22 10:02:31.327018 INFO::Fitting model to feature number 241, GGB3001_SGB3992
+2026-05-22 10:02:31.595819 INFO::Fitting model to feature number 242, GGB3585_SGB4803
+2026-05-22 10:02:32.318005 INFO::Fitting model to feature number 243, Bacteroides_faecis
+2026-05-22 10:02:32.828352 INFO::Fitting model to feature number 244, Anaerobutyricum_soehngenii
+2026-05-22 10:02:33.124422 INFO::Fitting model to feature number 245, GGB9522_SGB14921
+2026-05-22 10:02:33.835396 INFO::Fitting model to feature number 246, Lachnospiraceae_bacterium_CLA_AA_H244
+2026-05-22 10:02:34.330185 INFO::Fitting model to feature number 247, GGB9063_SGB13982
+2026-05-22 10:02:34.61385 INFO::Fitting model to feature number 248, Streptococcus_mutans
+2026-05-22 10:02:35.312566 INFO::Fitting model to feature number 249, Intestinibacter_bartlettii
+2026-05-22 10:02:35.482888 INFO::Fitting model to feature number 250, Alistipes_dispar
+2026-05-22 10:02:36.315706 INFO::Fitting model to feature number 251, GGB31234_SGB14869
+2026-05-22 10:02:36.590975 INFO::Fitting model to feature number 252, Clostridiales_bacterium_KLE1615
+2026-05-22 10:02:36.995388 INFO::Fitting model to feature number 253, Oscillibacter_sp_ER4
+2026-05-22 10:02:37.407462 INFO::Fitting model to feature number 254, Megasphaera_massiliensis
+2026-05-22 10:02:38.105845 INFO::Fitting model to feature number 255, Bacteroides_ovatus
+2026-05-22 10:02:38.272944 INFO::Fitting model to feature number 256, GGB9469_SGB14862
+2026-05-22 10:02:38.809671 INFO::Fitting model to feature number 257, GGB9237_SGB14179
+2026-05-22 10:02:39.520321 INFO::Fitting model to feature number 258, GGB9545_SGB14951
+2026-05-22 10:02:39.556175 WARNING::Fitting problem for feature 258 a warning was issued
+2026-05-22 10:02:39.706739 INFO::Fitting model to feature number 259, Clostridium_sp_NSJ_6
+2026-05-22 10:02:40.225072 INFO::Fitting model to feature number 260, Clostridium_fessum
+2026-05-22 10:02:40.807397 INFO::Fitting model to feature number 261, Christensenella_timonensis
+2026-05-22 10:02:40.969604 INFO::Fitting model to feature number 262, GGB1266_SGB1699
+2026-05-22 10:02:41.159409 INFO::Fitting model to feature number 263, Guopingia_tenuis
+2026-05-22 10:02:41.815399 INFO::Fitting model to feature number 264, Enterocloster_lavalensis
+2026-05-22 10:02:41.929658 INFO::Fitting model to feature number 265, Klebsiella_pneumoniae
+2026-05-22 10:02:42.205987 INFO::Fitting model to feature number 266, GGB3433_SGB4573
+2026-05-22 10:02:42.910857 INFO::Fitting model to feature number 267, Anaerotruncus_rubiinfantis
+2026-05-22 10:02:43.010674 INFO::Fitting model to feature number 268, Christensenella_minuta
+2026-05-22 10:02:43.420082 INFO::Fitting model to feature number 269, GGB3444_SGB4594
+2026-05-22 10:02:43.907296 INFO::Fitting model to feature number 270, Raoultibacter_timonensis
+2026-05-22 10:02:44.208337 INFO::Fitting model to feature number 271, Massilistercora_timonensis
+2026-05-22 10:02:44.914201 INFO::Fitting model to feature number 272, GGB45495_SGB63167
+2026-05-22 10:02:45.013787 INFO::Fitting model to feature number 273, Blautia_caecimuris
+2026-05-22 10:02:45.499647 INFO::Fitting model to feature number 274, Clostridium_sp_MCC353
+2026-05-22 10:02:45.596981 INFO::Fitting model to feature number 275, GGB3486_SGB4658
+2026-05-22 10:02:45.802719 INFO::Fitting model to feature number 276, Clostridiaceae_bacterium_Marseille_Q4143
+2026-05-22 10:02:46.709578 INFO::Fitting model to feature number 277, Enorma_massiliensis
+2026-05-22 10:02:46.961884 INFO::Fitting model to feature number 278, Lachnoclostridium_pacaense
+2026-05-22 10:02:47.412012 INFO::Fitting model to feature number 279, Zhenpiania_hominis
+2026-05-22 10:02:48.117548 INFO::Fitting model to feature number 280, Roseburia_sp_AF02_12
+2026-05-22 10:02:48.231727 INFO::Fitting model to feature number 281, Holdemania_massiliensis
+2026-05-22 10:02:48.755905 INFO::Fitting model to feature number 282, Clostridia_bacterium_UC5_1_1E11
+2026-05-22 10:02:49.215706 INFO::Fitting model to feature number 283, GGB3033_SGB4029
+2026-05-22 10:02:49.336519 INFO::Fitting model to feature number 284, GGB9781_SGB15402
+2026-05-22 10:02:50.12484 INFO::Fitting model to feature number 285, Lacrimispora_amygdalina
+2026-05-22 10:02:50.303586 INFO::Fitting model to feature number 286, Massiliimalia_massiliensis
+2026-05-22 10:02:50.704356 INFO::Fitting model to feature number 287, Prevotella_bergensis
+2026-05-22 10:02:50.815628 INFO::Fitting model to feature number 288, Ligaoa_zhengdingensis
+2026-05-22 10:02:51.32387 INFO::Fitting model to feature number 289, Streptococcus_parasanguinis
+2026-05-22 10:02:51.514064 INFO::Fitting model to feature number 290, Eubacteriaceae_bacterium_Marseille_Q4139
+2026-05-22 10:02:52.209376 INFO::Fitting model to feature number 291, GGB3550_SGB4747
+2026-05-22 10:02:52.905661 INFO::Fitting model to feature number 292, Actinomyces_sp_oral_taxon_448
+2026-05-22 10:02:53.009693 INFO::Fitting model to feature number 293, Ligilactobacillus_salivarius
+2026-05-22 10:02:53.100816 INFO::Fitting model to feature number 294, Youxingia_wuxianensis
+2026-05-22 10:02:53.613946 INFO::Fitting model to feature number 295, Faecalibacterium_SGB15346
+2026-05-22 10:02:54.199923 INFO::Fitting model to feature number 296, Qiania_dongpingensis
+2026-05-22 10:02:54.311431 INFO::Fitting model to feature number 297, Streptococcus_salivarius
+2026-05-22 10:02:54.524938 INFO::Fitting model to feature number 298, Parasutterella_excrementihominis
+2026-05-22 10:02:55.320984 INFO::Fitting model to feature number 299, GGB3537_SGB4727
+2026-05-22 10:02:55.506154 INFO::Fitting model to feature number 300, Agathobaculum_butyriciproducens
+2026-05-22 10:02:56.176178 INFO::Fitting model to feature number 301, Lachnospiraceae_bacterium_NSJ_143
+2026-05-22 10:02:56.303713 INFO::Fitting model to feature number 302, Enteroscipio_rubneri
+2026-05-22 10:02:56.905382 INFO::Fitting model to feature number 303, Massiliimalia_timonensis
+2026-05-22 10:02:57.302457 WARNING::Fitting problem for feature 303 a warning was issued
+2026-05-22 10:02:57.824342 INFO::Fitting model to feature number 304, Rothia_mucilaginosa
+2026-05-22 10:02:58.076627 INFO::Fitting model to feature number 305, Actinotignum_urinale
+2026-05-22 10:02:58.113554 WARNING::Fitting problem for feature 305 a warning was issued
+2026-05-22 10:02:58.728306 INFO::Fitting model to feature number 306, GGB9209_SGB14148
+2026-05-22 10:02:58.899554 INFO::Fitting model to feature number 307, Clostridium_sp_AF27_2AA
+2026-05-22 10:02:58.991735 INFO::Fitting model to feature number 308, Yeguia_hominis
+2026-05-22 10:02:59.731258 INFO::Fitting model to feature number 309, Lactococcus_cremoris
+2026-05-22 10:02:59.916627 INFO::Fitting model to feature number 310, Lachnospiraceae_bacterium_AM48_27BH
+2026-05-22 10:03:00.030826 INFO::Fitting model to feature number 311, Clostridium_sp_AM49_4BH
+2026-05-22 10:03:01.132429 INFO::Fitting model to feature number 312, GGB4604_SGB6369
+2026-05-22 10:03:01.228994 INFO::Fitting model to feature number 313, bacterium_210917_DFI_7_65
+2026-05-22 10:03:01.41636 INFO::Fitting model to feature number 314, Clostridium_SGB4750
+2026-05-22 10:03:02.107168 INFO::Fitting model to feature number 315, Faecalimonas_umbilicata
+2026-05-22 10:03:02.223423 INFO::Fitting model to feature number 316, Colidextribacter_sp_210702_DFI_3_9
+2026-05-22 10:03:02.420657 INFO::Fitting model to feature number 317, Veillonella_parvula
+2026-05-22 10:03:03.109586 INFO::Fitting model to feature number 318, GGB52130_SGB14966
+2026-05-22 10:03:03.215952 INFO::Fitting model to feature number 319, Hydrogenoanaerobacterium_saccharovorans
+2026-05-22 10:03:03.252272 WARNING::Fitting problem for feature 319 a warning was issued
+2026-05-22 10:03:03.430689 INFO::Fitting model to feature number 320, Veillonella_dispar
+2026-05-22 10:03:03.857618 INFO::Fitting model to feature number 321, GGB3819_SGB5184
+2026-05-22 10:03:04.35879 INFO::Fitting model to feature number 322, Phocea_massiliensis
+2026-05-22 10:03:05.100973 INFO::Fitting model to feature number 323, GGB9646_SGB15123
+2026-05-22 10:03:05.624748 INFO::Fitting model to feature number 324, GGB45497_SGB63169
+2026-05-22 10:03:05.78816 INFO::Fitting model to feature number 325, GGB9574_SGB14987
+2026-05-22 10:03:05.874974 INFO::Fitting model to feature number 326, Anaerotignum_faecicola
+2026-05-22 10:03:06.391985 INFO::Fitting model to feature number 327, Intestinimonas_gabonensis
+2026-05-22 10:03:06.787013 INFO::Fitting model to feature number 328, GGB13743_SGB14097
+2026-05-22 10:03:07.201078 INFO::Fitting model to feature number 329, Lawsonibacter_hominis
+2026-05-22 10:03:07.837026 INFO::Fitting model to feature number 330, Simiaoa_sunii
+2026-05-22 10:03:08.022864 INFO::Fitting model to feature number 331, Oscillibacter_hominis
+2026-05-22 10:03:08.129051 INFO::Fitting model to feature number 332, Lachnoclostridium_edouardi
+2026-05-22 10:03:08.929386 INFO::Fitting model to feature number 333, Oscillibacter_sp_PC13
+2026-05-22 10:03:09.09047 INFO::Fitting model to feature number 334, Bifidobacterium_breve
+2026-05-22 10:03:09.181489 INFO::Fitting model to feature number 335, Mediterraneibacter_faecis
+2026-05-22 10:03:10.020687 INFO::Fitting model to feature number 336, Pseudoflavonifractor_capillosus
+2026-05-22 10:03:10.143454 INFO::Fitting model to feature number 337, Lacticaseibacillus_paracasei
+2026-05-22 10:03:10.913387 INFO::Fitting model to feature number 338, Veillonella_atypica
+2026-05-22 10:03:11.093148 INFO::Fitting model to feature number 339, Lactobacillus_delbrueckii
+2026-05-22 10:03:11.513426 INFO::Fitting model to feature number 340, GGB3576_SGB4784
+2026-05-22 10:03:12.160039 INFO::Fitting model to feature number 341, Clostridium_sp_AF20_17LB
+2026-05-22 10:03:12.344913 INFO::Fitting model to feature number 342, Massilimicrobiota_timonensis
+2026-05-22 10:03:13.067868 INFO::Fitting model to feature number 343, Parascardovia_denticolens
+2026-05-22 10:03:13.21621 INFO::Fitting model to feature number 344, Schaalia_SGB17153
+2026-05-22 10:03:13.71811 INFO::Fitting model to feature number 345, Lactobacillus_crispatus
+2026-05-22 10:03:14.209215 INFO::Fitting model to feature number 346, GGB34231_SGB47113
+2026-05-22 10:03:14.725912 INFO::Fitting model to feature number 347, Bacteroides_eggerthii
+2026-05-22 10:03:14.928186 INFO::Fitting model to feature number 348, Tyzzerella_SGB4587
+2026-05-22 10:03:15.641287 INFO::Fitting model to feature number 349, Phocaeicola_dorei
+2026-05-22 10:03:15.881777 INFO::Fitting model to feature number 350, Blautia_sp_MCC283
+2026-05-22 10:03:16.288531 INFO::Fitting model to feature number 351, GGB9365_SGB14342
+2026-05-22 10:03:16.707293 INFO::Fitting model to feature number 352, Faecalicatena_fissicatena
+2026-05-22 10:03:17.118881 INFO::Fitting model to feature number 353, Drancourtella_massiliensis
+2026-05-22 10:03:17.832172 INFO::Fitting model to feature number 354, Bilophila_wadsworthia
+2026-05-22 10:03:17.989511 INFO::Fitting model to feature number 355, Lachnospiraceae_bacterium_EP_SM_12S_S03
+2026-05-22 10:03:18.424551 INFO::Fitting model to feature number 356, GGB9580_SGB14996
+2026-05-22 10:03:18.619627 INFO::Fitting model to feature number 357, GGB2653_SGB3574
+2026-05-22 10:03:19.316099 INFO::Fitting model to feature number 358, Anaeromassilibacillus_senegalensis
+2026-05-22 10:03:19.482275 INFO::Fitting model to feature number 359, Schaalia_odontolytica
+2026-05-22 10:03:19.663096 INFO::Fitting model to feature number 360, GGB3511_SGB4688
+2026-05-22 10:03:20.098164 INFO::Fitting model to feature number 361, Fusobacterium_ulcerans
+2026-05-22 10:03:20.520221 INFO::Fitting model to feature number 362, Streptococcus_australis
+2026-05-22 10:03:21.006582 INFO::Fitting model to feature number 363, GGB3496_SGB4671
+2026-05-22 10:03:21.814528 INFO::Fitting model to feature number 364, Lachnoclostridium_phocaeense
+2026-05-22 10:03:21.923959 INFO::Fitting model to feature number 365, Desulfovibrio_desulfuricans
+2026-05-22 10:03:22.014413 INFO::Fitting model to feature number 366, Schaalia_SGB17157
+2026-05-22 10:03:22.429756 INFO::Fitting model to feature number 367, Neobittarella_massiliensis
+2026-05-22 10:03:22.92196 INFO::Fitting model to feature number 368, GGB2982_SGB3964
+2026-05-22 10:03:23.02997 INFO::Fitting model to feature number 369, Faecalicatena_orotica
+2026-05-22 10:03:23.525692 INFO::Fitting model to feature number 370, GGB3109_SGB4119
+2026-05-22 10:03:23.714107 INFO::Fitting model to feature number 371, Clostridium_sp_D5
+2026-05-22 10:03:24.129602 INFO::Fitting model to feature number 372, Blautia_marasmi
+2026-05-22 10:03:24.836211 INFO::Fitting model to feature number 373, Bittarella_massiliensis
+2026-05-22 10:03:24.990142 INFO::Fitting model to feature number 374, GGB34900_SGB14891
+2026-05-22 10:03:25.133248 INFO::Fitting model to feature number 375, Tyzzerella_nexilis
+2026-05-22 10:03:25.61328 INFO::Fitting model to feature number 376, Mogibacterium_diversum
+2026-05-22 10:03:25.790889 INFO::Fitting model to feature number 377, Granulicatella_SGB8255
+2026-05-22 10:03:26.215257 INFO::Fitting model to feature number 378, Klebsiella_variicola
+2026-05-22 10:03:26.908177 INFO::Fitting model to feature number 379, Gemella_sanguinis
+2026-05-22 10:03:27.107846 INFO::Fitting model to feature number 380, Anaerotignum_lactatifermentans
+2026-05-22 10:03:27.803771 INFO::Fitting model to feature number 381, Latilactobacillus_sakei
+2026-05-22 10:03:27.90007 INFO::Fitting model to feature number 382, Helcococcus_sueciensis
+2026-05-22 10:03:28.309546 INFO::Fitting model to feature number 383, Propionibacterium_freudenreichii
+2026-05-22 10:03:28.431814 INFO::Fitting model to feature number 384, Actinomyces_dentalis
+2026-05-22 10:03:29.281088 INFO::Fitting model to feature number 385, Clostridium_sp_Marseille_P2538
+2026-05-22 10:03:29.417047 INFO::Fitting model to feature number 386, Eubacterium_sulci
+2026-05-22 10:03:29.930126 INFO::Fitting model to feature number 387, Klebsiella_quasipneumoniae
+2026-05-22 10:03:30.104406 INFO::Fitting model to feature number 388, Intestinibacillus_massiliensis
+2026-05-22 10:03:30.198909 INFO::Fitting model to feature number 389, Oscillospiraceae_bacterium_CLA_AA_H250
+2026-05-22 10:03:30.604739 INFO::Fitting model to feature number 390, GGB9635_SGB15106
+2026-05-22 10:03:30.718418 INFO::Fitting model to feature number 391, GGB3256_SGB4303
+2026-05-22 10:03:31.223807 INFO::Fitting model to feature number 392, GGB3167_SGB4181
+2026-05-22 10:03:31.704053 INFO::Fitting model to feature number 393, Oscillospiraceae_unclassified_SGB15256
+2026-05-22 10:03:31.884305 INFO::Fitting model to feature number 394, Firmicutes_bacterium
+2026-05-22 10:03:32.280066 INFO::Fitting model to feature number 395, GGB3304_SGB4367
+2026-05-22 10:03:33.01015 INFO::Fitting model to feature number 396, GGB9342_SGB14306
+2026-05-22 10:03:33.19689 INFO::Fitting model to feature number 397, GGB9332_SGB14295
+2026-05-22 10:03:33.300271 INFO::Fitting model to feature number 398, Bacteroides_cellulosilyticus
+2026-05-22 10:03:33.417848 WARNING::Fitting problem for feature 398 a warning was issued
+2026-05-22 10:03:34.050877 INFO::Fitting model to feature number 399, GGB33512_SGB15201
+2026-05-22 10:03:34.20826 INFO::Fitting model to feature number 400, Bacteroides_caccae
+2026-05-22 10:03:34.811608 INFO::Fitting model to feature number 401, Paraprevotella_clara
+2026-05-22 10:03:34.902866 INFO::Fitting model to feature number 402, GGB33469_SGB15236
+2026-05-22 10:03:34.99244 INFO::Fitting model to feature number 403, Faecalibacterium_sp_HTFF
+2026-05-22 10:03:35.442389 INFO::Fitting model to feature number 404, GGB9770_SGB15390
+2026-05-22 10:03:35.646855 INFO::Fitting model to feature number 405, GGB33512_SGB15203
+2026-05-22 10:03:36.504359 INFO::Fitting model to feature number 406, GGB9712_SGB15244
+2026-05-22 10:03:36.732594 INFO::Fitting model to feature number 407, Lachnospiraceae_bacterium_OM04_12BH
+2026-05-22 10:03:37.433261 INFO::Fitting model to feature number 408, Dorea_formicigenerans
+2026-05-22 10:03:37.951764 INFO::Fitting model to feature number 409, GGB9512_SGB14909
+2026-05-22 10:03:38.497945 INFO::Fitting model to feature number 410, Methanosphaera_stadtmanae
+2026-05-22 10:03:39.038965 INFO::Fitting model to feature number 411, Odoribacter_splanchnicus
+2026-05-22 10:03:39.209706 INFO::Fitting model to feature number 412, GGB32451_SGB47419
+2026-05-22 10:03:39.384825 INFO::Fitting model to feature number 413, GGB9453_SGB14845
+2026-05-22 10:03:39.514099 INFO::Fitting model to feature number 414, GGB42689_SGB59892
+2026-05-22 10:03:40.454777 WARNING::Fitting problem for feature 414 a warning was issued
+2026-05-22 10:03:40.977369 INFO::Fitting model to feature number 415, GGB3548_SGB4744
+2026-05-22 10:03:41.625985 INFO::Fitting model to feature number 416, GGB9781_SGB66170
+2026-05-22 10:03:41.733458 WARNING::Fitting problem for feature 416 a warning was issued
+2026-05-22 10:03:41.960594 INFO::Fitting model to feature number 417, GGB9211_SGB14151
+2026-05-22 10:03:42.725952 INFO::Fitting model to feature number 418, GGB9199_SGB14138
+2026-05-22 10:03:42.982871 INFO::Fitting model to feature number 419, Parvimonas_micra
+2026-05-22 10:03:43.385767 INFO::Fitting model to feature number 420, GGB9412_SGB14770
+2026-05-22 10:03:43.780757 INFO::Fitting model to feature number 421, GGB47150_SGB65079
+2026-05-22 10:03:44.188937 INFO::Fitting model to feature number 422, Mediterraneibacter_glycyrrhizinilyticus
+2026-05-22 10:03:44.826408 INFO::Fitting model to feature number 423, Butyricimonas_virosa
+2026-05-22 10:03:44.866929 WARNING::Fitting problem for feature 423 a warning was issued
+2026-05-22 10:03:45.299586 INFO::Fitting model to feature number 424, GGB9547_SGB14954
+2026-05-22 10:03:45.837832 INFO::Fitting model to feature number 425, Alistipes_communis
+2026-05-22 10:03:46.334846 INFO::Fitting model to feature number 426, GGB9719_SGB53514
+2026-05-22 10:03:46.537709 INFO::Fitting model to feature number 427, GGB30290_SGB43252
+2026-05-22 10:03:47.229716 INFO::Fitting model to feature number 428, GGB9782_SGB15403
+2026-05-22 10:03:47.400967 INFO::Fitting model to feature number 429, Yanshouia_hominis
+2026-05-22 10:03:47.813894 INFO::Fitting model to feature number 430, Lentihominibacter_SGB71368
+2026-05-22 10:03:47.92451 INFO::Fitting model to feature number 431, GGB9667_SGB15164
+2026-05-22 10:03:48.408281 INFO::Fitting model to feature number 432, GGB33544_SGB53490
+2026-05-22 10:03:48.915066 INFO::Fitting model to feature number 433, GGB9525_SGB14925
+2026-05-22 10:03:49.333573 INFO::Fitting model to feature number 434, Dorea_sp_AF36_15AT
+2026-05-22 10:03:49.84644 INFO::Fitting model to feature number 435, GGB4802_SGB6641
+2026-05-22 10:03:50.32655 INFO::Fitting model to feature number 436, GGB9695_SGB15211
+2026-05-22 10:03:50.582286 INFO::Fitting model to feature number 437, GGB9495_SGB14892
+2026-05-22 10:03:50.706547 INFO::Fitting model to feature number 438, GGB3061_SGB4063
+2026-05-22 10:03:51.721714 INFO::Fitting model to feature number 439, Clostridiales_bacterium_Marseille_P2846
+2026-05-22 10:03:51.814715 INFO::Fitting model to feature number 440, GGB45491_SGB63163
+2026-05-22 10:03:51.847843 WARNING::Fitting problem for feature 440 a warning was issued
+2026-05-22 10:03:51.943156 INFO::Fitting model to feature number 441, GGB3002_SGB3993
+2026-05-22 10:03:52.353336 INFO::Fitting model to feature number 442, Blautia_sp_OF03_15BH
+2026-05-22 10:03:52.582327 INFO::Fitting model to feature number 443, Parabacteroides_johnsonii
+2026-05-22 10:03:52.714677 INFO::Fitting model to feature number 444, GGB9602_SGB15028
+2026-05-22 10:03:53.415086 INFO::Fitting model to feature number 445, GGB9765_SGB15382
+2026-05-22 10:03:53.802592 INFO::Fitting model to feature number 446, GGB9289_SGB14244
+2026-05-22 10:03:54.210454 INFO::Fitting model to feature number 447, Sutterella_wadsworthensis
+2026-05-22 10:03:54.706082 INFO::Fitting model to feature number 448, GGB36267_SGB14177
+2026-05-22 10:03:54.908401 INFO::Fitting model to feature number 449, Mediterraneibacter_massiliensis
+2026-05-22 10:03:55.606457 INFO::Fitting model to feature number 450, GGB9641_SGB15117
+2026-05-22 10:03:55.70216 INFO::Fitting model to feature number 451, GGB3095_SGB4103
+2026-05-22 10:03:56.104087 INFO::Fitting model to feature number 452, Porphyromonas_SGB1982
+2026-05-22 10:03:56.215229 INFO::Fitting model to feature number 453, GGB9238_SGB14180
+2026-05-22 10:03:56.706226 INFO::Fitting model to feature number 454, Pseudomonas_aeruginosa

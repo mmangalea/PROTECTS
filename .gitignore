@@ -1,0 +1,17 @@
+# Raw sequencing data — never commit
+data/raw/
+
+# R environment
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Potentially sensitive metadata — review before committing
+tables/sample_metadata.tsv
